@@ -1,0 +1,19 @@
+dont_use_io iocell 1 0
+dont_use_io iocell 1 1
+dont_use_io iocell 1 3
+set_io "\LCD:LCDPort(6)\" iocell 0 6
+set_io "\LCD:LCDPort(5)\" iocell 0 5
+set_io "\LCD:LCDPort(3)\" iocell 0 3
+set_io "\LCD:LCDPort(4)\" iocell 0 4
+set_io "SWI(2)" iocell 1 6
+set_location "\ADC:IRQ\" interrupt -1 -1 0
+set_location "\ADC:ADC_SAR\" sarcell -1 -1 1
+set_location "SWI" logicalport -1 -1 1
+set_io "SWI(0)" iocell 1 4
+set_io "SWI(1)" iocell 1 5
+set_location "IRQ_SW" interrupt -1 -1 5
+set_io "\LCD:LCDPort(0)\" iocell 0 0
+set_io "LM35(0)" iocell 3 7
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_io "\LCD:LCDPort(2)\" iocell 0 2
+set_io "\LCD:LCDPort(1)\" iocell 0 1
