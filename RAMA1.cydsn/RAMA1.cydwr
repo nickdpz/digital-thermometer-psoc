@@ -3342,13 +3342,13 @@
   <Group key="Pin2">
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
-        <Data key="Port Format" value="0,4" />
+        <Data key="Port Format" value="3,0" />
       </Group>
       <Group key="1">
-        <Data key="Port Format" value="0,5" />
+        <Data key="Port Format" value="3,1" />
       </Group>
       <Group key="2">
-        <Data key="Port Format" value="0,6" />
+        <Data key="Port Format" value="3,2" />
       </Group>
     </Group>
     <Group key="422ca7e3-b36c-4604-8b5d-7562532018b6/ed092b9b-d398-4703-be89-cebf998501f6">

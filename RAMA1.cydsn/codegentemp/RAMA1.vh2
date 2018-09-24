@@ -2,7 +2,7 @@
 --	Conversion of RAMA1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Mon Sep 17 22:51:36 2018
+--	Sat Sep 22 13:32:17 2018
 --
 
 USE cypress.cypress.all;
@@ -264,7 +264,7 @@ LM35:cy_psoc3_pins_v1_10
 		id=>"4e138636-3477-4a1d-a4d6-927d8f2e8d16/696a0979-21fc-4185-bf38-6c79febcde7a",
 		source_clock_id=>"",
 		divisor=>0,
-		period=>"625000000",
+		period=>"833333333.333333",
 		is_direct=>'0',
 		is_digital=>'0')
 	PORT MAP(clock_out=>\ADC:Net_385\,
@@ -323,7 +323,7 @@ SWI:cy_psoc3_pins_v1_10
 		input_sync=>"000",
 		input_clk_en=>'0',
 		input_sync_mode=>"000",
-		intr_mode=>"010101",
+		intr_mode=>"101010",
 		invert_in_clock=>'0',
 		invert_in_clock_en=>'0',
 		invert_in_reset=>'0',

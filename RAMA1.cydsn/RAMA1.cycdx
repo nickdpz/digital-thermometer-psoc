@@ -30,21 +30,21 @@
     <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="IRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <register name="SAR_TR0" address="0x40004616" bitWidth="8" desc="SAR trim register" hidden="false" />
-    <register name="SAR_CSR0" address="0x40005908" bitWidth="8" desc="SAR status and control register 0" hidden="false" />
-    <register name="SAR_CSR1" address="0x40005909" bitWidth="8" desc="SAR status and control register 1" hidden="false" />
-    <register name="SAR_CSR2" address="0x4000590A" bitWidth="8" desc="SAR status and control register 2" hidden="false" />
-    <register name="SAR_CSR3" address="0x4000590B" bitWidth="8" desc="SAR status and control register 3" hidden="false" />
-    <register name="SAR_CSR4" address="0x4000590C" bitWidth="8" desc="SAR status and control register 4" hidden="false" />
-    <register name="SAR_CSR5" address="0x4000590D" bitWidth="8" desc="SAR status and control register 5" hidden="false" />
-    <register name="SAR_CSR6" address="0x4000590E" bitWidth="8" desc="SAR status and control register 6" hidden="false" />
-    <register name="SAR_SW0" address="0x40005B28" bitWidth="8" desc="SAR Analog Routing Register 0" hidden="false" />
-    <register name="SAR_SW2" address="0x40005B2A" bitWidth="8" desc="SAR Analog Routing Register 2" hidden="false" />
-    <register name="SAR_SW3" address="0x40005B2B" bitWidth="8" desc="SAR Analog Routing Register 3" hidden="false" />
-    <register name="SAR_SW4" address="0x40005B2C" bitWidth="8" desc="SAR Analog Routing Register 4" hidden="false" />
-    <register name="SAR_SW6" address="0x40005B2E" bitWidth="8" desc="SAR Analog Routing Register 6" hidden="false" />
-    <register name="SAR_CLK" address="0x40005B2F" bitWidth="8" desc="SAR Clock Selection Register" hidden="false" />
-    <register name="SAR_WRK" address="0x40005BA2" bitWidth="16" desc="SAR working register" hidden="false" />
+    <register name="SAR_TR0" address="0x40004614" bitWidth="8" desc="SAR trim register" hidden="false" />
+    <register name="SAR_CSR0" address="0x40005900" bitWidth="8" desc="SAR status and control register 0" hidden="false" />
+    <register name="SAR_CSR1" address="0x40005901" bitWidth="8" desc="SAR status and control register 1" hidden="false" />
+    <register name="SAR_CSR2" address="0x40005902" bitWidth="8" desc="SAR status and control register 2" hidden="false" />
+    <register name="SAR_CSR3" address="0x40005903" bitWidth="8" desc="SAR status and control register 3" hidden="false" />
+    <register name="SAR_CSR4" address="0x40005904" bitWidth="8" desc="SAR status and control register 4" hidden="false" />
+    <register name="SAR_CSR5" address="0x40005905" bitWidth="8" desc="SAR status and control register 5" hidden="false" />
+    <register name="SAR_CSR6" address="0x40005906" bitWidth="8" desc="SAR status and control register 6" hidden="false" />
+    <register name="SAR_SW0" address="0x40005B20" bitWidth="8" desc="SAR Analog Routing Register 0" hidden="false" />
+    <register name="SAR_SW2" address="0x40005B22" bitWidth="8" desc="SAR Analog Routing Register 2" hidden="false" />
+    <register name="SAR_SW3" address="0x40005B23" bitWidth="8" desc="SAR Analog Routing Register 3" hidden="false" />
+    <register name="SAR_SW4" address="0x40005B24" bitWidth="8" desc="SAR Analog Routing Register 4" hidden="false" />
+    <register name="SAR_SW6" address="0x40005B26" bitWidth="8" desc="SAR Analog Routing Register 6" hidden="false" />
+    <register name="SAR_CLK" address="0x40005B27" bitWidth="8" desc="SAR Clock Selection Register" hidden="false" />
+    <register name="SAR_WRK" address="0x40005BA0" bitWidth="16" desc="SAR working register" hidden="false" />
   </block>
   <block name="LM35" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LCD" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">

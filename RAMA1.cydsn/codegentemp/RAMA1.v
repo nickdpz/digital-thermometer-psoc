@@ -1,6 +1,6 @@
 // ======================================================================
 // RAMA1.v generated from TopDesign.cysch
-// 09/17/2018 at 22:51
+// 09/22/2018 at 13:32
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -288,7 +288,7 @@ endmodule
 `include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v"
 `endif
 
-// ADC_SAR_v3_10(ADC_Clock=1, ADC_Clock_Frequency=1600000, ADC_Input_Range=1, ADC_Power=0, ADC_Reference=0, ADC_Resolution=12, ADC_SampleMode=0, Enable_next_out=false, Ref_Voltage=2.5, Ref_Voltage_mV=2500, rm_int=false, Sample_Precharge=4, Sample_Rate=100000, Sample_Rate_def=631579, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=ADC_SAR_v3_10, CY_CONFIG_TITLE=ADC, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=ADC, CY_INSTANCE_SHORT_NAME=ADC, CY_MAJOR_VERSION=3, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=ADC, )
+// ADC_SAR_v3_10(ADC_Clock=1, ADC_Clock_Frequency=1200000, ADC_Input_Range=1, ADC_Power=0, ADC_Reference=0, ADC_Resolution=8, ADC_SampleMode=0, Enable_next_out=false, Ref_Voltage=2.5, Ref_Voltage_mV=2500, rm_int=false, Sample_Precharge=4, Sample_Rate=100000, Sample_Rate_def=631579, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=ADC_SAR_v3_10, CY_CONFIG_TITLE=ADC, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=ADC, CY_INSTANCE_SHORT_NAME=ADC, CY_MAJOR_VERSION=3, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=ADC, )
 module ADC_SAR_v3_10_1 (
     vplus,
     vminus,
@@ -373,7 +373,7 @@ module ADC_SAR_v3_10_1 (
 		#(.id("4e138636-3477-4a1d-a4d6-927d8f2e8d16/696a0979-21fc-4185-bf38-6c79febcde7a"),
 		  .source_clock_id(""),
 		  .divisor(0),
-		  .period("625000000"),
+		  .period("833333333.333333"),
 		  .is_direct(0),
 		  .is_digital(0))
 		theACLK
@@ -558,7 +558,7 @@ module top ;
 		  .input_clk_en(0),
 		  .input_sync(3'b0_0_0),
 		  .input_sync_mode(3'b0_0_0),
-		  .intr_mode(6'b01_01_01),
+		  .intr_mode(6'b10_10_10),
 		  .invert_in_clock(0),
 		  .invert_in_clock_en(0),
 		  .invert_in_reset(0),

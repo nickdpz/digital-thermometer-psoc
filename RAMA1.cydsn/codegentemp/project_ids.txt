@@ -1,6 +1,6 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|1f58307c-1f39-4fce-b5ba-263e17f7752e
-C:\Users\Nicolas Zamora\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|20d6d180-854e-4e72-a886-c66c931e936b
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|14ac0133-b29d-47f4-ad6d-2eb386c19055
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|ce6d5c68-a952-4e86-b2dc-6618a1c79fa9
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|07dcf9d1-46f6-4bcc-831d-650857add54d
-C:\Users\Nicolas Zamora\Documents\Instrumentacion Industrial\Laboratorio3\Termometro\RAMA1.cydsn\RAMA1.cyprj|b8a29c52-8601-4d82-8988-c676ba76d699
+C:\Users\Nicolas Zamora\Documents\Instrumentacion Industrial\Laboratorio3\Termometro\RAMA1.cydsn\RAMA1.cyprj|798844ab-2988-4968-82cc-d3af6978eb3e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|402d3df7-c60f-470a-885b-097d62c7a4ec
+C:\Users\Nicolas Zamora\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a7467a5c-ef1e-4b8f-891c-5ebeced2eb2e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6a8d21e1-673d-45eb-8e0e-44b46f185247
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|47c2788b-a837-4715-b1dd-608add181dbb
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ba72fa6e-8ce0-4160-a13f-6dc9b655c6ef

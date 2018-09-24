@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2018-09-18T03:51:49Z")
+ (DATE "2018-09-22T18:32:28Z")
  (DESIGN "RAMA1")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -15,7 +15,7 @@
     (INTERCONNECT ClockBlock.clk_bus_glb \\ADC\:IRQ\\.clock (0.000:0.000:0.000))
     (INTERCONNECT ClockBlock.clk_bus_glb IRQ_SW.clock (0.000:0.000:0.000))
     (INTERCONNECT SWI.interrupt IRQ_SW.interrupt (1.000:1.000:1.000))
-    (INTERCONNECT \\ADC\:ADC_SAR\\.eof_udb \\ADC\:IRQ\\.interrupt (9.844:9.844:9.844))
+    (INTERCONNECT \\ADC\:ADC_SAR\\.eof_udb \\ADC\:IRQ\\.interrupt (8.345:8.345:8.345))
     (INTERCONNECT ClockBlock.aclk_glb_ff_0 \\ADC\:ADC_SAR\\.clock (0.000:0.000:0.000))
     (INTERCONNECT ClockBlock.aclk_glb_ff_0 \\ADC\:ADC_SAR\\.pump_clock (0.000:0.000:0.000))
     (INTERCONNECT \\LCD\:LCDPort\(0\)_PAD\\ \\LCD\:LCDPort\(0\)\\.pad_in (0.000:0.000:0.000))

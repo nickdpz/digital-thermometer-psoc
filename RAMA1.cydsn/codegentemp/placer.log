@@ -6,7 +6,7 @@
 
 #Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Sep 17 2018 22:51:41
+#File Generated:     Sep 22 2018 13:32:21
 
 #Purpose:            
 
@@ -67,28 +67,10 @@ D2088: Phase 4, elapsed time : 0.0 (sec)
 Phase 5
 D2088: Phase 5, elapsed time : 0.0 (sec)
 
-Phase 7
-D2088: Phase 7, elapsed time : 0.0 (sec)
-
-Final Design Statistics
-    Number of Combinational MCs 	:	0
-    Number of Sequential MCs    	:	0
-    Number of DPs               	:	0
-    Number of Controls          	:	0
-    Number of Status            	:	0
-    Number of SyncCells         	:	0
-    Number of count7cells       	:	0
-    Number of IOs       	:	11
-
-Device Utilization Summary
-    Macrocells                  :	0/192
-    IOs                         :	11/72
-
-
 Phase 8
 D2088: Phase 8, elapsed time : 0.0 (sec)
 
 D2054: Placement of the design completed successfully
 
-I2076: Total run-time: 1.8 sec.
+I2076: Total run-time: 1.6 sec.
 

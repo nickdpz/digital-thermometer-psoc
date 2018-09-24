@@ -1,5 +1,5 @@
 -- Project:   RAMA1
--- Generated: 09/17/2018 22:51:43
+-- Generated: 09/22/2018 13:32:23
 -- PSoC Creator  4.2
 
 ENTITY RAMA1 IS
@@ -80,31 +80,31 @@ ARCHITECTURE __DEFAULT__ OF RAMA1 IS
     SIGNAL \ClockBlock.aclk_glb_ff_0__sig\ : bit;
     ATTRIBUTE Location OF ClockBlock : LABEL IS "F(Clock,0)";
     ATTRIBUTE lib_model OF \LCD:LCDPort(0)\ : LABEL IS "iocell1";
-    ATTRIBUTE Location OF \LCD:LCDPort(0)\ : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF \LCD:LCDPort(0)\ : LABEL IS "P12[0]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(1)\ : LABEL IS "iocell2";
-    ATTRIBUTE Location OF \LCD:LCDPort(1)\ : LABEL IS "P0[1]";
+    ATTRIBUTE Location OF \LCD:LCDPort(1)\ : LABEL IS "P12[1]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(2)\ : LABEL IS "iocell3";
-    ATTRIBUTE Location OF \LCD:LCDPort(2)\ : LABEL IS "P0[2]";
+    ATTRIBUTE Location OF \LCD:LCDPort(2)\ : LABEL IS "P12[2]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(3)\ : LABEL IS "iocell4";
-    ATTRIBUTE Location OF \LCD:LCDPort(3)\ : LABEL IS "P0[3]";
+    ATTRIBUTE Location OF \LCD:LCDPort(3)\ : LABEL IS "P12[3]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(4)\ : LABEL IS "iocell5";
-    ATTRIBUTE Location OF \LCD:LCDPort(4)\ : LABEL IS "P0[4]";
+    ATTRIBUTE Location OF \LCD:LCDPort(4)\ : LABEL IS "P12[4]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(5)\ : LABEL IS "iocell6";
-    ATTRIBUTE Location OF \LCD:LCDPort(5)\ : LABEL IS "P0[5]";
+    ATTRIBUTE Location OF \LCD:LCDPort(5)\ : LABEL IS "P12[5]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(6)\ : LABEL IS "iocell7";
-    ATTRIBUTE Location OF \LCD:LCDPort(6)\ : LABEL IS "P0[6]";
+    ATTRIBUTE Location OF \LCD:LCDPort(6)\ : LABEL IS "P12[6]";
     ATTRIBUTE lib_model OF LM35(0) : LABEL IS "iocell8";
-    ATTRIBUTE Location OF LM35(0) : LABEL IS "P3[7]";
-    ATTRIBUTE Location OF SWI : LABEL IS "F(PICU,1)";
+    ATTRIBUTE Location OF LM35(0) : LABEL IS "P2[2]";
+    ATTRIBUTE Location OF SWI : LABEL IS "F(PICU,3)";
     ATTRIBUTE lib_model OF SWI(0) : LABEL IS "iocell9";
-    ATTRIBUTE Location OF SWI(0) : LABEL IS "P1[4]";
+    ATTRIBUTE Location OF SWI(0) : LABEL IS "P3[0]";
     ATTRIBUTE lib_model OF SWI(1) : LABEL IS "iocell10";
-    ATTRIBUTE Location OF SWI(1) : LABEL IS "P1[5]";
+    ATTRIBUTE Location OF SWI(1) : LABEL IS "P3[1]";
     ATTRIBUTE lib_model OF SWI(2) : LABEL IS "iocell11";
-    ATTRIBUTE Location OF SWI(2) : LABEL IS "P1[6]";
+    ATTRIBUTE Location OF SWI(2) : LABEL IS "P3[2]";
     ATTRIBUTE Location OF \ADC:IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(0)]";
-    ATTRIBUTE Location OF \ADC:ADC_SAR\ : LABEL IS "F(SAR,1)";
-    ATTRIBUTE Location OF IRQ_SW : LABEL IS "[IntrContainer=(0)][IntrId=(5)]";
+    ATTRIBUTE Location OF \ADC:ADC_SAR\ : LABEL IS "F(SAR,0)";
+    ATTRIBUTE Location OF IRQ_SW : LABEL IS "[IntrContainer=(0)][IntrId=(7)]";
     COMPONENT clockblockcell
         PORT (
             dclk_0 : OUT std_ulogic;
@@ -574,7 +574,7 @@ BEGIN
             input_clk_en => 0,
             input_sync => "000",
             input_sync_mode => "000",
-            intr_mode => "010101",
+            intr_mode => "101010",
             invert_in_clock => 0,
             invert_in_clock_en => 0,
             invert_in_reset => 0,

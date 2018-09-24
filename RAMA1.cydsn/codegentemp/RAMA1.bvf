@@ -11,9 +11,9 @@ Verifying bitstream.
 
 ---------Processing bitstream.---------
 
-Utilized "dsi_hv_b@[DSI=(0,0)][side=top]"
-Utilized "dsi_hv_a@[DSI=(1,0)][side=bottom]"
-Utilized "dsi_hc@[DSI=(0,1)][side=top]"
+Utilized "dsi_hv_b@[DSI=(0,2)][side=top]"
+Utilized "dsi_hv_a@[DSI=(1,2)][side=bottom]"
+Utilized "dsi_hc@[DSI=(0,3)][side=top]"
 Utilized "dsi_hc@[DSI=(1,5)][side=bottom]"
 
 
