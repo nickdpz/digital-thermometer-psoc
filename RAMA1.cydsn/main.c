@@ -44,15 +44,25 @@ CY_ISR(Inte){
     SWI_ClearInterrupt();
 }
 
-void visual(uint16 numero, uint16 numero2){
+void visualc(uint16 numero){
+        uint16 unidades,decenas;
+        unidades=numero/100;
+        decenas=numero%100;
+     
         LCD_Position(1,0);
         LCD_PrintString("       ");
+        if(unidades>=100){
         LCD_Position(1,0);
-        LCD_PrintDecUint16(numero);
+        }else if(unidades>=10){
+        LCD_Position(1,1);
+        }
+        else{
         LCD_Position(1,2);
+        }
+        LCD_PrintDecUint16(unidades);
         LCD_PrintString(".");
-        LCD_PrintDecUint16(numero2);
-        LCD_Position(1,4);
+        LCD_PrintDecUint16(decenas);
+        LCD_Position(1,5);
         LCD_PrintString(" ");
         
 }
@@ -77,19 +87,19 @@ int main(void)
         //temp=ADC_CountsTo_mVolts(temp);
         if(de==0){
             //Condicion para Grados Centigrados
-            u=(uint16)(temp*39+39)/100;
-            d=(uint16)(temp*39+39)%100;
-            visual(u,d);     
+            u=(uint16)(temp*39+39);
+            visualc(u);     
         }else if(de==1){
             //Condicion para Grados Farenhi
-            temp=ADC_GetResult16();
-            temp=ADC_CountsTo_mVolts(temp);
-            LCD_Position(1,0);
-            LCD_PrintNumber(temp);
+            //temp=ADC_GetResult16();
+            //temp=ADC_CountsTo_mVolts(temp);
+            u=(uint16)(temp*70+3259);
+            visualc(u); 
         }
         else{
             //Condicion para Kelvin
-            visual(temp,1);
+            u=(uint16)(temp*39+27354);
+            visualc(u); 
         }
         
         
