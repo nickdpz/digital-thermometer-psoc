@@ -2,7 +2,7 @@
 --	Conversion of RAMA1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sat Sep 22 13:32:17 2018
+--	Thu Jan 31 12:43:43 2019
 --
 
 USE cypress.cypress.all;

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
   29:Generated_Source\PSoC5/cyPm.c **** 
   30:Generated_Source\PSoC5/cyPm.c **** 
   31:Generated_Source\PSoC5/cyPm.c **** static CY_PM_BACKUP_STRUCT          cyPmBackup;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 2
 
 
   32:Generated_Source\PSoC5/cyPm.c **** static CY_PM_CLOCK_BACKUP_STRUCT    cyPmClockBackup;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
   86:Generated_Source\PSoC5/cyPm.c ****     cyPmClockBackup.imoFreq = CY_PM_FASTCLK_IMO_CR_REG & CY_PM_FASTCLK_IMO_CR_FREQ_MASK;
   87:Generated_Source\PSoC5/cyPm.c ****     cyPmClockBackup.imoUsbClk = CY_PM_FASTCLK_IMO_CR_REG & CY_PM_FASTCLK_IMO_CR_USB;
   88:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 3
 
 
   89:Generated_Source\PSoC5/cyPm.c ****     /* IMO doubler - save enable state */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  143:Generated_Source\PSoC5/cyPm.c ****     /* IMO - save enable state and enable without wait to settle */
  144:Generated_Source\PSoC5/cyPm.c ****     if(0u != (CY_PM_ACT_CFG0_IMO & CY_PM_ACT_CFG0_REG))
  145:Generated_Source\PSoC5/cyPm.c ****     {
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 4
 
 
  146:Generated_Source\PSoC5/cyPm.c ****         /* IMO - save enabled state */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  200:Generated_Source\PSoC5/cyPm.c **** 
  201:Generated_Source\PSoC5/cyPm.c ****     /* Master clock source - set it to IMO if not yet. */
  202:Generated_Source\PSoC5/cyPm.c ****     if(CY_MASTER_SOURCE_IMO != cyPmClockBackup.masterClkSrc)
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 5
 
 
  203:Generated_Source\PSoC5/cyPm.c ****     {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  257:Generated_Source\PSoC5/cyPm.c **** *  CyPmSaveClocks()/CyPmRestoreClocks() functions.
  258:Generated_Source\PSoC5/cyPm.c **** *
  259:Generated_Source\PSoC5/cyPm.c **** *  PSoC 3 and PSoC 5LP:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 6
 
 
  260:Generated_Source\PSoC5/cyPm.c **** *  The merge region could be used to process state when the megahertz crystal is
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  314:Generated_Source\PSoC5/cyPm.c ****             {
  315:Generated_Source\PSoC5/cyPm.c ****                 status = CYRET_SUCCESS;
  316:Generated_Source\PSoC5/cyPm.c ****                 break;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 7
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 7
 
 
  317:Generated_Source\PSoC5/cyPm.c ****             }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  371:Generated_Source\PSoC5/cyPm.c ****         else
  372:Generated_Source\PSoC5/cyPm.c ****         {
  373:Generated_Source\PSoC5/cyPm.c ****             CY_PM_FASTCLK_IMO_CR_REG &= ((uint8)(~CY_PM_FASTCLK_IMO_CR_USB));
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 8
 
 
  374:Generated_Source\PSoC5/cyPm.c ****         }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  428:Generated_Source\PSoC5/cyPm.c ****             {
  429:Generated_Source\PSoC5/cyPm.c ****                 status = CYRET_SUCCESS;
  430:Generated_Source\PSoC5/cyPm.c ****                 break;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 9
 
 
  431:Generated_Source\PSoC5/cyPm.c ****             }
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  485:Generated_Source\PSoC5/cyPm.c ****     CY_PM_ACT_CFG2_REG = cyPmClockBackup.enClkD;
  486:Generated_Source\PSoC5/cyPm.c **** }
  487:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 10
 
 
  488:Generated_Source\PSoC5/cyPm.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  542:Generated_Source\PSoC5/cyPm.c **** *  event occurs the device will return to Active mode.  Similarly when an
  543:Generated_Source\PSoC5/cyPm.c **** *  enabled interrupt occurs the CPU will be started. These two actions will
  544:Generated_Source\PSoC5/cyPm.c **** *  occur together provided that the event that occurs is an enabled wakeup
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 11
 
 
  545:Generated_Source\PSoC5/cyPm.c **** *  source and also generates an interrupt. If just the wakeup event occurs then
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  599:Generated_Source\PSoC5/cyPm.c **** *  PM_ALT_ACT_SRC_LCD               LCD
  600:Generated_Source\PSoC5/cyPm.c **** *
  601:Generated_Source\PSoC5/cyPm.c **** *  \param *Note : FTW and HVI/LVI wakeup signals are in the same mask bit.
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 12
 
 
  602:Generated_Source\PSoC5/cyPm.c **** *  \param **Note: CTW and One PPS wakeup signals are in the same mask bit.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  656:Generated_Source\PSoC5/cyPm.c **** 
  657:Generated_Source\PSoC5/cyPm.c ****             /* Include associated timer to wakeupSource */
  658:Generated_Source\PSoC5/cyPm.c ****             wakeupSource |= PM_ALT_ACT_SRC_CTW;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 13
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 13
 
 
  659:Generated_Source\PSoC5/cyPm.c ****         }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  713:Generated_Source\PSoC5/cyPm.c **** ****************************************************************************//**
  714:Generated_Source\PSoC5/cyPm.c **** *
  715:Generated_Source\PSoC5/cyPm.c **** *  Puts the part into the Sleep state.
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 14
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 14
 
 
  716:Generated_Source\PSoC5/cyPm.c **** *
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  770:Generated_Source\PSoC5/cyPm.c **** *
  771:Generated_Source\PSoC5/cyPm.c **** *  \param wakeUpSource:    Specifies a bitwise mask of wakeup sources. In addition, if
  772:Generated_Source\PSoC5/cyPm.c **** *                   a wakeupTime has been specified the associated timer will be
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 15
 
 
  773:Generated_Source\PSoC5/cyPm.c **** *                   included as a wakeup source.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  827:Generated_Source\PSoC5/cyPm.c **** 
  828:Generated_Source\PSoC5/cyPm.c ****     /* Save current global interrupt enable and disable it */
  829:Generated_Source\PSoC5/cyPm.c ****     interruptState = CyEnterCriticalSection();
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 16
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 16
 
 
  830:Generated_Source\PSoC5/cyPm.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  884:Generated_Source\PSoC5/cyPm.c ****             {
  885:Generated_Source\PSoC5/cyPm.c ****                 if (0u == (CY_PM_PWRSYS_WAKE_TR2_REG & CY_PM_PWRSYS_WAKE_TR2_EN_BUZZ))
  886:Generated_Source\PSoC5/cyPm.c ****                 {
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 17
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 17
 
 
  887:Generated_Source\PSoC5/cyPm.c ****                     cyPmBackup.hardwareBuzz = CY_PM_DISABLED;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  941:Generated_Source\PSoC5/cyPm.c ****             /* Include associated timer to wakeupSource */
  942:Generated_Source\PSoC5/cyPm.c ****             wakeupSource |= PM_SLEEP_SRC_ONE_PPS;
  943:Generated_Source\PSoC5/cyPm.c ****         }
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 18
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 18
 
 
  944:Generated_Source\PSoC5/cyPm.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  998:Generated_Source\PSoC5/cyPm.c **** 
  999:Generated_Source\PSoC5/cyPm.c ****     /* Two recommended NOPs to get into mode. */
 1000:Generated_Source\PSoC5/cyPm.c ****     CY_NOP;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 19
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 19
 
 
 1001:Generated_Source\PSoC5/cyPm.c ****     CY_NOP;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1055:Generated_Source\PSoC5/cyPm.c ****     /* Restore global interrupt enable state */
 1056:Generated_Source\PSoC5/cyPm.c ****     CyExitCriticalSection(interruptState);
 1057:Generated_Source\PSoC5/cyPm.c **** }
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 20
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 20
 
 
 1058:Generated_Source\PSoC5/cyPm.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1112:Generated_Source\PSoC5/cyPm.c **** *
 1113:Generated_Source\PSoC5/cyPm.c **** *  If using PICU as the wake up source, make sure you have at least one pin
 1114:Generated_Source\PSoC5/cyPm.c **** *  configured to generate a PICU interrupt. For pin Px.y, the register
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 21
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 21
 
 
 1115:Generated_Source\PSoC5/cyPm.c **** *  "PICU_INTTYPE_PICUx_INTTYPEy" controls  the PICU behavior. In the TRM, this
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1169:Generated_Source\PSoC5/cyPm.c ****         if(0u == (CY_PM_MODE_CSR_REG & CY_PM_MODE_CSR_PWRUP_PULSE_Q))
 1170:Generated_Source\PSoC5/cyPm.c ****         {
 1171:Generated_Source\PSoC5/cyPm.c ****             /* Disable hold off - no action on restore */
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 22
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 22
 
 
 1172:Generated_Source\PSoC5/cyPm.c ****             CY_PM_PWRSYS_SLP_TR_REG &= CY_PM_PWRSYS_SLP_TR_HIBSLP_HOLDOFF_MASK;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1226:Generated_Source\PSoC5/cyPm.c ****     /* Two recommended NOPs to get into mode. */
 1227:Generated_Source\PSoC5/cyPm.c ****     CY_NOP;
 1228:Generated_Source\PSoC5/cyPm.c ****     CY_NOP;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 23
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 23
 
 
 1229:Generated_Source\PSoC5/cyPm.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1283:Generated_Source\PSoC5/cyPm.c **** *
 1284:Generated_Source\PSoC5/cyPm.c **** *******************************************************************************/
 1285:Generated_Source\PSoC5/cyPm.c **** uint8 CyPmReadStatus(uint8 mask) 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 24
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 24
 
 
 1286:Generated_Source\PSoC5/cyPm.c **** {
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1340:Generated_Source\PSoC5/cyPm.c ****     }
 1341:Generated_Source\PSoC5/cyPm.c **** 
 1342:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 25
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 25
 
 
 1343:Generated_Source\PSoC5/cyPm.c ****     /* Save current ILO power mode and ensure low power mode */
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1397:Generated_Source\PSoC5/cyPm.c ****     #endif  /* (CY_PSOC5) */    
 1398:Generated_Source\PSoC5/cyPm.c **** }
 1399:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 26
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 26
 
 
 1400:Generated_Source\PSoC5/cyPm.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1454:Generated_Source\PSoC5/cyPm.c ****     #endif  /* (CY_PSOC5) */    
 1455:Generated_Source\PSoC5/cyPm.c **** }
 1456:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 27
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 27
 
 
 1457:Generated_Source\PSoC5/cyPm.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1511:Generated_Source\PSoC5/cyPm.c **** *
 1512:Generated_Source\PSoC5/cyPm.c **** *  Performs 1PPS configuration:
 1513:Generated_Source\PSoC5/cyPm.c **** *  - Starts 32 KHz XTAL
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 28
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 28
 
 
 1514:Generated_Source\PSoC5/cyPm.c **** *  - Disables 1PPS interrupts
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1568:Generated_Source\PSoC5/cyPm.c ****         }   /* Required interval is already set */
 1569:Generated_Source\PSoC5/cyPm.c ****     }
 1570:Generated_Source\PSoC5/cyPm.c ****     else
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 29
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 29
 
 
 1571:Generated_Source\PSoC5/cyPm.c ****     {
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
   47              		.loc 1 1604 0
   48 0010 DFF8B491 		ldr	r9, .L5+100
   49 0014 99F80020 		ldrb	r2, [r9]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 30
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 30
 
 
   50 0018 DA72     		strb	r2, [r3, #11]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
   92 0056 4E4A     		ldr	r2, .L5+44
   93 0058 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
   94 005a 9A75     		strb	r2, [r3, #22]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 31
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 31
 
 
 1617:Generated_Source\PSoC5/cyPm.c ****     cyPmBackup.scctData[13u]  = CY_GET_REG8(CYREG_SC1_SW10);
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  136 00aa 404D     		ldr	r5, .L5+72
  137 00ac 2A78     		ldrb	r2, [r5]	@ zero_extendqisi2
  138 00ae 83F82120 		strb	r2, [r3, #33]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 32
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 32
 
 
 1630:Generated_Source\PSoC5/cyPm.c ****     cyPmBackup.scctData[24u]  = CY_GET_REG8(CYREG_SC3_SW4 );
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  178              		.loc 1 1644 0
  179 00f4 0232     		adds	r2, r2, #2
  180 00f6 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 33
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 33
 
 
 1645:Generated_Source\PSoC5/cyPm.c ****     CY_SET_REG8(CYREG_SC1_SW3 , 0u);
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  218 012c 2B70     		strb	r3, [r5]
 1662:Generated_Source\PSoC5/cyPm.c ****     CY_SET_REG8(CYREG_SC3_SW4 , 0u);
  219              		.loc 1 1662 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 34
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 34
 
 
  220 012e 2370     		strb	r3, [r4]
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  233              		.loc 1 1703 0
  234 0142 0122     		movs	r2, #1
  235 0144 074B     		ldr	r3, .L5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 35
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 35
 
 
  236 0146 83F82F20 		strb	r2, [r3, #47]
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  285              		.section	.text.CyPmHibSlpRestore,"ax",%progbits
  286              		.align	2
  287              		.thumb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 36
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 36
 
 
  288              		.thumb_func
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  318              		.loc 1 1732 0
  319 0020 D97B     		ldrb	r1, [r3, #15]	@ zero_extendqisi2
  320 0022 0232     		adds	r2, r2, #2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 37
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 37
 
 
  321 0024 1170     		strb	r1, [r2]
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  362              		.loc 1 1745 0
  363 0062 997E     		ldrb	r1, [r3, #26]	@ zero_extendqisi2
  364 0064 0132     		adds	r2, r2, #1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 38
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 38
 
 
  365 0066 1170     		strb	r1, [r2]
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  407 00ae 93F82510 		ldrb	r1, [r3, #37]	@ zero_extendqisi2
  408 00b2 0232     		adds	r2, r2, #2
  409 00b4 1170     		strb	r1, [r2]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 39
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 39
 
 
 1758:Generated_Source\PSoC5/cyPm.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1785:Generated_Source\PSoC5/cyPm.c **** * Function Name: CyPmHviLviSaveDisable
 1786:Generated_Source\PSoC5/cyPm.c **** ****************************************************************************//**
 1787:Generated_Source\PSoC5/cyPm.c **** *
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 40
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 40
 
 
 1788:Generated_Source\PSoC5/cyPm.c **** *  Saves analog and digital LVI and HVI configuration and disables them.
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1807:Generated_Source\PSoC5/cyPm.c ****     else
 1808:Generated_Source\PSoC5/cyPm.c ****     {
 1809:Generated_Source\PSoC5/cyPm.c ****         cyPmBackup.lvidEn = CY_PM_DISABLED;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 41
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 41
 
 
  471              		.loc 1 1809 0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1827:Generated_Source\PSoC5/cyPm.c **** 
 1828:Generated_Source\PSoC5/cyPm.c ****     if(0u != (CY_VD_LVI_HVI_CONTROL_REG & CY_VD_HVIA_EN))
  507              		.loc 1 1828 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 42
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 42
 
 
  508 006e 084B     		ldr	r3, .L19
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  553 0004 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  554 0006 13F0040F 		tst	r3, #4
  555 000a 04D0     		beq	.L22
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 43
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 43
 
 
 1339:Generated_Source\PSoC5/cyPm.c ****     }
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  598 004e 0122     		movs	r2, #1
  599 0050 0B4B     		ldr	r3, .L26+4
  600 0052 DA70     		strb	r2, [r3, #3]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 44
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 44
 
 
  601              	.L24:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  647              		.type	CyPmHviLviRestore, %function
  648              	CyPmHviLviRestore:
  649              	.LFB15:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 45
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 45
 
 
 1836:Generated_Source\PSoC5/cyPm.c ****     }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  679 002e FFF7FEFF 		bl	CyVdLvAnalogEnable
  680              	.LVL7:
  681              	.L30:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 46
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 46
 
 
 1861:Generated_Source\PSoC5/cyPm.c ****     }
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  726 0012 FFF7FEFF 		bl	CyILO_Start1K
  727              	.LVL11:
  728              	.L36:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 47
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 47
 
 
 1429:Generated_Source\PSoC5/cyPm.c ****     {
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  775              		.size	CyPmHibRestore, .-CyPmHibRestore
  776              		.section	.text.CyPmSaveClocks,"ax",%progbits
  777              		.align	2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 48
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 48
 
 
  778              		.global	CyPmSaveClocks
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
   87:Generated_Source\PSoC5/cyPm.c **** 
  824              		.loc 1 87 0
  825 0046 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 49
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 49
 
 
  826 0048 02F04002 		and	r2, r2, #64
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  871 009a FFF7FEFF 		bl	CyMasterClk_SetSource
  872              	.LVL16:
  115:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 50
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 50
 
 
  873              		.loc 1 115 0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  917 00de 0122     		movs	r2, #1
  918 00e0 414B     		ldr	r3, .L69+4
  919 00e2 83F83620 		strb	r2, [r3, #54]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 51
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 51
 
 
  920 00e6 08E0     		b	.L53
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  964              		.loc 1 178 0
  965 012c 4FF04023 		mov	r3, #1073758208
  966 0130 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 52
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 52
 
 
  967 0132 03F03003 		and	r3, r3, #48
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1011 017c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  1012 017e 1B02     		lsls	r3, r3, #8
  1013 0180 194A     		ldr	r2, .L69+4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 53
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 53
 
 
  1014 0182 9387     		strh	r3, [r2, #60]	@ movhi
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  239:Generated_Source\PSoC5/cyPm.c ****     }
  1059              		.loc 1 239 0
  1060 01ce 0122     		movs	r2, #1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 54
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 54
 
 
  1061 01d0 054B     		ldr	r3, .L69+4
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1112 000c 9A88     		ldrh	r2, [r3, #4]	@ unaligned
  1113 000e 9B79     		ldrb	r3, [r3, #6]	@ zero_extendqisi2
  1114 0010 ADF80420 		strh	r2, [sp, #4]	@ unaligned
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 55
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 55
 
 
  1115 0014 8DF80630 		strb	r3, [sp, #6]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1160 0064 6D4A     		ldr	r2, .L93
  1161 0066 D35C     		ldrb	r3, [r2, r3]	@ zero_extendqisi2
  1162 0068 C820     		movs	r0, #200
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 56
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 56
 
 
  1163 006a 00FB03F0 		mul	r0, r0, r3
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1209              	.LVL41:
  1210              	.L76:
  356:Generated_Source\PSoC5/cyPm.c ****         (CY_IMO_FREQ_24MHZ == cyPmImoFreqMhz2Reg[cyPmClockBackup.imoFreq]))
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 57
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 57
 
 
  1211              		.loc 1 356 0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1257 010e 444B     		ldr	r3, .L93+4
  1258 0110 93F83630 		ldrb	r3, [r3, #54]	@ zero_extendqisi2
  1259 0114 012B     		cmp	r3, #1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 58
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 58
 
 
  1260 0116 07D1     		bne	.L81
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  414:Generated_Source\PSoC5/cyPm.c **** 
  1305              		.loc 1 414 0
  1306 016a 0020     		movs	r0, #0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 59
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 59
 
 
  1307 016c FFF7FEFF 		bl	CyPLL_OUT_Start
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1351 01a2 93F83230 		ldrb	r3, [r3, #50]	@ zero_extendqisi2
  1352 01a6 012B     		cmp	r3, #1
  1353 01a8 0ED8     		bhi	.L88
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 60
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 60
 
 
  455:Generated_Source\PSoC5/cyPm.c ****         {
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1398 01ee 8342     		cmp	r3, r0
  1399 01f0 01D0     		beq	.L91
  476:Generated_Source\PSoC5/cyPm.c ****     }
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 61
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 61
 
 
  1400              		.loc 1 476 0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1448              		.thumb
  1449              		.thumb_func
  1450              		.type	CyPmAltAct, %function
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 62
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 62
 
 
  1451              	CyPmAltAct:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1495              		.loc 1 690 0
  1496 0032 0D4C     		ldr	r4, .L98+16
  1497 0034 2278     		ldrb	r2, [r4]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 63
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 63
 
 
  1498 0036 02F0F802 		and	r2, r2, #248
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1545              		.thumb
  1546              		.thumb_func
  1547              		.type	CyPmSleep, %function
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 64
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 64
 
 
  1548              	CyPmSleep:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1594              	.L103:
  920:Generated_Source\PSoC5/cyPm.c **** 
  1595              		.loc 1 920 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 65
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 65
 
 
  1596 0030 FFF7FEFF 		bl	CyPmHibSlpSaveSet
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  990:Generated_Source\PSoC5/cyPm.c ****     }
  1640              		.loc 1 990 0
  1641 0082 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 66
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 66
 
 
  1642 0084 02F0F802 		and	r2, r2, #248
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
 1029:Generated_Source\PSoC5/cyPm.c **** 
  1687              		.loc 1 1029 0
  1688 00bc FFF7FEFF 		bl	CyPmHibSlpRestore
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 67
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 67
 
 
  1689              	.LVL72:
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1738              		.cfi_offset 14, -4
  1739 0002 0446     		mov	r4, r0
 1161:Generated_Source\PSoC5/cyPm.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 68
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 68
 
 
  1740              		.loc 1 1161 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1784 0050 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  1785 0052 13F0070F 		tst	r3, #7
  1786 0056 03D0     		beq	.L113
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 69
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 69
 
 
  1787 0058 07E0     		b	.L118
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1831              	@ 1228 "Generated_Source\PSoC5\cyPm.c" 1
  1832 0098 00BF     		NOP
  1833              	
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 70
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 70
 
 
  1834              	@ 0 "" 2
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1878 00d6 38BD     		pop	{r3, r4, r5, pc}
  1879              	.L121:
  1880              		.align	2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 71
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 71
 
 
  1881              	.L120:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1932              		.cfi_offset 4, -12
  1933              		.cfi_offset 5, -8
  1934              		.cfi_offset 14, -4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 72
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 72
 
 
  1935 0002 0546     		mov	r5, r0
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  1982              		.cfi_offset 4, -12
  1983              		.cfi_offset 5, -8
  1984              		.cfi_offset 14, -4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 73
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 73
 
 
  1985 0002 0546     		mov	r5, r0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2029 004a 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
  2030 004c 43F00403 		orr	r3, r3, #4
  2031 0050 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 74
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 74
 
 
  2032              	.L128:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2081 0028 82430040 		.word	1073759106
  2082              		.cfi_endproc
  2083              	.LFE10:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 75
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 75
 
 
  2084              		.size	CyPmOppsSet, .-CyPmOppsSet
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2130              		.loc 1 1567 0
  2131 0030 2278     		ldrb	r2, [r4]	@ zero_extendqisi2
  2132 0032 42F00102 		orr	r2, r2, #1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 76
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 76
 
 
  2133 0036 2270     		strb	r2, [r4]
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2184              		.align	2
  2185              		.set	.LANCHOR0,. + 0
  2186              		.type	cyPmBackup, %object
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 77
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 77
 
 
  2187              		.size	cyPmBackup, 48
@@ -4593,10 +4593,10 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2208 0006 00000000 		.4byte	.Ldebug_abbrev0
  2209 000a 04       		.byte	0x4
  2210 000b 01       		.uleb128 0x1
- 2211 000c C7040000 		.4byte	.LASF117
+ 2211 000c 12050000 		.4byte	.LASF117
  2212 0010 0C       		.byte	0xc
- 2213 0011 F6020000 		.4byte	.LASF118
- 2214 0015 06060000 		.4byte	.LASF119
+ 2213 0011 41030000 		.4byte	.LASF118
+ 2214 0015 F0010000 		.4byte	.LASF119
  2215 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2216 001d 00000000 		.4byte	0
  2217 0021 00000000 		.4byte	.Ldebug_line0
@@ -4607,18 +4607,18 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2222 002c 02       		.uleb128 0x2
  2223 002d 01       		.byte	0x1
  2224 002e 08       		.byte	0x8
- 2225 002f 72040000 		.4byte	.LASF1
+ 2225 002f BD040000 		.4byte	.LASF1
  2226 0033 02       		.uleb128 0x2
  2227 0034 02       		.byte	0x2
  2228 0035 05       		.byte	0x5
- 2229 0036 AB040000 		.4byte	.LASF2
+ 2229 0036 F6040000 		.4byte	.LASF2
  2230 003a 02       		.uleb128 0x2
  2231 003b 02       		.byte	0x2
  2232 003c 07       		.byte	0x7
- 2233 003d AD020000 		.4byte	.LASF3
+ 2233 003d F8020000 		.4byte	.LASF3
  2234 0041 02       		.uleb128 0x2
  2235 0042 04       		.byte	0x4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 78
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 78
 
 
  2236 0043 05       		.byte	0x5
@@ -4626,7 +4626,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2238 0048 02       		.uleb128 0x2
  2239 0049 04       		.byte	0x4
  2240 004a 07       		.byte	0x7
- 2241 004b 1E020000 		.4byte	.LASF5
+ 2241 004b 69020000 		.4byte	.LASF5
  2242 004f 02       		.uleb128 0x2
  2243 0050 08       		.byte	0x8
  2244 0051 05       		.byte	0x5
@@ -4642,7 +4642,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2254 0064 02       		.uleb128 0x2
  2255 0065 04       		.byte	0x4
  2256 0066 07       		.byte	0x7
- 2257 0067 F0010000 		.4byte	.LASF8
+ 2257 0067 3B020000 		.4byte	.LASF8
  2258 006b 04       		.uleb128 0x4
  2259 006c 93010000 		.4byte	.LASF9
  2260 0070 02       		.byte	0x2
@@ -4661,7 +4661,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2273 008f 02       		.uleb128 0x2
  2274 0090 04       		.byte	0x4
  2275 0091 04       		.byte	0x4
- 2276 0092 13040000 		.4byte	.LASF12
+ 2276 0092 5E040000 		.4byte	.LASF12
  2277 0096 02       		.uleb128 0x2
  2278 0097 08       		.byte	0x8
  2279 0098 04       		.byte	0x4
@@ -4669,16 +4669,16 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2281 009d 02       		.uleb128 0x2
  2282 009e 01       		.byte	0x1
  2283 009f 08       		.byte	0x8
- 2284 00a0 63050000 		.4byte	.LASF14
+ 2284 00a0 AE050000 		.4byte	.LASF14
  2285 00a4 04       		.uleb128 0x4
- 2286 00a5 E4060000 		.4byte	.LASF15
+ 2286 00a5 CE060000 		.4byte	.LASF15
  2287 00a9 02       		.byte	0x2
  2288 00aa 8602     		.2byte	0x286
  2289 00ac 48000000 		.4byte	0x48
  2290 00b0 04       		.uleb128 0x4
- 2291 00b1 5A040000 		.4byte	.LASF16
+ 2291 00b1 A5040000 		.4byte	.LASF16
  2292 00b5 02       		.byte	0x2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 79
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 79
 
 
  2293 00b6 8E02     		.2byte	0x28e
@@ -4688,25 +4688,25 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2297 00c1 02       		.uleb128 0x2
  2298 00c2 08       		.byte	0x8
  2299 00c3 04       		.byte	0x4
- 2300 00c4 99030000 		.4byte	.LASF17
+ 2300 00c4 E4030000 		.4byte	.LASF17
  2301 00c8 02       		.uleb128 0x2
  2302 00c9 04       		.byte	0x4
  2303 00ca 07       		.byte	0x7
- 2304 00cb 80030000 		.4byte	.LASF18
+ 2304 00cb CB030000 		.4byte	.LASF18
  2305 00cf 06       		.uleb128 0x6
- 2306 00d0 37020000 		.4byte	.LASF35
+ 2306 00d0 82020000 		.4byte	.LASF35
  2307 00d4 12       		.byte	0x12
  2308 00d5 03       		.byte	0x3
  2309 00d6 F8       		.byte	0xf8
  2310 00d7 9A010000 		.4byte	0x19a
  2311 00db 07       		.uleb128 0x7
- 2312 00dc B8030000 		.4byte	.LASF19
+ 2312 00dc 03040000 		.4byte	.LASF19
  2313 00e0 03       		.byte	0x3
  2314 00e1 FB       		.byte	0xfb
  2315 00e2 6B000000 		.4byte	0x6b
  2316 00e6 00       		.byte	0
  2317 00e7 07       		.uleb128 0x7
- 2318 00e8 BF030000 		.4byte	.LASF20
+ 2318 00e8 0A040000 		.4byte	.LASF20
  2319 00ec 03       		.byte	0x3
  2320 00ed FC       		.byte	0xfc
  2321 00ee 6B000000 		.4byte	0x6b
@@ -4718,7 +4718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2327 00fa 6B000000 		.4byte	0x6b
  2328 00fe 02       		.byte	0x2
  2329 00ff 07       		.uleb128 0x7
- 2330 0100 16020000 		.4byte	.LASF22
+ 2330 0100 61020000 		.4byte	.LASF22
  2331 0104 03       		.byte	0x3
  2332 0105 FE       		.byte	0xfe
  2333 0106 6B000000 		.4byte	0x6b
@@ -4730,28 +4730,28 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2339 0112 6B000000 		.4byte	0x6b
  2340 0116 04       		.byte	0x4
  2341 0117 08       		.uleb128 0x8
- 2342 0118 ED060000 		.4byte	.LASF24
+ 2342 0118 D7060000 		.4byte	.LASF24
  2343 011c 03       		.byte	0x3
  2344 011d 0001     		.2byte	0x100
  2345 011f 6B000000 		.4byte	0x6b
  2346 0123 05       		.byte	0x5
  2347 0124 08       		.uleb128 0x8
- 2348 0125 38070000 		.4byte	.LASF25
+ 2348 0125 22070000 		.4byte	.LASF25
  2349 0129 03       		.byte	0x3
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 80
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 80
 
 
  2350 012a 0101     		.2byte	0x101
  2351 012c 6B000000 		.4byte	0x6b
  2352 0130 06       		.byte	0x6
  2353 0131 08       		.uleb128 0x8
- 2354 0132 09040000 		.4byte	.LASF26
+ 2354 0132 54040000 		.4byte	.LASF26
  2355 0136 03       		.byte	0x3
  2356 0137 0201     		.2byte	0x102
  2357 0139 6B000000 		.4byte	0x6b
  2358 013d 07       		.byte	0x7
  2359 013e 08       		.uleb128 0x8
- 2360 013f 4E030000 		.4byte	.LASF27
+ 2360 013f 99030000 		.4byte	.LASF27
  2361 0143 03       		.byte	0x3
  2362 0144 0301     		.2byte	0x103
  2363 0146 6B000000 		.4byte	0x6b
@@ -4775,7 +4775,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2381 016d 77000000 		.4byte	0x77
  2382 0171 0C       		.byte	0xc
  2383 0172 08       		.uleb128 0x8
- 2384 0173 90040000 		.4byte	.LASF31
+ 2384 0173 DB040000 		.4byte	.LASF31
  2385 0177 03       		.byte	0x3
  2386 0178 0701     		.2byte	0x107
  2387 017a 6B000000 		.4byte	0x6b
@@ -4787,22 +4787,22 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2393 0187 6B000000 		.4byte	0x6b
  2394 018b 0F       		.byte	0xf
  2395 018c 08       		.uleb128 0x8
- 2396 018d 67060000 		.4byte	.LASF33
+ 2396 018d 51060000 		.4byte	.LASF33
  2397 0191 03       		.byte	0x3
  2398 0192 0901     		.2byte	0x109
  2399 0194 6B000000 		.4byte	0x6b
  2400 0198 10       		.byte	0x10
  2401 0199 00       		.byte	0
  2402 019a 04       		.uleb128 0x4
- 2403 019b 93020000 		.4byte	.LASF34
+ 2403 019b DE020000 		.4byte	.LASF34
  2404 019f 03       		.byte	0x3
  2405 01a0 0B01     		.2byte	0x10b
  2406 01a2 CF000000 		.4byte	0xcf
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 81
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 81
 
 
  2407 01a6 09       		.uleb128 0x9
- 2408 01a7 64020000 		.4byte	.LASF36
+ 2408 01a7 AF020000 		.4byte	.LASF36
  2409 01ab 30       		.byte	0x30
  2410 01ac 03       		.byte	0x3
  2411 01ad 0E01     		.2byte	0x10e
@@ -4814,37 +4814,37 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2417 01bb 6B000000 		.4byte	0x6b
  2418 01bf 00       		.byte	0
  2419 01c0 08       		.uleb128 0x8
- 2420 01c1 9F040000 		.4byte	.LASF38
+ 2420 01c1 EA040000 		.4byte	.LASF38
  2421 01c5 03       		.byte	0x3
  2422 01c6 1101     		.2byte	0x111
  2423 01c8 6B000000 		.4byte	0x6b
  2424 01cc 01       		.byte	0x1
  2425 01cd 08       		.uleb128 0x8
- 2426 01ce 55050000 		.4byte	.LASF39
+ 2426 01ce A0050000 		.4byte	.LASF39
  2427 01d2 03       		.byte	0x3
  2428 01d3 1201     		.2byte	0x112
  2429 01d5 6B000000 		.4byte	0x6b
  2430 01d9 02       		.byte	0x2
  2431 01da 08       		.uleb128 0x8
- 2432 01db 74030000 		.4byte	.LASF40
+ 2432 01db BF030000 		.4byte	.LASF40
  2433 01df 03       		.byte	0x3
  2434 01e0 1401     		.2byte	0x114
  2435 01e2 6B000000 		.4byte	0x6b
  2436 01e6 03       		.byte	0x3
  2437 01e7 08       		.uleb128 0x8
- 2438 01e8 14030000 		.4byte	.LASF41
+ 2438 01e8 5F030000 		.4byte	.LASF41
  2439 01ec 03       		.byte	0x3
  2440 01ed 1E01     		.2byte	0x11e
  2441 01ef 6B000000 		.4byte	0x6b
  2442 01f3 04       		.byte	0x4
  2443 01f4 08       		.uleb128 0x8
- 2444 01f5 1F030000 		.4byte	.LASF42
+ 2444 01f5 6A030000 		.4byte	.LASF42
  2445 01f9 03       		.byte	0x3
  2446 01fa 1F01     		.2byte	0x11f
  2447 01fc 6B000000 		.4byte	0x6b
  2448 0200 05       		.byte	0x5
  2449 0201 08       		.uleb128 0x8
- 2450 0202 2A030000 		.4byte	.LASF43
+ 2450 0202 75030000 		.4byte	.LASF43
  2451 0206 03       		.byte	0x3
  2452 0207 2001     		.2byte	0x120
  2453 0209 6B000000 		.4byte	0x6b
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2461 021b 08       		.uleb128 0x8
  2462 021c 45000000 		.4byte	.LASF45
  2463 0220 03       		.byte	0x3
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 82
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 82
 
 
  2464 0221 2301     		.2byte	0x123
@@ -4871,25 +4871,25 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2471 0230 6B000000 		.4byte	0x6b
  2472 0234 09       		.byte	0x9
  2473 0235 08       		.uleb128 0x8
- 2474 0236 FD010000 		.4byte	.LASF47
+ 2474 0236 48020000 		.4byte	.LASF47
  2475 023a 03       		.byte	0x3
  2476 023b 2B01     		.2byte	0x12b
  2477 023d C5020000 		.4byte	0x2c5
  2478 0241 0A       		.byte	0xa
  2479 0242 08       		.uleb128 0x8
- 2480 0243 30020000 		.4byte	.LASF48
+ 2480 0243 7B020000 		.4byte	.LASF48
  2481 0247 03       		.byte	0x3
  2482 0248 2E01     		.2byte	0x12e
  2483 024a 6B000000 		.4byte	0x6b
  2484 024e 26       		.byte	0x26
  2485 024f 08       		.uleb128 0x8
- 2486 0250 2F070000 		.4byte	.LASF49
+ 2486 0250 19070000 		.4byte	.LASF49
  2487 0254 03       		.byte	0x3
  2488 0255 2F01     		.2byte	0x12f
  2489 0257 6B000000 		.4byte	0x6b
  2490 025b 27       		.byte	0x27
  2491 025c 08       		.uleb128 0x8
- 2492 025d 8E060000 		.4byte	.LASF50
+ 2492 025d 78060000 		.4byte	.LASF50
  2493 0261 03       		.byte	0x3
  2494 0262 3001     		.2byte	0x130
  2495 0264 6B000000 		.4byte	0x6b
@@ -4907,18 +4907,18 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2507 027e 6B000000 		.4byte	0x6b
  2508 0282 2A       		.byte	0x2a
  2509 0283 08       		.uleb128 0x8
- 2510 0284 39040000 		.4byte	.LASF53
+ 2510 0284 84040000 		.4byte	.LASF53
  2511 0288 03       		.byte	0x3
  2512 0289 3301     		.2byte	0x133
  2513 028b 6B000000 		.4byte	0x6b
  2514 028f 2B       		.byte	0x2b
  2515 0290 08       		.uleb128 0x8
- 2516 0291 FD060000 		.4byte	.LASF54
+ 2516 0291 E7060000 		.4byte	.LASF54
  2517 0295 03       		.byte	0x3
  2518 0296 3401     		.2byte	0x134
  2519 0298 6B000000 		.4byte	0x6b
  2520 029c 2C       		.byte	0x2c
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 83
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 83
 
 
  2521 029d 08       		.uleb128 0x8
@@ -4928,13 +4928,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2525 02a5 6B000000 		.4byte	0x6b
  2526 02a9 2D       		.byte	0x2d
  2527 02aa 08       		.uleb128 0x8
- 2528 02ab 90050000 		.4byte	.LASF56
+ 2528 02ab DB050000 		.4byte	.LASF56
  2529 02af 03       		.byte	0x3
  2530 02b0 3701     		.2byte	0x137
  2531 02b2 6B000000 		.4byte	0x6b
  2532 02b6 2E       		.byte	0x2e
  2533 02b7 08       		.uleb128 0x8
- 2534 02b8 42030000 		.4byte	.LASF57
+ 2534 02b8 8D030000 		.4byte	.LASF57
  2535 02bc 03       		.byte	0x3
  2536 02bd 3901     		.2byte	0x139
  2537 02bf 6B000000 		.4byte	0x6b
@@ -4953,7 +4953,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2550 02db 3B01     		.2byte	0x13b
  2551 02dd A6010000 		.4byte	0x1a6
  2552 02e1 0C       		.uleb128 0xc
- 2553 02e2 B5040000 		.4byte	.LASF59
+ 2553 02e2 00050000 		.4byte	.LASF59
  2554 02e6 01       		.byte	0x1
  2555 02e7 4006     		.2byte	0x640
  2556 02e9 00000000 		.4byte	.LFB12
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2575 0316 9C       		.byte	0x9c
  2576 0317 37030000 		.4byte	0x337
  2577 031b 0E       		.uleb128 0xe
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 84
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 84
 
 
  2578 031c 30000000 		.4byte	.LVL0
@@ -4991,7 +4991,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2585 0332 00090000 		.4byte	0x900
  2586 0336 00       		.byte	0
  2587 0337 0D       		.uleb128 0xd
- 2588 0338 B7060000 		.4byte	.LASF62
+ 2588 0338 A1060000 		.4byte	.LASF62
  2589 033c 01       		.byte	0x1
  2590 033d 2A05     		.2byte	0x52a
  2591 033f 00000000 		.4byte	.LFB7
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2632 03a5 0D       		.uleb128 0xd
  2633 03a6 D1010000 		.4byte	.LASF64
  2634 03aa 01       		.byte	0x1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 85
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 85
 
 
  2635 03ab 8505     		.2byte	0x585
@@ -5064,7 +5064,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2655 03e4 0B090000 		.4byte	0x90b
  2656 03e8 00       		.byte	0
  2657 03e9 11       		.uleb128 0x11
- 2658 03ea 58030000 		.4byte	.LASF65
+ 2658 03ea A3030000 		.4byte	.LASF65
  2659 03ee 01       		.byte	0x1
  2660 03ef 49       		.byte	0x49
  2661 03f0 00000000 		.4byte	.LFB0
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2689 042a 58090000 		.4byte	0x958
  2690 042e 38040000 		.4byte	0x438
  2691 0432 10       		.uleb128 0x10
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 86
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 86
 
 
  2692 0433 01       		.uleb128 0x1
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2746 049c 50       		.byte	0x50
  2747 049d 01       		.uleb128 0x1
  2748 049e 36       		.byte	0x36
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 87
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 87
 
 
  2749 049f 00       		.byte	0
@@ -5218,14 +5218,14 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2803 050e 0C01     		.2byte	0x10c
  2804 0510 00000000 		.4byte	.LFB1
  2805 0514 4C020000 		.4byte	.LFE1-.LFB1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 88
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 88
 
 
  2806 0518 01       		.uleb128 0x1
  2807 0519 9C       		.byte	0x9c
  2808 051a 43060000 		.4byte	0x643
  2809 051e 13       		.uleb128 0x13
- 2810 051f 87060000 		.4byte	.LASF67
+ 2810 051f 71060000 		.4byte	.LASF67
  2811 0523 01       		.byte	0x1
  2812 0524 0E01     		.2byte	0x10e
  2813 0526 A4000000 		.4byte	0xa4
@@ -5237,13 +5237,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2819 0531 77000000 		.4byte	0x77
  2820 0535 00000000 		.4byte	.LLST0
  2821 0539 15       		.uleb128 0x15
- 2822 053a 35030000 		.4byte	.LASF68
+ 2822 053a 80030000 		.4byte	.LASF68
  2823 053e 01       		.byte	0x1
  2824 053f 1001     		.2byte	0x110
  2825 0541 77000000 		.4byte	0x77
  2826 0545 4D000000 		.4byte	.LLST1
  2827 0549 16       		.uleb128 0x16
- 2828 054a A5030000 		.4byte	.LASF69
+ 2828 054a F0030000 		.4byte	.LASF69
  2829 054e 01       		.byte	0x1
  2830 054f 1401     		.2byte	0x114
  2831 0551 58060000 		.4byte	0x658
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2860 058f 37       		.byte	0x37
  2861 0590 00       		.byte	0
  2862 0591 0E       		.uleb128 0xe
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 89
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 89
 
 
  2863 0592 AC000000 		.4byte	.LVL40
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2917 060a 00       		.byte	0
  2918 060b 0F       		.uleb128 0xf
  2919 060c 84010000 		.4byte	.LVL51
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 90
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 90
 
 
  2920 0610 8F090000 		.4byte	0x98f
@@ -5374,7 +5374,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2950 0658 17       		.uleb128 0x17
  2951 0659 43060000 		.4byte	0x643
  2952 065d 12       		.uleb128 0x12
- 2953 065e 41040000 		.4byte	.LASF70
+ 2953 065e 8C040000 		.4byte	.LASF70
  2954 0662 01       		.byte	0x1
  2955 0663 7102     		.2byte	0x271
  2956 0665 00000000 		.4byte	.LFB2
@@ -5383,13 +5383,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2959 066e 9C       		.byte	0x9c
  2960 066f A3060000 		.4byte	0x6a3
  2961 0673 18       		.uleb128 0x18
- 2962 0674 C6060000 		.4byte	.LASF71
+ 2962 0674 B0060000 		.4byte	.LASF71
  2963 0678 01       		.byte	0x1
  2964 0679 7102     		.2byte	0x271
  2965 067b 77000000 		.4byte	0x77
  2966 067f 6F000000 		.4byte	.LLST2
  2967 0683 18       		.uleb128 0x18
- 2968 0684 D6030000 		.4byte	.LASF72
+ 2968 0684 21040000 		.4byte	.LASF72
  2969 0688 01       		.byte	0x1
  2970 0689 7102     		.2byte	0x271
  2971 068b 77000000 		.4byte	0x77
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2974 0694 0C000000 		.4byte	.LVL63
  2975 0698 63090000 		.4byte	0x963
  2976 069c 10       		.uleb128 0x10
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 91
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 91
 
 
  2977 069d 01       		.uleb128 0x1
@@ -5408,7 +5408,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2981 06a1 00       		.byte	0
  2982 06a2 00       		.byte	0
  2983 06a3 12       		.uleb128 0x12
- 2984 06a4 2F040000 		.4byte	.LASF73
+ 2984 06a4 7A040000 		.4byte	.LASF73
  2985 06a8 01       		.byte	0x1
  2986 06a9 3803     		.2byte	0x338
  2987 06ab 00000000 		.4byte	.LFB3
@@ -5417,13 +5417,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  2990 06b4 9C       		.byte	0x9c
  2991 06b5 31070000 		.4byte	0x731
  2992 06b9 18       		.uleb128 0x18
- 2993 06ba C6060000 		.4byte	.LASF71
+ 2993 06ba B0060000 		.4byte	.LASF71
  2994 06be 01       		.byte	0x1
  2995 06bf 3803     		.2byte	0x338
  2996 06c1 6B000000 		.4byte	0x6b
  2997 06c5 B1000000 		.4byte	.LLST4
  2998 06c9 18       		.uleb128 0x18
- 2999 06ca D6030000 		.4byte	.LASF72
+ 2999 06ca 21040000 		.4byte	.LASF72
  3000 06ce 01       		.byte	0x1
  3001 06cf 3803     		.2byte	0x338
  3002 06d1 77000000 		.4byte	0x77
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3031 071c F3020000 		.4byte	0x2f3
  3032 0720 19       		.uleb128 0x19
  3033 0721 DA000000 		.4byte	.LVL73
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 92
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 92
 
 
  3034 0725 130A0000 		.4byte	0xa13
@@ -5471,7 +5471,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3041 072f 00       		.byte	0
  3042 0730 00       		.byte	0
  3043 0731 12       		.uleb128 0x12
- 3044 0732 89030000 		.4byte	.LASF75
+ 3044 0732 D4030000 		.4byte	.LASF75
  3045 0736 01       		.byte	0x1
  3046 0737 8404     		.2byte	0x484
  3047 0739 00000000 		.4byte	.LFB5
@@ -5480,7 +5480,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3050 0742 9C       		.byte	0x9c
  3051 0743 9C070000 		.4byte	0x79c
  3052 0747 18       		.uleb128 0x18
- 3053 0748 D6030000 		.4byte	.LASF72
+ 3053 0748 21040000 		.4byte	.LASF72
  3054 074c 01       		.byte	0x1
  3055 074d 8404     		.2byte	0x484
  3056 074f 77000000 		.4byte	0x77
@@ -5515,10 +5515,10 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3085 079a 00       		.byte	0
  3086 079b 00       		.byte	0
  3087 079c 12       		.uleb128 0x12
- 3088 079d A0050000 		.4byte	.LASF76
+ 3088 079d EB050000 		.4byte	.LASF76
  3089 07a1 01       		.byte	0x1
  3090 07a2 4704     		.2byte	0x447
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 93
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 93
 
 
  3091 07a4 00000000 		.4byte	.LFB4
@@ -5538,7 +5538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3105 07c1 00       		.byte	0
  3106 07c2 00       		.byte	0
  3107 07c3 1A       		.uleb128 0x1a
- 3108 07c4 E3050000 		.4byte	.LASF120
+ 3108 07c4 2E060000 		.4byte	.LASF120
  3109 07c8 01       		.byte	0x1
  3110 07c9 0505     		.2byte	0x505
  3111 07cb 6B000000 		.4byte	0x6b
@@ -5554,7 +5554,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3121 07e5 6B000000 		.4byte	0x6b
  3122 07e9 50010000 		.4byte	.LLST9
  3123 07ed 16       		.uleb128 0x16
- 3124 07ee 42070000 		.4byte	.LASF78
+ 3124 07ee 2C070000 		.4byte	.LASF78
  3125 07f2 01       		.byte	0x1
  3126 07f3 0705     		.2byte	0x507
  3127 07f5 6B000000 		.4byte	0x6b
@@ -5578,13 +5578,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3145 0824 080A0000 		.4byte	0xa08
  3146 0828 0E       		.uleb128 0xe
  3147 0829 24000000 		.4byte	.LVL86
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 94
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 94
 
 
  3148 082d 130A0000 		.4byte	0xa13
  3149 0831 00       		.byte	0
  3150 0832 12       		.uleb128 0x12
- 3151 0833 74060000 		.4byte	.LASF80
+ 3151 0833 5E060000 		.4byte	.LASF80
  3152 0837 01       		.byte	0x1
  3153 0838 C105     		.2byte	0x5c1
  3154 083a 00000000 		.4byte	.LFB9
@@ -5593,7 +5593,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3157 0843 9C       		.byte	0x9c
  3158 0844 62080000 		.4byte	0x862
  3159 0848 18       		.uleb128 0x18
- 3160 0849 C0020000 		.4byte	.LASF81
+ 3160 0849 0B030000 		.4byte	.LASF81
  3161 084d 01       		.byte	0x1
  3162 084e C105     		.2byte	0x5c1
  3163 0850 6B000000 		.4byte	0x6b
@@ -5603,7 +5603,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3167 085d 37090000 		.4byte	0x937
  3168 0861 00       		.byte	0
  3169 0862 12       		.uleb128 0x12
- 3170 0863 66040000 		.4byte	.LASF82
+ 3170 0863 B1040000 		.4byte	.LASF82
  3171 0867 01       		.byte	0x1
  3172 0868 EE05     		.2byte	0x5ee
  3173 086a 00000000 		.4byte	.LFB10
@@ -5625,7 +5625,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3189 0893 9C       		.byte	0x9c
  3190 0894 B2080000 		.4byte	0x8b2
  3191 0898 18       		.uleb128 0x18
- 3192 0899 C4050000 		.4byte	.LASF84
+ 3192 0899 0F060000 		.4byte	.LASF84
  3193 089d 01       		.byte	0x1
  3194 089e 0E06     		.2byte	0x60e
  3195 08a0 6B000000 		.4byte	0x6b
@@ -5635,10 +5635,10 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3199 08ad 42090000 		.4byte	0x942
  3200 08b1 00       		.byte	0
  3201 08b2 1B       		.uleb128 0x1b
- 3202 08b3 24070000 		.4byte	.LASF85
+ 3202 08b3 0E070000 		.4byte	.LASF85
  3203 08b7 01       		.byte	0x1
  3204 08b8 1F       		.byte	0x1f
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 95
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 95
 
 
  3205 08b9 D5020000 		.4byte	0x2d5
@@ -5646,7 +5646,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3207 08be 03       		.byte	0x3
  3208 08bf 00000000 		.4byte	cyPmBackup
  3209 08c3 1B       		.uleb128 0x1b
- 3210 08c4 80040000 		.4byte	.LASF86
+ 3210 08c4 CB040000 		.4byte	.LASF86
  3211 08c8 01       		.byte	0x1
  3212 08c9 20       		.byte	0x20
  3213 08ca 9A010000 		.4byte	0x19a
@@ -5654,7 +5654,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3215 08cf 03       		.byte	0x3
  3216 08d0 30000000 		.4byte	cyPmClockBackup
  3217 08d4 1B       		.uleb128 0x1b
- 3218 08d5 D0050000 		.4byte	.LASF87
+ 3218 08d5 1B060000 		.4byte	.LASF87
  3219 08d9 01       		.byte	0x1
  3220 08da 23       		.byte	0x23
  3221 08db E5080000 		.4byte	0x8e5
@@ -5664,8 +5664,8 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3225 08e5 17       		.uleb128 0x17
  3226 08e6 43060000 		.4byte	0x643
  3227 08ea 1C       		.uleb128 0x1c
- 3228 08eb 7D050000 		.4byte	.LASF88
- 3229 08ef 7D050000 		.4byte	.LASF88
+ 3228 08eb C8050000 		.4byte	.LASF88
+ 3229 08ef C8050000 		.4byte	.LASF88
  3230 08f3 04       		.byte	0x4
  3231 08f4 9C       		.byte	0x9c
  3232 08f5 1C       		.uleb128 0x1c
@@ -5674,13 +5674,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3235 08fe 04       		.byte	0x4
  3236 08ff 9D       		.byte	0x9d
  3237 0900 1C       		.uleb128 0x1c
- 3238 0901 CC020000 		.4byte	.LASF90
- 3239 0905 CC020000 		.4byte	.LASF90
+ 3238 0901 17030000 		.4byte	.LASF90
+ 3239 0905 17030000 		.4byte	.LASF90
  3240 0909 04       		.byte	0x4
  3241 090a 9F       		.byte	0x9f
  3242 090b 1C       		.uleb128 0x1c
- 3243 090c 75020000 		.4byte	.LASF91
- 3244 0910 75020000 		.4byte	.LASF91
+ 3243 090c C0020000 		.4byte	.LASF91
+ 3244 0910 C0020000 		.4byte	.LASF91
  3245 0914 04       		.byte	0x4
  3246 0915 5E       		.byte	0x5e
  3247 0916 1C       		.uleb128 0x1c
@@ -5689,16 +5689,16 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3250 091f 04       		.byte	0x4
  3251 0920 9A       		.byte	0x9a
  3252 0921 1C       		.uleb128 0x1c
- 3253 0922 D1060000 		.4byte	.LASF93
- 3254 0926 D1060000 		.4byte	.LASF93
+ 3253 0922 BB060000 		.4byte	.LASF93
+ 3254 0926 BB060000 		.4byte	.LASF93
  3255 092a 04       		.byte	0x4
  3256 092b 9B       		.byte	0x9b
  3257 092c 1C       		.uleb128 0x1c
- 3258 092d 05070000 		.4byte	.LASF94
- 3259 0931 05070000 		.4byte	.LASF94
+ 3258 092d EF060000 		.4byte	.LASF94
+ 3259 0931 EF060000 		.4byte	.LASF94
  3260 0935 04       		.byte	0x4
  3261 0936 9E       		.byte	0x9e
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 96
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 96
 
 
  3262 0937 1C       		.uleb128 0x1c
@@ -5707,33 +5707,33 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3265 0940 04       		.byte	0x4
  3266 0941 57       		.byte	0x57
  3267 0942 1C       		.uleb128 0x1c
- 3268 0943 C6030000 		.4byte	.LASF96
- 3269 0947 C6030000 		.4byte	.LASF96
+ 3268 0943 11040000 		.4byte	.LASF96
+ 3269 0947 11040000 		.4byte	.LASF96
  3270 094b 04       		.byte	0x4
  3271 094c 59       		.byte	0x59
  3272 094d 1C       		.uleb128 0x1c
- 3273 094e AE050000 		.4byte	.LASF97
- 3274 0952 AE050000 		.4byte	.LASF97
+ 3273 094e F9050000 		.4byte	.LASF97
+ 3274 0952 F9050000 		.4byte	.LASF97
  3275 0956 05       		.byte	0x5
  3276 0957 52       		.byte	0x52
  3277 0958 1C       		.uleb128 0x1c
- 3278 0959 E0020000 		.4byte	.LASF98
- 3279 095d E0020000 		.4byte	.LASF98
+ 3278 0959 2B030000 		.4byte	.LASF98
+ 3279 095d 2B030000 		.4byte	.LASF98
  3280 0961 04       		.byte	0x4
  3281 0962 4D       		.byte	0x4d
  3282 0963 1C       		.uleb128 0x1c
- 3283 0964 5F040000 		.4byte	.LASF99
- 3284 0968 5F040000 		.4byte	.LASF99
+ 3283 0964 AA040000 		.4byte	.LASF99
+ 3284 0968 AA040000 		.4byte	.LASF99
  3285 096c 04       		.byte	0x4
  3286 096d 7F       		.byte	0x7f
  3287 096e 1C       		.uleb128 0x1c
- 3288 096f E3030000 		.4byte	.LASF100
- 3289 0973 E3030000 		.4byte	.LASF100
+ 3288 096f 2E040000 		.4byte	.LASF100
+ 3289 0973 2E040000 		.4byte	.LASF100
  3290 0977 04       		.byte	0x4
  3291 0978 42       		.byte	0x42
  3292 0979 1C       		.uleb128 0x1c
- 3293 097a 95060000 		.4byte	.LASF101
- 3294 097e 95060000 		.4byte	.LASF101
+ 3293 097a 7F060000 		.4byte	.LASF101
+ 3294 097e 7F060000 		.4byte	.LASF101
  3295 0982 04       		.byte	0x4
  3296 0983 48       		.byte	0x48
  3297 0984 1C       		.uleb128 0x1c
@@ -5747,46 +5747,46 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3305 0998 04       		.byte	0x4
  3306 0999 77       		.byte	0x77
  3307 099a 1C       		.uleb128 0x1c
- 3308 099b 06020000 		.4byte	.LASF104
- 3309 099f 06020000 		.4byte	.LASF104
+ 3308 099b 51020000 		.4byte	.LASF104
+ 3309 099f 51020000 		.4byte	.LASF104
  3310 09a3 04       		.byte	0x4
  3311 09a4 49       		.byte	0x49
  3312 09a5 1C       		.uleb128 0x1c
- 3313 09a6 68050000 		.4byte	.LASF105
- 3314 09aa 68050000 		.4byte	.LASF105
+ 3313 09a6 B3050000 		.4byte	.LASF105
+ 3314 09aa B3050000 		.4byte	.LASF105
  3315 09ae 04       		.byte	0x4
  3316 09af 4B       		.byte	0x4b
  3317 09b0 1C       		.uleb128 0x1c
- 3318 09b1 F2030000 		.4byte	.LASF106
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 97
+ 3318 09b1 3D040000 		.4byte	.LASF106
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 97
 
 
- 3319 09b5 F2030000 		.4byte	.LASF106
+ 3319 09b5 3D040000 		.4byte	.LASF106
  3320 09b9 04       		.byte	0x4
  3321 09ba 4E       		.byte	0x4e
  3322 09bb 1C       		.uleb128 0x1c
- 3323 09bc F2050000 		.4byte	.LASF107
- 3324 09c0 F2050000 		.4byte	.LASF107
+ 3323 09bc 3D060000 		.4byte	.LASF107
+ 3324 09c0 3D060000 		.4byte	.LASF107
  3325 09c4 04       		.byte	0x4
  3326 09c5 4F       		.byte	0x4f
  3327 09c6 1C       		.uleb128 0x1c
- 3328 09c7 18070000 		.4byte	.LASF108
- 3329 09cb 18070000 		.4byte	.LASF108
+ 3328 09c7 02070000 		.4byte	.LASF108
+ 3329 09cb 02070000 		.4byte	.LASF108
  3330 09cf 04       		.byte	0x4
  3331 09d0 66       		.byte	0x66
  3332 09d1 1C       		.uleb128 0x1c
- 3333 09d2 4C040000 		.4byte	.LASF109
- 3334 09d6 4C040000 		.4byte	.LASF109
+ 3333 09d2 97040000 		.4byte	.LASF109
+ 3334 09d6 97040000 		.4byte	.LASF109
  3335 09da 04       		.byte	0x4
  3336 09db 79       		.byte	0x79
  3337 09dc 1C       		.uleb128 0x1c
- 3338 09dd 67030000 		.4byte	.LASF110
- 3339 09e1 67030000 		.4byte	.LASF110
+ 3338 09dd B2030000 		.4byte	.LASF110
+ 3339 09e1 B2030000 		.4byte	.LASF110
  3340 09e5 04       		.byte	0x4
  3341 09e6 65       		.byte	0x65
  3342 09e7 1C       		.uleb128 0x1c
- 3343 09e8 A3060000 		.4byte	.LASF111
- 3344 09ec A3060000 		.4byte	.LASF111
+ 3343 09e8 8D060000 		.4byte	.LASF111
+ 3344 09ec 8D060000 		.4byte	.LASF111
  3345 09f0 04       		.byte	0x4
  3346 09f1 4A       		.byte	0x4a
  3347 09f2 1C       		.uleb128 0x1c
@@ -5795,18 +5795,18 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3350 09fb 04       		.byte	0x4
  3351 09fc 41       		.byte	0x41
  3352 09fd 1C       		.uleb128 0x1c
- 3353 09fe 88020000 		.4byte	.LASF113
- 3354 0a02 88020000 		.4byte	.LASF113
+ 3353 09fe D3020000 		.4byte	.LASF113
+ 3354 0a02 D3020000 		.4byte	.LASF113
  3355 0a06 04       		.byte	0x4
  3356 0a07 47       		.byte	0x47
  3357 0a08 1C       		.uleb128 0x1c
- 3358 0a09 4D020000 		.4byte	.LASF114
- 3359 0a0d 4D020000 		.4byte	.LASF114
+ 3358 0a09 98020000 		.4byte	.LASF114
+ 3359 0a0d 98020000 		.4byte	.LASF114
  3360 0a11 04       		.byte	0x4
  3361 0a12 7D       		.byte	0x7d
  3362 0a13 1C       		.uleb128 0x1c
- 3363 0a14 19040000 		.4byte	.LASF115
- 3364 0a18 19040000 		.4byte	.LASF115
+ 3363 0a14 64040000 		.4byte	.LASF115
+ 3364 0a18 64040000 		.4byte	.LASF115
  3365 0a1c 04       		.byte	0x4
  3366 0a1d 7E       		.byte	0x7e
  3367 0a1e 1C       		.uleb128 0x1c
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3373              		.section	.debug_abbrev,"",%progbits
  3374              	.Ldebug_abbrev0:
  3375 0000 01       		.uleb128 0x1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 98
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 98
 
 
  3376 0001 11       		.uleb128 0x11
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3430 0037 35       		.uleb128 0x35
  3431 0038 00       		.byte	0
  3432 0039 49       		.uleb128 0x49
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 99
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 99
 
 
  3433 003a 13       		.uleb128 0x13
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3487 0070 0B       		.uleb128 0xb
  3488 0071 3A       		.uleb128 0x3a
  3489 0072 0B       		.uleb128 0xb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 100
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 100
 
 
  3490 0073 3B       		.uleb128 0x3b
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3544 00aa 27       		.uleb128 0x27
  3545 00ab 19       		.uleb128 0x19
  3546 00ac 11       		.uleb128 0x11
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 101
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 101
 
 
  3547 00ad 01       		.uleb128 0x1
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3601 00eb 01       		.uleb128 0x1
  3602 00ec 12       		.uleb128 0x12
  3603 00ed 06       		.uleb128 0x6
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 102
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 102
 
 
  3604 00ee 40       		.uleb128 0x40
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3658 0126 0B       		.uleb128 0xb
  3659 0127 3B       		.uleb128 0x3b
  3660 0128 05       		.uleb128 0x5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 103
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 103
 
 
  3661 0129 49       		.uleb128 0x49
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3715 015f 02       		.uleb128 0x2
  3716 0160 17       		.uleb128 0x17
  3717 0161 00       		.byte	0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 104
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 104
 
 
  3718 0162 00       		.byte	0
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3772 019b 00       		.byte	0
  3773 019c 3F       		.uleb128 0x3f
  3774 019d 19       		.uleb128 0x19
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 105
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 105
 
 
  3775 019e 3C       		.uleb128 0x3c
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3829 005c EA010000 		.4byte	.LVL59
  3830 0060 F5010000 		.4byte	.LVL60-1
  3831 0064 0100     		.2byte	0x1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 106
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 106
 
 
  3832 0066 53       		.byte	0x53
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3886 00e8 01       		.uleb128 0x1
  3887 00e9 51       		.byte	0x51
  3888 00ea 9F       		.byte	0x9f
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 107
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 107
 
 
  3889 00eb 00000000 		.4byte	0
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  3943 0175 23000000 		.4byte	.LVL86-1
  3944 0179 0100     		.2byte	0x1
  3945 017b 50       		.byte	0x50
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 108
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 108
 
 
  3946 017c 00000000 		.4byte	0
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4000 0024 A0000000 		.4byte	.LFE14-.LFB14
  4001 0028 00000000 		.4byte	.LFB7
  4002 002c 98000000 		.4byte	.LFE7-.LFB7
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 109
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 109
 
 
  4003 0030 00000000 		.4byte	.LFB15
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4057 0068 00000000 		.4byte	.LFB9
  4058 006c 5C000000 		.4byte	.LFE9
  4059 0070 00000000 		.4byte	.LFB10
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 110
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 110
 
 
  4060 0074 2C000000 		.4byte	.LFE10
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4086              	.LASF116:
  4087 007e 43795854 		.ascii	"CyXTAL_32KHZ_Start\000"
  4087      414C5F33 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 111
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 111
 
 
  4087      324B485A 
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4109      6F776572 
  4109      4D6F6465 
  4109      00
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 112
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 112
 
 
  4110              	.LASF6:
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4136              	.LASF32:
  4137 01c1 786D687A 		.ascii	"xmhzEnableState\000"
  4137      456E6162 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 113
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 113
 
 
  4137      6C655374 
@@ -6735,433 +6735,432 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 1
  4143 01e5 696D6F41 		.ascii	"imoActFreq\000"
  4143      63744672 
  4143      657100
- 4144              	.LASF8:
- 4145 01f0 756E7369 		.ascii	"unsigned int\000"
- 4145      676E6564 
- 4145      20696E74 
- 4145      00
- 4146              	.LASF47:
- 4147 01fd 73636374 		.ascii	"scctData\000"
- 4147      44617461 
- 4147      00
- 4148              	.LASF104:
- 4149 0206 4379494D 		.ascii	"CyIMO_SetSource\000"
- 4149      4F5F5365 
- 4149      74536F75 
- 4149      72636500 
- 4150              	.LASF22:
- 4151 0216 696D6F46 		.ascii	"imoFreq\000"
- 4151      72657100 
- 4152              	.LASF5:
- 4153 021e 6C6F6E67 		.ascii	"long unsigned int\000"
- 4153      20756E73 
- 4153      69676E65 
- 4153      6420696E 
- 4153      7400
- 4154              	.LASF48:
- 4155 0230 6C766964 		.ascii	"lvidEn\000"
- 4155      456E00
- 4156              	.LASF35:
- 4157 0237 6379506D 		.ascii	"cyPmClockBackupStruct\000"
- 4157      436C6F63 
- 4157      6B426163 
- 4157      6B757053 
- 4157      74727563 
- 4158              	.LASF114:
- 4159 024d 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 4159      74657243 
- 4159      72697469 
- 4159      63616C53 
- 4159      65637469 
- 4160              	.LASF36:
- 4161 0264 6379506D 		.ascii	"cyPmBackupStruct\000"
- 4161      4261636B 
- 4161      75705374 
- 4161      72756374 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 114
+ 4144              	.LASF119:
+ 4145 01f0 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\Octavo\\Termometro\\Se"
+ 4145      73657273 
+ 4145      5C6E696B 
+ 4145      6F645C44 
+ 4145      6F63756D 
+ 4146 021d 6E736F72 		.ascii	"nsordeTemperatura\\RAMA1.cydsn\000"
+ 4146      64655465 
+ 4146      6D706572 
+ 4146      61747572 
+ 4146      615C5241 
+ 4147              	.LASF8:
+ 4148 023b 756E7369 		.ascii	"unsigned int\000"
+ 4148      676E6564 
+ 4148      20696E74 
+ 4148      00
+ 4149              	.LASF47:
+ 4150 0248 73636374 		.ascii	"scctData\000"
+ 4150      44617461 
+ 4150      00
+ 4151              	.LASF104:
+ 4152 0251 4379494D 		.ascii	"CyIMO_SetSource\000"
+ 4152      4F5F5365 
+ 4152      74536F75 
+ 4152      72636500 
+ 4153              	.LASF22:
+ 4154 0261 696D6F46 		.ascii	"imoFreq\000"
+ 4154      72657100 
+ 4155              	.LASF5:
+ 4156 0269 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4156      20756E73 
+ 4156      69676E65 
+ 4156      6420696E 
+ 4156      7400
+ 4157              	.LASF48:
+ 4158 027b 6C766964 		.ascii	"lvidEn\000"
+ 4158      456E00
+ 4159              	.LASF35:
+ 4160 0282 6379506D 		.ascii	"cyPmClockBackupStruct\000"
+ 4160      436C6F63 
+ 4160      6B426163 
+ 4160      6B757053 
+ 4160      74727563 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 114
 
 
- 4161      00
- 4162              	.LASF91:
- 4163 0275 4379494C 		.ascii	"CyILO_SetPowerMode\000"
- 4163      4F5F5365 
- 4163      74506F77 
- 4163      65724D6F 
- 4163      646500
- 4164              	.LASF113:
- 4165 0288 4379494D 		.ascii	"CyIMO_Stop\000"
- 4165      4F5F5374 
- 4165      6F7000
- 4166              	.LASF34:
- 4167 0293 43595F50 		.ascii	"CY_PM_CLOCK_BACKUP_STRUCT\000"
- 4167      4D5F434C 
- 4167      4F434B5F 
- 4167      4241434B 
- 4167      55505F53 
- 4168              	.LASF3:
- 4169 02ad 73686F72 		.ascii	"short unsigned int\000"
- 4169      7420756E 
- 4169      7369676E 
- 4169      65642069 
- 4169      6E7400
- 4170              	.LASF81:
- 4171 02c0 63747749 		.ascii	"ctwInterval\000"
- 4171      6E746572 
- 4171      76616C00 
- 4172              	.LASF90:
- 4173 02cc 43795664 		.ascii	"CyVdHvAnalogDisable\000"
- 4173      4876416E 
- 4173      616C6F67 
- 4173      44697361 
- 4173      626C6500 
- 4174              	.LASF98:
- 4175 02e0 43794D61 		.ascii	"CyMasterClk_SetSource\000"
- 4175      73746572 
- 4175      436C6B5F 
- 4175      53657453 
- 4175      6F757263 
- 4176              	.LASF118:
- 4177 02f6 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyPm.c\000"
- 4177      72617465 
- 4177      645F536F 
- 4177      75726365 
- 4177      5C50536F 
- 4178              	.LASF41:
- 4179 0314 77616B65 		.ascii	"wakeupCfg0\000"
- 4179      75704366 
- 4179      673000
- 4180              	.LASF42:
- 4181 031f 77616B65 		.ascii	"wakeupCfg1\000"
- 4181      75704366 
- 4181      673100
- 4182              	.LASF43:
- 4183 032a 77616B65 		.ascii	"wakeupCfg2\000"
- 4183      75704366 
- 4183      673200
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 115
+ 4161              	.LASF114:
+ 4162 0298 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 4162      74657243 
+ 4162      72697469 
+ 4162      63616C53 
+ 4162      65637469 
+ 4163              	.LASF36:
+ 4164 02af 6379506D 		.ascii	"cyPmBackupStruct\000"
+ 4164      4261636B 
+ 4164      75705374 
+ 4164      72756374 
+ 4164      00
+ 4165              	.LASF91:
+ 4166 02c0 4379494C 		.ascii	"CyILO_SetPowerMode\000"
+ 4166      4F5F5365 
+ 4166      74506F77 
+ 4166      65724D6F 
+ 4166      646500
+ 4167              	.LASF113:
+ 4168 02d3 4379494D 		.ascii	"CyIMO_Stop\000"
+ 4168      4F5F5374 
+ 4168      6F7000
+ 4169              	.LASF34:
+ 4170 02de 43595F50 		.ascii	"CY_PM_CLOCK_BACKUP_STRUCT\000"
+ 4170      4D5F434C 
+ 4170      4F434B5F 
+ 4170      4241434B 
+ 4170      55505F53 
+ 4171              	.LASF3:
+ 4172 02f8 73686F72 		.ascii	"short unsigned int\000"
+ 4172      7420756E 
+ 4172      7369676E 
+ 4172      65642069 
+ 4172      6E7400
+ 4173              	.LASF81:
+ 4174 030b 63747749 		.ascii	"ctwInterval\000"
+ 4174      6E746572 
+ 4174      76616C00 
+ 4175              	.LASF90:
+ 4176 0317 43795664 		.ascii	"CyVdHvAnalogDisable\000"
+ 4176      4876416E 
+ 4176      616C6F67 
+ 4176      44697361 
+ 4176      626C6500 
+ 4177              	.LASF98:
+ 4178 032b 43794D61 		.ascii	"CyMasterClk_SetSource\000"
+ 4178      73746572 
+ 4178      436C6B5F 
+ 4178      53657453 
+ 4178      6F757263 
+ 4179              	.LASF118:
+ 4180 0341 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyPm.c\000"
+ 4180      72617465 
+ 4180      645F536F 
+ 4180      75726365 
+ 4180      5C50536F 
+ 4181              	.LASF41:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 115
 
 
- 4184              	.LASF68:
- 4185 0335 636C6B42 		.ascii	"clkBusDivTmp\000"
- 4185      75734469 
- 4185      76546D70 
- 4185      00
- 4186              	.LASF57:
- 4187 0342 626F6F73 		.ascii	"boostRefExt\000"
- 4187      74526566 
- 4187      45787400 
- 4188              	.LASF27:
- 4189 034e 636C6B49 		.ascii	"clkImoSrc\000"
- 4189      6D6F5372 
- 4189      6300
- 4190              	.LASF65:
- 4191 0358 4379506D 		.ascii	"CyPmSaveClocks\000"
- 4191      53617665 
- 4191      436C6F63 
- 4191      6B7300
- 4192              	.LASF110:
- 4193 0367 43795854 		.ascii	"CyXTAL_Start\000"
- 4193      414C5F53 
- 4193      74617274 
- 4193      00
- 4194              	.LASF40:
- 4195 0374 736C7054 		.ascii	"slpTrBypass\000"
- 4195      72427970 
- 4195      61737300 
- 4196              	.LASF18:
- 4197 0380 73697A65 		.ascii	"sizetype\000"
- 4197      74797065 
- 4197      00
- 4198              	.LASF75:
- 4199 0389 4379506D 		.ascii	"CyPmHibernateEx\000"
- 4199      48696265 
- 4199      726E6174 
- 4199      65457800 
- 4200              	.LASF17:
- 4201 0399 6C6F6E67 		.ascii	"long double\000"
- 4201      20646F75 
- 4201      626C6500 
- 4202              	.LASF69:
- 4203 03a5 6379506D 		.ascii	"cyPmImoFreqMhz2Reg\000"
- 4203      496D6F46 
- 4203      7265714D 
- 4203      687A3252 
- 4203      656700
- 4204              	.LASF19:
- 4205 03b8 656E436C 		.ascii	"enClkA\000"
- 4205      6B4100
- 4206              	.LASF20:
- 4207 03bf 656E436C 		.ascii	"enClkD\000"
- 4207      6B4400
- 4208              	.LASF96:
- 4209 03c6 4379494C 		.ascii	"CyILO_Start100K\000"
- 4209      4F5F5374 
- 4209      61727431 
- 4209      30304B00 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 116
+ 4182 035f 77616B65 		.ascii	"wakeupCfg0\000"
+ 4182      75704366 
+ 4182      673000
+ 4183              	.LASF42:
+ 4184 036a 77616B65 		.ascii	"wakeupCfg1\000"
+ 4184      75704366 
+ 4184      673100
+ 4185              	.LASF43:
+ 4186 0375 77616B65 		.ascii	"wakeupCfg2\000"
+ 4186      75704366 
+ 4186      673200
+ 4187              	.LASF68:
+ 4188 0380 636C6B42 		.ascii	"clkBusDivTmp\000"
+ 4188      75734469 
+ 4188      76546D70 
+ 4188      00
+ 4189              	.LASF57:
+ 4190 038d 626F6F73 		.ascii	"boostRefExt\000"
+ 4190      74526566 
+ 4190      45787400 
+ 4191              	.LASF27:
+ 4192 0399 636C6B49 		.ascii	"clkImoSrc\000"
+ 4192      6D6F5372 
+ 4192      6300
+ 4193              	.LASF65:
+ 4194 03a3 4379506D 		.ascii	"CyPmSaveClocks\000"
+ 4194      53617665 
+ 4194      436C6F63 
+ 4194      6B7300
+ 4195              	.LASF110:
+ 4196 03b2 43795854 		.ascii	"CyXTAL_Start\000"
+ 4196      414C5F53 
+ 4196      74617274 
+ 4196      00
+ 4197              	.LASF40:
+ 4198 03bf 736C7054 		.ascii	"slpTrBypass\000"
+ 4198      72427970 
+ 4198      61737300 
+ 4199              	.LASF18:
+ 4200 03cb 73697A65 		.ascii	"sizetype\000"
+ 4200      74797065 
+ 4200      00
+ 4201              	.LASF75:
+ 4202 03d4 4379506D 		.ascii	"CyPmHibernateEx\000"
+ 4202      48696265 
+ 4202      726E6174 
+ 4202      65457800 
+ 4203              	.LASF17:
+ 4204 03e4 6C6F6E67 		.ascii	"long double\000"
+ 4204      20646F75 
+ 4204      626C6500 
+ 4205              	.LASF69:
+ 4206 03f0 6379506D 		.ascii	"cyPmImoFreqMhz2Reg\000"
+ 4206      496D6F46 
+ 4206      7265714D 
+ 4206      687A3252 
+ 4206      656700
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 116
 
 
- 4210              	.LASF72:
- 4211 03d6 77616B65 		.ascii	"wakeupSource\000"
- 4211      7570536F 
- 4211      75726365 
- 4211      00
- 4212              	.LASF100:
- 4213 03e3 4379504C 		.ascii	"CyPLL_OUT_Stop\000"
- 4213      4C5F4F55 
- 4213      545F5374 
- 4213      6F7000
- 4214              	.LASF106:
- 4215 03f2 43794D61 		.ascii	"CyMasterClk_SetDivider\000"
- 4215      73746572 
- 4215      436C6B5F 
- 4215      53657444 
- 4215      69766964 
- 4216              	.LASF26:
- 4217 0409 696D6F43 		.ascii	"imoClkSrc\000"
- 4217      6C6B5372 
- 4217      6300
- 4218              	.LASF12:
- 4219 0413 666C6F61 		.ascii	"float\000"
- 4219      7400
- 4220              	.LASF115:
- 4221 0419 43794578 		.ascii	"CyExitCriticalSection\000"
- 4221      69744372 
- 4221      69746963 
- 4221      616C5365 
- 4221      6374696F 
- 4222              	.LASF73:
- 4223 042f 4379506D 		.ascii	"CyPmSleep\000"
- 4223      536C6565 
- 4223      7000
- 4224              	.LASF53:
- 4225 0439 6C766964 		.ascii	"lvidRst\000"
- 4225      52737400 
- 4226              	.LASF70:
- 4227 0441 4379506D 		.ascii	"CyPmAltAct\000"
- 4227      416C7441 
- 4227      637400
- 4228              	.LASF109:
- 4229 044c 43794465 		.ascii	"CyDelayCycles\000"
- 4229      6C617943 
- 4229      79636C65 
- 4229      7300
- 4230              	.LASF16:
- 4231 045a 72656738 		.ascii	"reg8\000"
- 4231      00
- 4232              	.LASF99:
- 4233 045f 43794861 		.ascii	"CyHalt\000"
- 4233      6C7400
- 4234              	.LASF82:
- 4235 0466 4379506D 		.ascii	"CyPmOppsSet\000"
- 4235      4F707073 
- 4235      53657400 
- 4236              	.LASF1:
- 4237 0472 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 117
+ 4207              	.LASF19:
+ 4208 0403 656E436C 		.ascii	"enClkA\000"
+ 4208      6B4100
+ 4209              	.LASF20:
+ 4210 040a 656E436C 		.ascii	"enClkD\000"
+ 4210      6B4400
+ 4211              	.LASF96:
+ 4212 0411 4379494C 		.ascii	"CyILO_Start100K\000"
+ 4212      4F5F5374 
+ 4212      61727431 
+ 4212      30304B00 
+ 4213              	.LASF72:
+ 4214 0421 77616B65 		.ascii	"wakeupSource\000"
+ 4214      7570536F 
+ 4214      75726365 
+ 4214      00
+ 4215              	.LASF100:
+ 4216 042e 4379504C 		.ascii	"CyPLL_OUT_Stop\000"
+ 4216      4C5F4F55 
+ 4216      545F5374 
+ 4216      6F7000
+ 4217              	.LASF106:
+ 4218 043d 43794D61 		.ascii	"CyMasterClk_SetDivider\000"
+ 4218      73746572 
+ 4218      436C6B5F 
+ 4218      53657444 
+ 4218      69766964 
+ 4219              	.LASF26:
+ 4220 0454 696D6F43 		.ascii	"imoClkSrc\000"
+ 4220      6C6B5372 
+ 4220      6300
+ 4221              	.LASF12:
+ 4222 045e 666C6F61 		.ascii	"float\000"
+ 4222      7400
+ 4223              	.LASF115:
+ 4224 0464 43794578 		.ascii	"CyExitCriticalSection\000"
+ 4224      69744372 
+ 4224      69746963 
+ 4224      616C5365 
+ 4224      6374696F 
+ 4225              	.LASF73:
+ 4226 047a 4379506D 		.ascii	"CyPmSleep\000"
+ 4226      536C6565 
+ 4226      7000
+ 4227              	.LASF53:
+ 4228 0484 6C766964 		.ascii	"lvidRst\000"
+ 4228      52737400 
+ 4229              	.LASF70:
+ 4230 048c 4379506D 		.ascii	"CyPmAltAct\000"
+ 4230      416C7441 
+ 4230      637400
+ 4231              	.LASF109:
+ 4232 0497 43794465 		.ascii	"CyDelayCycles\000"
+ 4232      6C617943 
+ 4232      79636C65 
+ 4232      7300
+ 4233              	.LASF16:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 117
 
 
- 4237      676E6564 
- 4237      20636861 
- 4237      7200
- 4238              	.LASF86:
- 4239 0480 6379506D 		.ascii	"cyPmClockBackup\000"
- 4239      436C6F63 
- 4239      6B426163 
- 4239      6B757000 
- 4240              	.LASF31:
- 4241 0490 706C6C45 		.ascii	"pllEnableState\000"
- 4241      6E61626C 
- 4241      65537461 
- 4241      746500
- 4242              	.LASF38:
- 4243 049f 696C6F31 		.ascii	"ilo1kEnable\000"
- 4243      6B456E61 
- 4243      626C6500 
- 4244              	.LASF2:
- 4245 04ab 73686F72 		.ascii	"short int\000"
- 4245      7420696E 
- 4245      7400
- 4246              	.LASF59:
- 4247 04b5 4379506D 		.ascii	"CyPmHibSlpSaveSet\000"
- 4247      48696253 
- 4247      6C705361 
- 4247      76655365 
- 4247      7400
- 4248              	.LASF117:
- 4249 04c7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 4249      43313120 
- 4249      352E342E 
- 4249      31203230 
- 4249      31363036 
- 4250 04fa 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 4250      20726576 
- 4250      6973696F 
- 4250      6E203233 
- 4250      37373135 
- 4251 052d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 4251      66756E63 
- 4251      74696F6E 
- 4251      2D736563 
- 4251      74696F6E 
- 4252              	.LASF39:
- 4253 0555 696C6F31 		.ascii	"ilo100kEnable\000"
- 4253      30306B45 
- 4253      6E61626C 
- 4253      6500
- 4254              	.LASF14:
- 4255 0563 63686172 		.ascii	"char\000"
- 4255      00
- 4256              	.LASF105:
- 4257 0568 4379494D 		.ascii	"CyIMO_DisableDoubler\000"
- 4257      4F5F4469 
- 4257      7361626C 
- 4257      65446F75 
- 4257      626C6572 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 118
+ 4234 04a5 72656738 		.ascii	"reg8\000"
+ 4234      00
+ 4235              	.LASF99:
+ 4236 04aa 43794861 		.ascii	"CyHalt\000"
+ 4236      6C7400
+ 4237              	.LASF82:
+ 4238 04b1 4379506D 		.ascii	"CyPmOppsSet\000"
+ 4238      4F707073 
+ 4238      53657400 
+ 4239              	.LASF1:
+ 4240 04bd 756E7369 		.ascii	"unsigned char\000"
+ 4240      676E6564 
+ 4240      20636861 
+ 4240      7200
+ 4241              	.LASF86:
+ 4242 04cb 6379506D 		.ascii	"cyPmClockBackup\000"
+ 4242      436C6F63 
+ 4242      6B426163 
+ 4242      6B757000 
+ 4243              	.LASF31:
+ 4244 04db 706C6C45 		.ascii	"pllEnableState\000"
+ 4244      6E61626C 
+ 4244      65537461 
+ 4244      746500
+ 4245              	.LASF38:
+ 4246 04ea 696C6F31 		.ascii	"ilo1kEnable\000"
+ 4246      6B456E61 
+ 4246      626C6500 
+ 4247              	.LASF2:
+ 4248 04f6 73686F72 		.ascii	"short int\000"
+ 4248      7420696E 
+ 4248      7400
+ 4249              	.LASF59:
+ 4250 0500 4379506D 		.ascii	"CyPmHibSlpSaveSet\000"
+ 4250      48696253 
+ 4250      6C705361 
+ 4250      76655365 
+ 4250      7400
+ 4251              	.LASF117:
+ 4252 0512 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4252      43313120 
+ 4252      352E342E 
+ 4252      31203230 
+ 4252      31363036 
+ 4253 0545 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 4253      20726576 
+ 4253      6973696F 
+ 4253      6E203233 
+ 4253      37373135 
+ 4254 0578 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 4254      66756E63 
+ 4254      74696F6E 
+ 4254      2D736563 
+ 4254      74696F6E 
+ 4255              	.LASF39:
+ 4256 05a0 696C6F31 		.ascii	"ilo100kEnable\000"
+ 4256      30306B45 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 118
 
 
- 4258              	.LASF88:
- 4259 057d 43795664 		.ascii	"CyVdLvDigitDisable\000"
- 4259      4C764469 
- 4259      67697444 
- 4259      69736162 
- 4259      6C6500
- 4260              	.LASF56:
- 4261 0590 696D6F41 		.ascii	"imoActFreq12Mhz\000"
- 4261      63744672 
- 4261      65713132 
- 4261      4D687A00 
- 4262              	.LASF76:
- 4263 05a0 4379506D 		.ascii	"CyPmHibernate\000"
- 4263      48696265 
- 4263      726E6174 
- 4263      6500
- 4264              	.LASF97:
- 4265 05ae 4379466C 		.ascii	"CyFlash_SetWaitCycles\000"
- 4265      6173685F 
- 4265      53657457 
- 4265      61697443 
- 4265      79636C65 
- 4266              	.LASF84:
- 4267 05c4 66747749 		.ascii	"ftwInterval\000"
- 4267      6E746572 
- 4267      76616C00 
- 4268              	.LASF87:
- 4269 05d0 6379506D 		.ascii	"cyPmImoFreqReg2Mhz\000"
- 4269      496D6F46 
- 4269      72657152 
- 4269      6567324D 
- 4269      687A00
- 4270              	.LASF120:
- 4271 05e3 4379506D 		.ascii	"CyPmReadStatus\000"
- 4271      52656164 
- 4271      53746174 
- 4271      757300
- 4272              	.LASF107:
- 4273 05f2 43794275 		.ascii	"CyBusClk_SetDivider\000"
- 4273      73436C6B 
- 4273      5F536574 
- 4273      44697669 
- 4273      64657200 
- 4274              	.LASF119:
- 4275 0606 433A5C55 		.ascii	"C:\\Users\\Nicolas Zamora\\Documents\\Instrumentaci"
- 4275      73657273 
- 4275      5C4E6963 
- 4275      6F6C6173 
- 4275      205A616D 
- 4276 0635 6F6E2049 		.ascii	"on Industrial\\Laboratorio3\\Termometro\\RAMA1.cyds"
- 4276      6E647573 
- 4276      74726961 
- 4276      6C5C4C61 
- 4276      626F7261 
- 4277 0665 6E00     		.ascii	"n\000"
- 4278              	.LASF33:
- 4279 0667 636C6B44 		.ascii	"clkDistDelay\000"
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 119
+ 4256      6E61626C 
+ 4256      6500
+ 4257              	.LASF14:
+ 4258 05ae 63686172 		.ascii	"char\000"
+ 4258      00
+ 4259              	.LASF105:
+ 4260 05b3 4379494D 		.ascii	"CyIMO_DisableDoubler\000"
+ 4260      4F5F4469 
+ 4260      7361626C 
+ 4260      65446F75 
+ 4260      626C6572 
+ 4261              	.LASF88:
+ 4262 05c8 43795664 		.ascii	"CyVdLvDigitDisable\000"
+ 4262      4C764469 
+ 4262      67697444 
+ 4262      69736162 
+ 4262      6C6500
+ 4263              	.LASF56:
+ 4264 05db 696D6F41 		.ascii	"imoActFreq12Mhz\000"
+ 4264      63744672 
+ 4264      65713132 
+ 4264      4D687A00 
+ 4265              	.LASF76:
+ 4266 05eb 4379506D 		.ascii	"CyPmHibernate\000"
+ 4266      48696265 
+ 4266      726E6174 
+ 4266      6500
+ 4267              	.LASF97:
+ 4268 05f9 4379466C 		.ascii	"CyFlash_SetWaitCycles\000"
+ 4268      6173685F 
+ 4268      53657457 
+ 4268      61697443 
+ 4268      79636C65 
+ 4269              	.LASF84:
+ 4270 060f 66747749 		.ascii	"ftwInterval\000"
+ 4270      6E746572 
+ 4270      76616C00 
+ 4271              	.LASF87:
+ 4272 061b 6379506D 		.ascii	"cyPmImoFreqReg2Mhz\000"
+ 4272      496D6F46 
+ 4272      72657152 
+ 4272      6567324D 
+ 4272      687A00
+ 4273              	.LASF120:
+ 4274 062e 4379506D 		.ascii	"CyPmReadStatus\000"
+ 4274      52656164 
+ 4274      53746174 
+ 4274      757300
+ 4275              	.LASF107:
+ 4276 063d 43794275 		.ascii	"CyBusClk_SetDivider\000"
+ 4276      73436C6B 
+ 4276      5F536574 
+ 4276      44697669 
+ 4276      64657200 
+ 4277              	.LASF33:
+ 4278 0651 636C6B44 		.ascii	"clkDistDelay\000"
+ 4278      69737444 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 119
 
 
- 4279      69737444 
- 4279      656C6179 
- 4279      00
- 4280              	.LASF80:
- 4281 0674 4379506D 		.ascii	"CyPmCtwSetInterval\000"
- 4281      43747753 
- 4281      6574496E 
- 4281      74657276 
- 4281      616C00
- 4282              	.LASF67:
- 4283 0687 73746174 		.ascii	"status\000"
- 4283      757300
- 4284              	.LASF50:
- 4285 068e 6C766961 		.ascii	"lviaEn\000"
- 4285      456E00
- 4286              	.LASF101:
- 4287 0695 4379494D 		.ascii	"CyIMO_SetFreq\000"
- 4287      4F5F5365 
- 4287      74467265 
- 4287      7100
- 4288              	.LASF111:
- 4289 06a3 4379494D 		.ascii	"CyIMO_EnableDoubler\000"
- 4289      4F5F456E 
- 4289      61626C65 
- 4289      446F7562 
- 4289      6C657200 
- 4290              	.LASF62:
- 4291 06b7 4379506D 		.ascii	"CyPmHibSaveSet\000"
- 4291      48696253 
- 4291      61766553 
- 4291      657400
- 4292              	.LASF71:
- 4293 06c6 77616B65 		.ascii	"wakeupTime\000"
- 4293      75705469 
- 4293      6D6500
- 4294              	.LASF93:
- 4295 06d1 43795664 		.ascii	"CyVdLvAnalogEnable\000"
- 4295      4C76416E 
- 4295      616C6F67 
- 4295      456E6162 
- 4295      6C6500
- 4296              	.LASF15:
- 4297 06e4 63797374 		.ascii	"cystatus\000"
- 4297      61747573 
- 4297      00
- 4298              	.LASF24:
- 4299 06ed 666C6173 		.ascii	"flashWaitCycles\000"
- 4299      68576169 
- 4299      74437963 
- 4299      6C657300 
- 4300              	.LASF54:
- 4301 06fd 6C766961 		.ascii	"lviaRst\000"
- 4301      52737400 
- 4302              	.LASF94:
- 4303 0705 43795664 		.ascii	"CyVdHvAnalogEnable\000"
- 4303      4876416E 
- 4303      616C6F67 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc47ocqK.s 			page 120
+ 4278      656C6179 
+ 4278      00
+ 4279              	.LASF80:
+ 4280 065e 4379506D 		.ascii	"CyPmCtwSetInterval\000"
+ 4280      43747753 
+ 4280      6574496E 
+ 4280      74657276 
+ 4280      616C00
+ 4281              	.LASF67:
+ 4282 0671 73746174 		.ascii	"status\000"
+ 4282      757300
+ 4283              	.LASF50:
+ 4284 0678 6C766961 		.ascii	"lviaEn\000"
+ 4284      456E00
+ 4285              	.LASF101:
+ 4286 067f 4379494D 		.ascii	"CyIMO_SetFreq\000"
+ 4286      4F5F5365 
+ 4286      74467265 
+ 4286      7100
+ 4287              	.LASF111:
+ 4288 068d 4379494D 		.ascii	"CyIMO_EnableDoubler\000"
+ 4288      4F5F456E 
+ 4288      61626C65 
+ 4288      446F7562 
+ 4288      6C657200 
+ 4289              	.LASF62:
+ 4290 06a1 4379506D 		.ascii	"CyPmHibSaveSet\000"
+ 4290      48696253 
+ 4290      61766553 
+ 4290      657400
+ 4291              	.LASF71:
+ 4292 06b0 77616B65 		.ascii	"wakeupTime\000"
+ 4292      75705469 
+ 4292      6D6500
+ 4293              	.LASF93:
+ 4294 06bb 43795664 		.ascii	"CyVdLvAnalogEnable\000"
+ 4294      4C76416E 
+ 4294      616C6F67 
+ 4294      456E6162 
+ 4294      6C6500
+ 4295              	.LASF15:
+ 4296 06ce 63797374 		.ascii	"cystatus\000"
+ 4296      61747573 
+ 4296      00
+ 4297              	.LASF24:
+ 4298 06d7 666C6173 		.ascii	"flashWaitCycles\000"
+ 4298      68576169 
+ 4298      74437963 
+ 4298      6C657300 
+ 4299              	.LASF54:
+ 4300 06e7 6C766961 		.ascii	"lviaRst\000"
+ 4300      52737400 
+ 4301              	.LASF94:
+ 4302 06ef 43795664 		.ascii	"CyVdHvAnalogEnable\000"
+ 4302      4876416E 
+ 4302      616C6F67 
+ 4302      456E6162 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccxEw47h.s 			page 120
 
 
- 4303      456E6162 
- 4303      6C6500
- 4304              	.LASF108:
- 4305 0718 43795854 		.ascii	"CyXTAL_Stop\000"
- 4305      414C5F53 
- 4305      746F7000 
- 4306              	.LASF85:
- 4307 0724 6379506D 		.ascii	"cyPmBackup\000"
- 4307      4261636B 
- 4307      757000
- 4308              	.LASF49:
- 4309 072f 6C766964 		.ascii	"lvidTrip\000"
- 4309      54726970 
- 4309      00
- 4310              	.LASF25:
- 4311 0738 696D6F45 		.ascii	"imoEnable\000"
- 4311      6E61626C 
- 4311      6500
- 4312              	.LASF78:
- 4313 0742 696E7465 		.ascii	"interruptStatus\000"
- 4313      72727570 
- 4313      74537461 
- 4313      74757300 
- 4314              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 4302      6C6500
+ 4303              	.LASF108:
+ 4304 0702 43795854 		.ascii	"CyXTAL_Stop\000"
+ 4304      414C5F53 
+ 4304      746F7000 
+ 4305              	.LASF85:
+ 4306 070e 6379506D 		.ascii	"cyPmBackup\000"
+ 4306      4261636B 
+ 4306      757000
+ 4307              	.LASF49:
+ 4308 0719 6C766964 		.ascii	"lvidTrip\000"
+ 4308      54726970 
+ 4308      00
+ 4309              	.LASF25:
+ 4310 0722 696D6F45 		.ascii	"imoEnable\000"
+ 4310      6E61626C 
+ 4310      6500
+ 4311              	.LASF78:
+ 4312 072c 696E7465 		.ascii	"interruptStatus\000"
+ 4312      72727570 
+ 4312      74537461 
+ 4312      74757300 
+ 4313              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
   28:Generated_Source\PSoC5/LCD_PM.c **** *  Does nothing, provided for consistency.
   29:Generated_Source\PSoC5/LCD_PM.c **** *
   30:Generated_Source\PSoC5/LCD_PM.c **** * Parameters:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 2
 
 
   31:Generated_Source\PSoC5/LCD_PM.c **** *  None.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
   55              		.align	2
   56              		.global	LCD_Sleep
   57              		.thumb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 3
 
 
   58              		.thumb_func
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
   87              		.size	LCD_Sleep, .-LCD_Sleep
   88              		.section	.text.LCD_Wakeup,"ax",%progbits
   89              		.align	2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 4
 
 
   90              		.global	LCD_Wakeup
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  113 000e 08BD     		pop	{r3, pc}
  114              	.L11:
  115              		.align	2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 5
 
 
  116              	.L10:
@@ -264,48 +264,48 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  136 0006 00000000 		.4byte	.Ldebug_abbrev0
  137 000a 04       		.byte	0x4
  138 000b 01       		.uleb128 0x1
- 139 000c 66000000 		.4byte	.LASF20
+ 139 000c 6D000000 		.4byte	.LASF20
  140 0010 0C       		.byte	0xc
  141 0011 23000000 		.4byte	.LASF21
- 142 0015 19010000 		.4byte	.LASF22
+ 142 0015 20010000 		.4byte	.LASF22
  143 0019 00000000 		.4byte	.Ldebug_ranges0+0
  144 001d 00000000 		.4byte	0
  145 0021 00000000 		.4byte	.Ldebug_line0
  146 0025 02       		.uleb128 0x2
  147 0026 01       		.byte	0x1
  148 0027 06       		.byte	0x6
- 149 0028 17020000 		.4byte	.LASF0
+ 149 0028 01020000 		.4byte	.LASF0
  150 002c 02       		.uleb128 0x2
  151 002d 01       		.byte	0x1
  152 002e 08       		.byte	0x8
- 153 002f 58000000 		.4byte	.LASF1
+ 153 002f 5F000000 		.4byte	.LASF1
  154 0033 02       		.uleb128 0x2
  155 0034 02       		.byte	0x2
  156 0035 05       		.byte	0x5
- 157 0036 E7010000 		.4byte	.LASF2
+ 157 0036 D1010000 		.4byte	.LASF2
  158 003a 02       		.uleb128 0x2
  159 003b 02       		.byte	0x2
  160 003c 07       		.byte	0x7
- 161 003d 06010000 		.4byte	.LASF3
+ 161 003d 0D010000 		.4byte	.LASF3
  162 0041 02       		.uleb128 0x2
  163 0042 04       		.byte	0x4
  164 0043 05       		.byte	0x5
- 165 0044 02020000 		.4byte	.LASF4
+ 165 0044 EC010000 		.4byte	.LASF4
  166 0048 02       		.uleb128 0x2
  167 0049 04       		.byte	0x4
  168 004a 07       		.byte	0x7
- 169 004b F4000000 		.4byte	.LASF5
+ 169 004b FB000000 		.4byte	.LASF5
  170 004f 02       		.uleb128 0x2
  171 0050 08       		.byte	0x8
  172 0051 05       		.byte	0x5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 6
 
 
- 173 0052 C2010000 		.4byte	.LASF6
+ 173 0052 AC010000 		.4byte	.LASF6
  174 0056 02       		.uleb128 0x2
  175 0057 08       		.byte	0x8
  176 0058 07       		.byte	0x7
- 177 0059 AB010000 		.4byte	.LASF7
+ 177 0059 95010000 		.4byte	.LASF7
  178 005d 03       		.uleb128 0x3
  179 005e 04       		.byte	0x4
  180 005f 05       		.byte	0x5
@@ -313,43 +313,43 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  182 0064 02       		.uleb128 0x2
  183 0065 04       		.byte	0x4
  184 0066 07       		.byte	0x7
- 185 0067 9E010000 		.4byte	.LASF8
+ 185 0067 88010000 		.4byte	.LASF8
  186 006b 04       		.uleb128 0x4
- 187 006c F1010000 		.4byte	.LASF12
+ 187 006c DB010000 		.4byte	.LASF12
  188 0070 02       		.byte	0x2
  189 0071 E401     		.2byte	0x1e4
  190 0073 2C000000 		.4byte	0x2c
  191 0077 02       		.uleb128 0x2
  192 0078 04       		.byte	0x4
  193 0079 04       		.byte	0x4
- 194 007a 43000000 		.4byte	.LASF9
+ 194 007a 4A000000 		.4byte	.LASF9
  195 007e 02       		.uleb128 0x2
  196 007f 08       		.byte	0x8
  197 0080 04       		.byte	0x4
- 198 0081 7A010000 		.4byte	.LASF10
+ 198 0081 43000000 		.4byte	.LASF10
  199 0085 02       		.uleb128 0x2
  200 0086 01       		.byte	0x1
  201 0087 08       		.byte	0x8
- 202 0088 D0010000 		.4byte	.LASF11
+ 202 0088 BA010000 		.4byte	.LASF11
  203 008c 05       		.uleb128 0x5
  204 008d 01       		.byte	0x1
  205 008e 03       		.byte	0x3
  206 008f 2C       		.byte	0x2c
  207 0090 A1000000 		.4byte	0xa1
  208 0094 06       		.uleb128 0x6
- 209 0095 0B020000 		.4byte	.LASF23
+ 209 0095 F5010000 		.4byte	.LASF23
  210 0099 03       		.byte	0x3
  211 009a 2E       		.byte	0x2e
  212 009b 6B000000 		.4byte	0x6b
  213 009f 00       		.byte	0
  214 00a0 00       		.byte	0
  215 00a1 07       		.uleb128 0x7
- 216 00a2 D5010000 		.4byte	.LASF13
+ 216 00a2 BF010000 		.4byte	.LASF13
  217 00a6 03       		.byte	0x3
  218 00a7 2F       		.byte	0x2f
  219 00a8 8C000000 		.4byte	0x8c
  220 00ac 08       		.uleb128 0x8
- 221 00ad 49000000 		.4byte	.LASF14
+ 221 00ad 50000000 		.4byte	.LASF14
  222 00b1 01       		.byte	0x1
  223 00b2 25       		.byte	0x25
  224 00b3 00000000 		.4byte	.LFB0
@@ -357,8 +357,8 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  226 00bb 01       		.uleb128 0x1
  227 00bc 9C       		.byte	0x9c
  228 00bd 08       		.uleb128 0x8
- 229 00be 8C010000 		.4byte	.LASF15
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 7
+ 229 00be 76010000 		.4byte	.LASF15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 7
 
 
  230 00c2 01       		.byte	0x1
@@ -381,7 +381,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  247 00e8 28010000 		.4byte	0x128
  248 00ec 00       		.byte	0
  249 00ed 09       		.uleb128 0x9
- 250 00ee 23020000 		.4byte	.LASF17
+ 250 00ee 0D020000 		.4byte	.LASF17
  251 00f2 01       		.byte	0x1
  252 00f3 6B       		.byte	0x6b
  253 00f4 00000000 		.4byte	.LFB3
@@ -394,7 +394,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  260 0107 33010000 		.4byte	0x133
  261 010b 00       		.byte	0
  262 010c 0B       		.uleb128 0xb
- 263 010d F7010000 		.4byte	.LASF24
+ 263 010d E1010000 		.4byte	.LASF24
  264 0111 01       		.byte	0x1
  265 0112 14       		.byte	0x14
  266 0113 A1000000 		.4byte	0xa1
@@ -412,13 +412,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  278 0131 03       		.byte	0x3
  279 0132 39       		.byte	0x39
  280 0133 0D       		.uleb128 0xd
- 281 0134 81010000 		.4byte	.LASF19
- 282 0138 81010000 		.4byte	.LASF19
+ 281 0134 6B010000 		.4byte	.LASF19
+ 282 0138 6B010000 		.4byte	.LASF19
  283 013c 03       		.byte	0x3
  284 013d 37       		.byte	0x37
  285 013e 00       		.byte	0
  286              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 8
 
 
  287              	.Ldebug_abbrev0:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  341 0035 00       		.byte	0
  342 0036 05       		.uleb128 0x5
  343 0037 13       		.uleb128 0x13
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 9
 
 
  344 0038 01       		.byte	0x1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  398 006e 12       		.uleb128 0x12
  399 006f 06       		.uleb128 0x6
  400 0070 40       		.uleb128 0x40
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 10
 
 
  401 0071 18       		.uleb128 0x18
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  455 00ab 0C       		.uleb128 0xc
  456 00ac 34       		.uleb128 0x34
  457 00ad 00       		.byte	0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 11
 
 
  458 00ae 03       		.uleb128 0x3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  512 0008 00000000 		.4byte	.LFB1
  513 000c 02000000 		.4byte	.LFE1
  514 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 12
 
 
  515 0014 18000000 		.4byte	.LFE2
@@ -692,128 +692,127 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 1
  530      645F536F 
  530      75726365 
  530      5C50536F 
- 531              	.LASF9:
- 532 0043 666C6F61 		.ascii	"float\000"
- 532      7400
- 533              	.LASF14:
- 534 0049 4C43445F 		.ascii	"LCD_SaveConfig\000"
- 534      53617665 
- 534      436F6E66 
- 534      696700
- 535              	.LASF1:
- 536 0058 756E7369 		.ascii	"unsigned char\000"
- 536      676E6564 
- 536      20636861 
- 536      7200
- 537              	.LASF20:
- 538 0066 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 538      43313120 
- 538      352E342E 
- 538      31203230 
- 538      31363036 
- 539 0099 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 539      20726576 
- 539      6973696F 
- 539      6E203233 
- 539      37373135 
- 540 00cc 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 540      66756E63 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 13
+ 531              	.LASF10:
+ 532 0043 646F7562 		.ascii	"double\000"
+ 532      6C6500
+ 533              	.LASF9:
+ 534 004a 666C6F61 		.ascii	"float\000"
+ 534      7400
+ 535              	.LASF14:
+ 536 0050 4C43445F 		.ascii	"LCD_SaveConfig\000"
+ 536      53617665 
+ 536      436F6E66 
+ 536      696700
+ 537              	.LASF1:
+ 538 005f 756E7369 		.ascii	"unsigned char\000"
+ 538      676E6564 
+ 538      20636861 
+ 538      7200
+ 539              	.LASF20:
+ 540 006d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 540      43313120 
+ 540      352E342E 
+ 540      31203230 
+ 540      31363036 
+ 541 00a0 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 541      20726576 
+ 541      6973696F 
+ 541      6E203233 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 13
 
 
- 540      74696F6E 
- 540      2D736563 
- 540      74696F6E 
- 541              	.LASF5:
- 542 00f4 6C6F6E67 		.ascii	"long unsigned int\000"
- 542      20756E73 
- 542      69676E65 
- 542      6420696E 
- 542      7400
- 543              	.LASF3:
- 544 0106 73686F72 		.ascii	"short unsigned int\000"
- 544      7420756E 
- 544      7369676E 
- 544      65642069 
- 544      6E7400
- 545              	.LASF22:
- 546 0119 433A5C55 		.ascii	"C:\\Users\\Nicolas Zamora\\Documents\\Instrumentaci"
- 546      73657273 
- 546      5C4E6963 
- 546      6F6C6173 
- 546      205A616D 
- 547 0148 6F6E2049 		.ascii	"on Industrial\\Laboratorio3\\Termometro\\RAMA1.cyds"
- 547      6E647573 
- 547      74726961 
- 547      6C5C4C61 
- 547      626F7261 
- 548 0178 6E00     		.ascii	"n\000"
- 549              	.LASF10:
- 550 017a 646F7562 		.ascii	"double\000"
- 550      6C6500
- 551              	.LASF19:
- 552 0181 4C43445F 		.ascii	"LCD_Enable\000"
- 552      456E6162 
- 552      6C6500
- 553              	.LASF15:
- 554 018c 4C43445F 		.ascii	"LCD_RestoreConfig\000"
- 554      52657374 
- 554      6F726543 
- 554      6F6E6669 
- 554      6700
- 555              	.LASF8:
- 556 019e 756E7369 		.ascii	"unsigned int\000"
- 556      676E6564 
- 556      20696E74 
- 556      00
- 557              	.LASF7:
- 558 01ab 6C6F6E67 		.ascii	"long long unsigned int\000"
- 558      206C6F6E 
- 558      6720756E 
- 558      7369676E 
- 558      65642069 
- 559              	.LASF6:
- 560 01c2 6C6F6E67 		.ascii	"long long int\000"
- 560      206C6F6E 
- 560      6720696E 
- 560      7400
- 561              	.LASF11:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cckcfR7e.s 			page 14
+ 541      37373135 
+ 542 00d3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 542      66756E63 
+ 542      74696F6E 
+ 542      2D736563 
+ 542      74696F6E 
+ 543              	.LASF5:
+ 544 00fb 6C6F6E67 		.ascii	"long unsigned int\000"
+ 544      20756E73 
+ 544      69676E65 
+ 544      6420696E 
+ 544      7400
+ 545              	.LASF3:
+ 546 010d 73686F72 		.ascii	"short unsigned int\000"
+ 546      7420756E 
+ 546      7369676E 
+ 546      65642069 
+ 546      6E7400
+ 547              	.LASF22:
+ 548 0120 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\Octavo\\Termometro\\Se"
+ 548      73657273 
+ 548      5C6E696B 
+ 548      6F645C44 
+ 548      6F63756D 
+ 549 014d 6E736F72 		.ascii	"nsordeTemperatura\\RAMA1.cydsn\000"
+ 549      64655465 
+ 549      6D706572 
+ 549      61747572 
+ 549      615C5241 
+ 550              	.LASF19:
+ 551 016b 4C43445F 		.ascii	"LCD_Enable\000"
+ 551      456E6162 
+ 551      6C6500
+ 552              	.LASF15:
+ 553 0176 4C43445F 		.ascii	"LCD_RestoreConfig\000"
+ 553      52657374 
+ 553      6F726543 
+ 553      6F6E6669 
+ 553      6700
+ 554              	.LASF8:
+ 555 0188 756E7369 		.ascii	"unsigned int\000"
+ 555      676E6564 
+ 555      20696E74 
+ 555      00
+ 556              	.LASF7:
+ 557 0195 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 557      206C6F6E 
+ 557      6720756E 
+ 557      7369676E 
+ 557      65642069 
+ 558              	.LASF6:
+ 559 01ac 6C6F6E67 		.ascii	"long long int\000"
+ 559      206C6F6E 
+ 559      6720696E 
+ 559      7400
+ 560              	.LASF11:
+ 561 01ba 63686172 		.ascii	"char\000"
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccjIPM2e.s 			page 14
 
 
- 562 01d0 63686172 		.ascii	"char\000"
- 562      00
- 563              	.LASF13:
- 564 01d5 4C43445F 		.ascii	"LCD_BACKUP_STRUCT\000"
- 564      4241434B 
- 564      55505F53 
- 564      54525543 
- 564      5400
- 565              	.LASF2:
- 566 01e7 73686F72 		.ascii	"short int\000"
- 566      7420696E 
- 566      7400
- 567              	.LASF12:
- 568 01f1 75696E74 		.ascii	"uint8\000"
- 568      3800
- 569              	.LASF24:
- 570 01f7 4C43445F 		.ascii	"LCD_backup\000"
- 570      6261636B 
- 570      757000
- 571              	.LASF4:
- 572 0202 6C6F6E67 		.ascii	"long int\000"
- 572      20696E74 
- 572      00
- 573              	.LASF23:
- 574 020b 656E6162 		.ascii	"enableState\000"
- 574      6C655374 
- 574      61746500 
- 575              	.LASF0:
- 576 0217 7369676E 		.ascii	"signed char\000"
- 576      65642063 
- 576      68617200 
- 577              	.LASF17:
- 578 0223 4C43445F 		.ascii	"LCD_Wakeup\000"
- 578      57616B65 
- 578      757000
- 579              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 561      00
+ 562              	.LASF13:
+ 563 01bf 4C43445F 		.ascii	"LCD_BACKUP_STRUCT\000"
+ 563      4241434B 
+ 563      55505F53 
+ 563      54525543 
+ 563      5400
+ 564              	.LASF2:
+ 565 01d1 73686F72 		.ascii	"short int\000"
+ 565      7420696E 
+ 565      7400
+ 566              	.LASF12:
+ 567 01db 75696E74 		.ascii	"uint8\000"
+ 567      3800
+ 568              	.LASF24:
+ 569 01e1 4C43445F 		.ascii	"LCD_backup\000"
+ 569      6261636B 
+ 569      757000
+ 570              	.LASF4:
+ 571 01ec 6C6F6E67 		.ascii	"long int\000"
+ 571      20696E74 
+ 571      00
+ 572              	.LASF23:
+ 573 01f5 656E6162 		.ascii	"enableState\000"
+ 573      6C655374 
+ 573      61746500 
+ 574              	.LASF0:
+ 575 0201 7369676E 		.ascii	"signed char\000"
+ 575      65642063 
+ 575      68617200 
+ 576              	.LASF17:
+ 577 020d 4C43445F 		.ascii	"LCD_Wakeup\000"
+ 577      57616B65 
+ 577      757000
+ 578              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

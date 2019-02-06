@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
   28:Generated_Source\PSoC5/SWI.c **** *
   29:Generated_Source\PSoC5/SWI.c **** * \brief Writes the value to the physical port (data output register), masking
   30:Generated_Source\PSoC5/SWI.c **** *  and shifting the bits appropriately. 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 2
 
 
   31:Generated_Source\PSoC5/SWI.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
   52              		.section	.text.SWI_SetDriveMode,"ax",%progbits
   53              		.align	2
   54              		.global	SWI_SetDriveMode
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 3
 
 
   55              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
   76 0012 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
   77 0014 03F0F103 		and	r3, r3, #241
   78 0018 0343     		orrs	r3, r3, r0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 4
 
 
   79 001a 1370     		strb	r3, [r2]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  109 0002 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
  118:Generated_Source\PSoC5/SWI.c **** }
  110              		.loc 1 118 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 5
 
 
  111 0004 00F00700 		and	r0, r0, #7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  137 0004 00F00700 		and	r0, r0, #7
  138 0008 7047     		bx	lr
  139              	.L12:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 6
 
 
  140 000a 00BF     		.align	2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  187:Generated_Source\PSoC5/SWI.c ****     *  \snippet SWI_SUT.c usage_SWI_SetInterruptMode
  188:Generated_Source\PSoC5/SWI.c ****     *******************************************************************************/
  189:Generated_Source\PSoC5/SWI.c ****     void SWI_SetInterruptMode(uint16 position, uint16 mode)
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 7
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 7
 
 
  190:Generated_Source\PSoC5/SWI.c ****     {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  196              	.LFE4:
  197              		.size	SWI_SetInterruptMode, .-SWI_SetInterruptMode
  198              		.section	.text.SWI_ClearInterrupt,"ax",%progbits
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 8
 
 
  199              		.align	2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  225              	.Letext0:
  226              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
  227              		.section	.debug_info,"",%progbits
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 9
 
 
  228              	.Ldebug_info0:
@@ -487,45 +487,45 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  231 0006 00000000 		.4byte	.Ldebug_abbrev0
  232 000a 04       		.byte	0x4
  233 000b 01       		.uleb128 0x1
- 234 000c 2E000000 		.4byte	.LASF24
+ 234 000c 35000000 		.4byte	.LASF24
  235 0010 0C       		.byte	0xc
- 236 0011 BC000000 		.4byte	.LASF25
- 237 0015 FE000000 		.4byte	.LASF26
+ 236 0011 C3000000 		.4byte	.LASF25
+ 237 0015 05010000 		.4byte	.LASF26
  238 0019 00000000 		.4byte	.Ldebug_ranges0+0
  239 001d 00000000 		.4byte	0
  240 0021 00000000 		.4byte	.Ldebug_line0
  241 0025 02       		.uleb128 0x2
  242 0026 01       		.byte	0x1
  243 0027 06       		.byte	0x6
- 244 0028 FB010000 		.4byte	.LASF0
+ 244 0028 E5010000 		.4byte	.LASF0
  245 002c 02       		.uleb128 0x2
  246 002d 01       		.byte	0x1
  247 002e 08       		.byte	0x8
- 248 002f 20000000 		.4byte	.LASF1
+ 248 002f 27000000 		.4byte	.LASF1
  249 0033 02       		.uleb128 0x2
  250 0034 02       		.byte	0x2
  251 0035 05       		.byte	0x5
- 252 0036 D8010000 		.4byte	.LASF2
+ 252 0036 C2010000 		.4byte	.LASF2
  253 003a 02       		.uleb128 0x2
  254 003b 02       		.byte	0x2
  255 003c 07       		.byte	0x7
- 256 003d EB000000 		.4byte	.LASF3
+ 256 003d F2000000 		.4byte	.LASF3
  257 0041 02       		.uleb128 0x2
  258 0042 04       		.byte	0x4
  259 0043 05       		.byte	0x5
- 260 0044 F2010000 		.4byte	.LASF4
+ 260 0044 DC010000 		.4byte	.LASF4
  261 0048 02       		.uleb128 0x2
  262 0049 04       		.byte	0x4
  263 004a 07       		.byte	0x7
- 264 004b D9000000 		.4byte	.LASF5
+ 264 004b E0000000 		.4byte	.LASF5
  265 004f 02       		.uleb128 0x2
  266 0050 08       		.byte	0x8
  267 0051 05       		.byte	0x5
- 268 0052 C5010000 		.4byte	.LASF6
+ 268 0052 AF010000 		.4byte	.LASF6
  269 0056 02       		.uleb128 0x2
  270 0057 08       		.byte	0x8
  271 0058 07       		.byte	0x7
- 272 0059 93010000 		.4byte	.LASF7
+ 272 0059 7D010000 		.4byte	.LASF7
  273 005d 03       		.uleb128 0x3
  274 005e 04       		.byte	0x4
  275 005f 05       		.byte	0x5
@@ -533,41 +533,41 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  277 0064 02       		.uleb128 0x2
  278 0065 04       		.byte	0x4
  279 0066 07       		.byte	0x7
- 280 0067 86010000 		.4byte	.LASF8
+ 280 0067 70010000 		.4byte	.LASF8
  281 006b 04       		.uleb128 0x4
- 282 006c E2010000 		.4byte	.LASF9
+ 282 006c CC010000 		.4byte	.LASF9
  283 0070 02       		.byte	0x2
  284 0071 E401     		.2byte	0x1e4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 10
 
 
  285 0073 2C000000 		.4byte	0x2c
  286 0077 04       		.uleb128 0x4
- 287 0078 66010000 		.4byte	.LASF10
+ 287 0078 50010000 		.4byte	.LASF10
  288 007c 02       		.byte	0x2
  289 007d E501     		.2byte	0x1e5
  290 007f 3A000000 		.4byte	0x3a
  291 0083 02       		.uleb128 0x2
  292 0084 04       		.byte	0x4
  293 0085 04       		.byte	0x4
- 294 0086 1A000000 		.4byte	.LASF11
+ 294 0086 21000000 		.4byte	.LASF11
  295 008a 02       		.uleb128 0x2
  296 008b 08       		.byte	0x8
  297 008c 04       		.byte	0x4
- 298 008d 5F010000 		.4byte	.LASF12
+ 298 008d 1A000000 		.4byte	.LASF12
  299 0091 02       		.uleb128 0x2
  300 0092 01       		.byte	0x1
  301 0093 08       		.byte	0x8
- 302 0094 D3010000 		.4byte	.LASF13
+ 302 0094 BD010000 		.4byte	.LASF13
  303 0098 04       		.uleb128 0x4
- 304 0099 C0010000 		.4byte	.LASF14
+ 304 0099 AA010000 		.4byte	.LASF14
  305 009d 02       		.byte	0x2
  306 009e 8E02     		.2byte	0x28e
  307 00a0 A4000000 		.4byte	0xa4
  308 00a4 05       		.uleb128 0x5
  309 00a5 6B000000 		.4byte	0x6b
  310 00a9 06       		.uleb128 0x6
- 311 00aa E8010000 		.4byte	.LASF15
+ 311 00aa D2010000 		.4byte	.LASF15
  312 00ae 01       		.byte	0x1
  313 00af 39       		.byte	0x39
  314 00b0 00000000 		.4byte	.LFB0
@@ -590,7 +590,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  331 00d9 53       		.byte	0x53
  332 00da 00       		.byte	0
  333 00db 06       		.uleb128 0x6
- 334 00dc AF010000 		.4byte	.LASF16
+ 334 00dc 99010000 		.4byte	.LASF16
  335 00e0 01       		.byte	0x1
  336 00e1 5A       		.byte	0x5a
  337 00e2 00000000 		.4byte	.LFB1
@@ -598,11 +598,11 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  339 00ea 01       		.uleb128 0x1
  340 00eb 9C       		.byte	0x9c
  341 00ec 00010000 		.4byte	0x100
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 11
 
 
  342 00f0 07       		.uleb128 0x7
- 343 00f1 AA010000 		.4byte	.LASF18
+ 343 00f1 94010000 		.4byte	.LASF18
  344 00f5 01       		.byte	0x1
  345 00f6 5A       		.byte	0x5a
  346 00f7 6B000000 		.4byte	0x6b
@@ -618,7 +618,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  356 0113 01       		.uleb128 0x1
  357 0114 9C       		.byte	0x9c
  358 0115 09       		.uleb128 0x9
- 359 0116 6D010000 		.4byte	.LASF20
+ 359 0116 57010000 		.4byte	.LASF20
  360 011a 01       		.byte	0x1
  361 011b 8F       		.byte	0x8f
  362 011c 6B000000 		.4byte	0x6b
@@ -627,7 +627,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  365 0128 01       		.uleb128 0x1
  366 0129 9C       		.byte	0x9c
  367 012a 06       		.uleb128 0x6
- 368 012b 1A020000 		.4byte	.LASF21
+ 368 012b 04020000 		.4byte	.LASF21
  369 012f 01       		.byte	0x1
  370 0130 BD       		.byte	0xbd
  371 0131 00000000 		.4byte	.LFB4
@@ -636,20 +636,20 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  374 013a 9C       		.byte	0x9c
  375 013b 5E010000 		.4byte	0x15e
  376 013f 07       		.uleb128 0x7
- 377 0140 7D010000 		.4byte	.LASF22
+ 377 0140 67010000 		.4byte	.LASF22
  378 0144 01       		.byte	0x1
  379 0145 BD       		.byte	0xbd
  380 0146 77000000 		.4byte	0x77
  381 014a 42000000 		.4byte	.LLST2
  382 014e 07       		.uleb128 0x7
- 383 014f AA010000 		.4byte	.LASF18
+ 383 014f 94010000 		.4byte	.LASF18
  384 0153 01       		.byte	0x1
  385 0154 BD       		.byte	0xbd
  386 0155 77000000 		.4byte	0x77
  387 0159 63000000 		.4byte	.LLST3
  388 015d 00       		.byte	0
  389 015e 09       		.uleb128 0x9
- 390 015f 07020000 		.4byte	.LASF23
+ 390 015f F1010000 		.4byte	.LASF23
  391 0163 01       		.byte	0x1
  392 0164 E2       		.byte	0xe2
  393 0165 6B000000 		.4byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  396 0171 01       		.uleb128 0x1
  397 0172 9C       		.byte	0x9c
  398 0173 00       		.byte	0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 12
 
 
  399              		.section	.debug_abbrev,"",%progbits
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  453 0034 00       		.byte	0
  454 0035 00       		.byte	0
  455 0036 05       		.uleb128 0x5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 13
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 13
 
 
  456 0037 35       		.uleb128 0x35
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  510 006e 0B       		.uleb128 0xb
  511 006f 49       		.uleb128 0x49
  512 0070 13       		.uleb128 0x13
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 14
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 14
 
 
  513 0071 02       		.uleb128 0x2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  567 0036 F3       		.byte	0xf3
  568 0037 01       		.uleb128 0x1
  569 0038 50       		.byte	0x50
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 15
 
 
  570 0039 9F       		.byte	0x9f
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  624              	.Ldebug_ranges0:
  625 0000 00000000 		.4byte	.LFB0
  626 0004 18000000 		.4byte	.LFE0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 16
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 16
 
 
  627 0008 00000000 		.4byte	.LFB1
@@ -931,141 +931,140 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 1
  647 0011 5357495F 		.ascii	"SWI_Read\000"
  647      52656164 
  647      00
- 648              	.LASF11:
- 649 001a 666C6F61 		.ascii	"float\000"
- 649      7400
- 650              	.LASF1:
- 651 0020 756E7369 		.ascii	"unsigned char\000"
- 651      676E6564 
- 651      20636861 
- 651      7200
- 652              	.LASF24:
- 653 002e 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 653      43313120 
- 653      352E342E 
- 653      31203230 
- 653      31363036 
- 654 0061 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 654      20726576 
- 654      6973696F 
- 654      6E203233 
- 654      37373135 
- 655 0094 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 655      66756E63 
- 655      74696F6E 
- 655      2D736563 
- 655      74696F6E 
- 656              	.LASF25:
- 657 00bc 47656E65 		.ascii	"Generated_Source\\PSoC5\\SWI.c\000"
- 657      72617465 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 17
+ 648              	.LASF12:
+ 649 001a 646F7562 		.ascii	"double\000"
+ 649      6C6500
+ 650              	.LASF11:
+ 651 0021 666C6F61 		.ascii	"float\000"
+ 651      7400
+ 652              	.LASF1:
+ 653 0027 756E7369 		.ascii	"unsigned char\000"
+ 653      676E6564 
+ 653      20636861 
+ 653      7200
+ 654              	.LASF24:
+ 655 0035 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 655      43313120 
+ 655      352E342E 
+ 655      31203230 
+ 655      31363036 
+ 656 0068 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 656      20726576 
+ 656      6973696F 
+ 656      6E203233 
+ 656      37373135 
+ 657 009b 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 657      66756E63 
+ 657      74696F6E 
+ 657      2D736563 
+ 657      74696F6E 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 17
 
 
- 657      645F536F 
- 657      75726365 
- 657      5C50536F 
- 658              	.LASF5:
- 659 00d9 6C6F6E67 		.ascii	"long unsigned int\000"
- 659      20756E73 
- 659      69676E65 
- 659      6420696E 
- 659      7400
- 660              	.LASF3:
- 661 00eb 73686F72 		.ascii	"short unsigned int\000"
- 661      7420756E 
- 661      7369676E 
- 661      65642069 
- 661      6E7400
- 662              	.LASF26:
- 663 00fe 433A5C55 		.ascii	"C:\\Users\\Nicolas Zamora\\Documents\\Instrumentaci"
- 663      73657273 
- 663      5C4E6963 
- 663      6F6C6173 
- 663      205A616D 
- 664 012d 6F6E2049 		.ascii	"on Industrial\\Laboratorio3\\Termometro\\RAMA1.cyds"
- 664      6E647573 
- 664      74726961 
- 664      6C5C4C61 
- 664      626F7261 
- 665 015d 6E00     		.ascii	"n\000"
- 666              	.LASF12:
- 667 015f 646F7562 		.ascii	"double\000"
- 667      6C6500
- 668              	.LASF10:
- 669 0166 75696E74 		.ascii	"uint16\000"
- 669      313600
- 670              	.LASF20:
- 671 016d 5357495F 		.ascii	"SWI_ReadDataReg\000"
- 671      52656164 
- 671      44617461 
- 671      52656700 
- 672              	.LASF22:
- 673 017d 706F7369 		.ascii	"position\000"
- 673      74696F6E 
- 673      00
- 674              	.LASF8:
- 675 0186 756E7369 		.ascii	"unsigned int\000"
- 675      676E6564 
- 675      20696E74 
- 675      00
- 676              	.LASF7:
- 677 0193 6C6F6E67 		.ascii	"long long unsigned int\000"
- 677      206C6F6E 
- 677      6720756E 
- 677      7369676E 
- 677      65642069 
- 678              	.LASF18:
- 679 01aa 6D6F6465 		.ascii	"mode\000"
- 679      00
- 680              	.LASF16:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccEYdQ8s.s 			page 18
+ 658              	.LASF25:
+ 659 00c3 47656E65 		.ascii	"Generated_Source\\PSoC5\\SWI.c\000"
+ 659      72617465 
+ 659      645F536F 
+ 659      75726365 
+ 659      5C50536F 
+ 660              	.LASF5:
+ 661 00e0 6C6F6E67 		.ascii	"long unsigned int\000"
+ 661      20756E73 
+ 661      69676E65 
+ 661      6420696E 
+ 661      7400
+ 662              	.LASF3:
+ 663 00f2 73686F72 		.ascii	"short unsigned int\000"
+ 663      7420756E 
+ 663      7369676E 
+ 663      65642069 
+ 663      6E7400
+ 664              	.LASF26:
+ 665 0105 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\Octavo\\Termometro\\Se"
+ 665      73657273 
+ 665      5C6E696B 
+ 665      6F645C44 
+ 665      6F63756D 
+ 666 0132 6E736F72 		.ascii	"nsordeTemperatura\\RAMA1.cydsn\000"
+ 666      64655465 
+ 666      6D706572 
+ 666      61747572 
+ 666      615C5241 
+ 667              	.LASF10:
+ 668 0150 75696E74 		.ascii	"uint16\000"
+ 668      313600
+ 669              	.LASF20:
+ 670 0157 5357495F 		.ascii	"SWI_ReadDataReg\000"
+ 670      52656164 
+ 670      44617461 
+ 670      52656700 
+ 671              	.LASF22:
+ 672 0167 706F7369 		.ascii	"position\000"
+ 672      74696F6E 
+ 672      00
+ 673              	.LASF8:
+ 674 0170 756E7369 		.ascii	"unsigned int\000"
+ 674      676E6564 
+ 674      20696E74 
+ 674      00
+ 675              	.LASF7:
+ 676 017d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 676      206C6F6E 
+ 676      6720756E 
+ 676      7369676E 
+ 676      65642069 
+ 677              	.LASF18:
+ 678 0194 6D6F6465 		.ascii	"mode\000"
+ 678      00
+ 679              	.LASF16:
+ 680 0199 5357495F 		.ascii	"SWI_SetDriveMode\000"
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cclU6l3m.s 			page 18
 
 
- 681 01af 5357495F 		.ascii	"SWI_SetDriveMode\000"
- 681      53657444 
- 681      72697665 
- 681      4D6F6465 
- 681      00
- 682              	.LASF14:
- 683 01c0 72656738 		.ascii	"reg8\000"
- 683      00
- 684              	.LASF6:
- 685 01c5 6C6F6E67 		.ascii	"long long int\000"
- 685      206C6F6E 
- 685      6720696E 
- 685      7400
- 686              	.LASF13:
- 687 01d3 63686172 		.ascii	"char\000"
- 687      00
- 688              	.LASF2:
- 689 01d8 73686F72 		.ascii	"short int\000"
- 689      7420696E 
- 689      7400
- 690              	.LASF9:
- 691 01e2 75696E74 		.ascii	"uint8\000"
- 691      3800
- 692              	.LASF15:
- 693 01e8 5357495F 		.ascii	"SWI_Write\000"
- 693      57726974 
- 693      6500
- 694              	.LASF4:
- 695 01f2 6C6F6E67 		.ascii	"long int\000"
- 695      20696E74 
- 695      00
- 696              	.LASF0:
- 697 01fb 7369676E 		.ascii	"signed char\000"
- 697      65642063 
- 697      68617200 
- 698              	.LASF23:
- 699 0207 5357495F 		.ascii	"SWI_ClearInterrupt\000"
- 699      436C6561 
- 699      72496E74 
- 699      65727275 
- 699      707400
- 700              	.LASF21:
- 701 021a 5357495F 		.ascii	"SWI_SetInterruptMode\000"
- 701      53657449 
- 701      6E746572 
- 701      72757074 
- 701      4D6F6465 
- 702              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 680      53657444 
+ 680      72697665 
+ 680      4D6F6465 
+ 680      00
+ 681              	.LASF14:
+ 682 01aa 72656738 		.ascii	"reg8\000"
+ 682      00
+ 683              	.LASF6:
+ 684 01af 6C6F6E67 		.ascii	"long long int\000"
+ 684      206C6F6E 
+ 684      6720696E 
+ 684      7400
+ 685              	.LASF13:
+ 686 01bd 63686172 		.ascii	"char\000"
+ 686      00
+ 687              	.LASF2:
+ 688 01c2 73686F72 		.ascii	"short int\000"
+ 688      7420696E 
+ 688      7400
+ 689              	.LASF9:
+ 690 01cc 75696E74 		.ascii	"uint8\000"
+ 690      3800
+ 691              	.LASF15:
+ 692 01d2 5357495F 		.ascii	"SWI_Write\000"
+ 692      57726974 
+ 692      6500
+ 693              	.LASF4:
+ 694 01dc 6C6F6E67 		.ascii	"long int\000"
+ 694      20696E74 
+ 694      00
+ 695              	.LASF0:
+ 696 01e5 7369676E 		.ascii	"signed char\000"
+ 696      65642063 
+ 696      68617200 
+ 697              	.LASF23:
+ 698 01f1 5357495F 		.ascii	"SWI_ClearInterrupt\000"
+ 698      436C6561 
+ 698      72496E74 
+ 698      65727275 
+ 698      707400
+ 699              	.LASF21:
+ 700 0204 5357495F 		.ascii	"SWI_SetInterruptMode\000"
+ 700      53657449 
+ 700      6E746572 
+ 700      72757074 
+ 700      4D6F6465 
+ 701              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

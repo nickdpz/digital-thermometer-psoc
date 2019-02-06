@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
   28:Generated_Source\PSoC5/ADC_theACLK.c **** 
   29:Generated_Source\PSoC5/ADC_theACLK.c **** 
   30:Generated_Source\PSoC5/ADC_theACLK.c **** /*******************************************************************************
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 2
 
 
   31:Generated_Source\PSoC5/ADC_theACLK.c **** * Function Name: ADC_theACLK_Start
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
   54:Generated_Source\PSoC5/ADC_theACLK.c **** * Function Name: ADC_theACLK_Stop
   55:Generated_Source\PSoC5/ADC_theACLK.c **** ********************************************************************************
   56:Generated_Source\PSoC5/ADC_theACLK.c **** *
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 3
 
 
   57:Generated_Source\PSoC5/ADC_theACLK.c **** * Summary:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
   80:Generated_Source\PSoC5/ADC_theACLK.c **** 
   81:Generated_Source\PSoC5/ADC_theACLK.c **** 
   82:Generated_Source\PSoC5/ADC_theACLK.c **** /*******************************************************************************
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 4
 
 
   83:Generated_Source\PSoC5/ADC_theACLK.c **** * Function Name: ADC_theACLK_StopBlock
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  115:Generated_Source\PSoC5/ADC_theACLK.c ****         CLK_DIST_AMASK = 0x00u;
  116:Generated_Source\PSoC5/ADC_theACLK.c **** #endif /* ADC_theACLK__CFG3 */
  117:Generated_Source\PSoC5/ADC_theACLK.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 5
 
 
  118:Generated_Source\PSoC5/ADC_theACLK.c ****         /* Clear mask of bus clock. */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  136:Generated_Source\PSoC5/ADC_theACLK.c ****         CY_SET_REG16(ADC_theACLK_DIV_PTR, oldDivider);
  148              		.loc 1 136 0
  149 0056 FF33     		adds	r3, r3, #255
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 6
 
 
  150 0058 1A80     		strh	r2, [r3]	@ movhi
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  160:Generated_Source\PSoC5/ADC_theACLK.c ****     {
  161:Generated_Source\PSoC5/ADC_theACLK.c ****         ADC_theACLK_CLKSTBY &= (uint8)(~ADC_theACLK_CLKSTBY_MASK);
  181              		.loc 1 161 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 7
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 7
 
 
  182 0002 064A     		ldr	r2, .L15
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  189:Generated_Source\PSoC5/ADC_theACLK.c **** * Returns:
  190:Generated_Source\PSoC5/ADC_theACLK.c **** *  None
  191:Generated_Source\PSoC5/ADC_theACLK.c **** *
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 8
 
 
  192:Generated_Source\PSoC5/ADC_theACLK.c **** *******************************************************************************/
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  246:Generated_Source\PSoC5/ADC_theACLK.c ****                     CY_SET_REG16(CYREG_CLKDIST_WRK0, oldDivider);
  247:Generated_Source\PSoC5/ADC_theACLK.c ****                     CLK_DIST_LD = CYCLK_LD_DISABLE|CYCLK_LD_SYNC_EN|CYCLK_LD_LOAD;
  248:Generated_Source\PSoC5/ADC_theACLK.c **** 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 9
 
 
  249:Generated_Source\PSoC5/ADC_theACLK.c ****                     /* Wait for clock to be disabled */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  213              		@ link register save eliminated.
  299:Generated_Source\PSoC5/ADC_theACLK.c ****     return CY_GET_REG16(ADC_theACLK_DIV_PTR);
  214              		.loc 1 299 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 10
 
 
  215 0000 014B     		ldr	r3, .L18
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  235              		.loc 1 333 0
  236              		.cfi_startproc
  237              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 11
 
 
  238              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  362:Generated_Source\PSoC5/ADC_theACLK.c **** *
  363:Generated_Source\PSoC5/ADC_theACLK.c **** * Returns:
  364:Generated_Source\PSoC5/ADC_theACLK.c **** *  None
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 12
 
 
  365:Generated_Source\PSoC5/ADC_theACLK.c **** *
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  388:Generated_Source\PSoC5/ADC_theACLK.c **** uint8 ADC_theACLK_GetModeRegister(void) 
  389:Generated_Source\PSoC5/ADC_theACLK.c **** {
  295              		.loc 1 389 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 13
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 13
 
 
  296              		.cfi_startproc
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  419:Generated_Source\PSoC5/ADC_theACLK.c **** void ADC_theACLK_SetSourceRegister(uint8 clkSource) 
  420:Generated_Source\PSoC5/ADC_theACLK.c **** {
  421:Generated_Source\PSoC5/ADC_theACLK.c ****     uint16 currDiv = ADC_theACLK_GetDividerRegister();
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 14
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 14
 
 
  422:Generated_Source\PSoC5/ADC_theACLK.c ****     uint8 oldSrc = ADC_theACLK_GetSourceRegister();
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  329              		.loc 1 467 0
  330 0004 00F00700 		and	r0, r0, #7
  331 0008 7047     		bx	lr
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 15
 
 
  332              	.L31:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  379 001e 00B1     		cbz	r0, .L35
  205:Generated_Source\PSoC5/ADC_theACLK.c ****         {
  380              		.loc 1 205 0 discriminator 2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 16
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 16
 
 
  381 0020 85B9     		cbnz	r5, .L34
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  425 0056 0839     		subs	r1, r1, #8
  426 0058 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
  427 005a 03F07F03 		and	r3, r3, #127
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 17
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 17
 
 
  428 005e 0B70     		strb	r3, [r1]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  472 00a2 00E0     		b	.L41
  473              	.LVL19:
  474              	.L43:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 18
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 18
 
 
  475 00a4 0122     		movs	r2, #1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  524              	.LVL23:
  525 0000 38B5     		push	{r3, r4, r5, lr}
  526              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 19
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 19
 
 
  527              		.cfi_offset 3, -16
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  569 0034 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
  438:Generated_Source\PSoC5/ADC_theACLK.c ****             (ADC_theACLK_MOD_SRC & (uint8)(~ADC_theACLK_SRC_SEL_MSK)) | clkSource;
  570              		.loc 1 438 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 20
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 20
 
 
  571 0036 03F0F803 		and	r3, r3, #248
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  485:Generated_Source\PSoC5/ADC_theACLK.c **** *   disable the clock. clkPhase = 1 produces a 0ns delay and clkPhase = 11 
  486:Generated_Source\PSoC5/ADC_theACLK.c **** *   produces a 10ns delay.
  487:Generated_Source\PSoC5/ADC_theACLK.c **** *
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 21
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 21
 
 
  488:Generated_Source\PSoC5/ADC_theACLK.c **** * Returns:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  632              		.loc 1 514 0
  633              		.cfi_startproc
  634              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 22
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 22
 
 
  635              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1288,21 +1288,21 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  657 0006 00000000 		.4byte	.Ldebug_abbrev0
  658 000a 04       		.byte	0x4
  659 000b 01       		.uleb128 0x1
- 660 000c CC020000 		.4byte	.LASF40
+ 660 000c B6020000 		.4byte	.LASF40
  661 0010 0C       		.byte	0xc
  662 0011 2E000000 		.4byte	.LASF41
- 663 0015 53000000 		.4byte	.LASF42
+ 663 0015 98000000 		.4byte	.LASF42
  664 0019 00000000 		.4byte	.Ldebug_ranges0+0
  665 001d 00000000 		.4byte	0
  666 0021 00000000 		.4byte	.Ldebug_line0
  667 0025 02       		.uleb128 0x2
  668 0026 01       		.byte	0x1
  669 0027 06       		.byte	0x6
- 670 0028 A6010000 		.4byte	.LASF0
+ 670 0028 90010000 		.4byte	.LASF0
  671 002c 02       		.uleb128 0x2
  672 002d 01       		.byte	0x1
  673 002e 08       		.byte	0x8
- 674 002f 8C010000 		.4byte	.LASF1
+ 674 002f 76010000 		.4byte	.LASF1
  675 0033 02       		.uleb128 0x2
  676 0034 02       		.byte	0x2
  677 0035 05       		.byte	0x5
@@ -1310,26 +1310,26 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  679 003a 02       		.uleb128 0x2
  680 003b 02       		.byte	0x2
  681 003c 07       		.byte	0x7
- 682 003d 13020000 		.4byte	.LASF3
+ 682 003d FD010000 		.4byte	.LASF3
  683 0041 02       		.uleb128 0x2
  684 0042 04       		.byte	0x4
  685 0043 05       		.byte	0x5
- 686 0044 47010000 		.4byte	.LASF4
+ 686 0044 31010000 		.4byte	.LASF4
  687 0048 02       		.uleb128 0x2
  688 0049 04       		.byte	0x4
  689 004a 07       		.byte	0x7
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 23
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 23
 
 
- 690 004b 7E020000 		.4byte	.LASF5
+ 690 004b 68020000 		.4byte	.LASF5
  691 004f 02       		.uleb128 0x2
  692 0050 08       		.byte	0x8
  693 0051 05       		.byte	0x5
- 694 0052 FF000000 		.4byte	.LASF6
+ 694 0052 E9000000 		.4byte	.LASF6
  695 0056 02       		.uleb128 0x2
  696 0057 08       		.byte	0x8
  697 0058 07       		.byte	0x7
- 698 0059 B2010000 		.4byte	.LASF7
+ 698 0059 9C010000 		.4byte	.LASF7
  699 005d 03       		.uleb128 0x3
  700 005e 04       		.byte	0x4
  701 005f 05       		.byte	0x5
@@ -1337,31 +1337,31 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  703 0064 02       		.uleb128 0x2
  704 0065 04       		.byte	0x4
  705 0066 07       		.byte	0x7
- 706 0067 E7010000 		.4byte	.LASF8
+ 706 0067 D1010000 		.4byte	.LASF8
  707 006b 04       		.uleb128 0x4
- 708 006c E8000000 		.4byte	.LASF9
+ 708 006c 87000000 		.4byte	.LASF9
  709 0070 02       		.byte	0x2
  710 0071 E401     		.2byte	0x1e4
  711 0073 2C000000 		.4byte	0x2c
  712 0077 04       		.uleb128 0x4
- 713 0078 B4000000 		.4byte	.LASF10
+ 713 0078 53000000 		.4byte	.LASF10
  714 007c 02       		.byte	0x2
  715 007d E501     		.2byte	0x1e5
  716 007f 3A000000 		.4byte	0x3a
  717 0083 02       		.uleb128 0x2
  718 0084 04       		.byte	0x4
  719 0085 04       		.byte	0x4
- 720 0086 F9000000 		.4byte	.LASF11
+ 720 0086 E3000000 		.4byte	.LASF11
  721 008a 02       		.uleb128 0x2
  722 008b 08       		.byte	0x8
  723 008c 04       		.byte	0x4
- 724 008d 90020000 		.4byte	.LASF12
+ 724 008d 7A020000 		.4byte	.LASF12
  725 0091 02       		.uleb128 0x2
  726 0092 01       		.byte	0x1
  727 0093 08       		.byte	0x8
- 728 0094 57020000 		.4byte	.LASF13
+ 728 0094 41020000 		.4byte	.LASF13
  729 0098 04       		.uleb128 0x4
- 730 0099 79020000 		.4byte	.LASF14
+ 730 0099 63020000 		.4byte	.LASF14
  731 009d 02       		.byte	0x2
  732 009e 8E02     		.2byte	0x28e
  733 00a0 A4000000 		.4byte	0xa4
@@ -1375,10 +1375,10 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  741 00b5 05       		.uleb128 0x5
  742 00b6 77000000 		.4byte	0x77
  743 00ba 06       		.uleb128 0x6
- 744 00bb 26020000 		.4byte	.LASF16
+ 744 00bb 10020000 		.4byte	.LASF16
  745 00bf 01       		.byte	0x1
  746 00c0 2D       		.byte	0x2d
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 24
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 24
 
 
  747 00c1 00000000 		.4byte	.LFB0
@@ -1386,7 +1386,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  749 00c9 01       		.uleb128 0x1
  750 00ca 9C       		.byte	0x9c
  751 00cb 06       		.uleb128 0x6
- 752 00cc BB020000 		.4byte	.LASF17
+ 752 00cc A5020000 		.4byte	.LASF17
  753 00d0 01       		.byte	0x1
  754 00d1 47       		.byte	0x47
  755 00d2 00000000 		.4byte	.LFB1
@@ -1406,7 +1406,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  769 00f2 0A000000 		.4byte	.LBB2
  770 00f6 62000000 		.4byte	.LBE2-.LBB2
  771 00fa 09       		.uleb128 0x9
- 772 00fb 6E020000 		.4byte	.LASF30
+ 772 00fb 58020000 		.4byte	.LASF30
  773 00ff 01       		.byte	0x1
  774 0100 69       		.byte	0x69
  775 0101 77000000 		.4byte	0x77
@@ -1414,7 +1414,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  777 0109 00       		.byte	0
  778 010a 00       		.byte	0
  779 010b 07       		.uleb128 0x7
- 780 010c 73010000 		.4byte	.LASF19
+ 780 010c 5D010000 		.4byte	.LASF19
  781 0110 01       		.byte	0x1
  782 0111 9D       		.byte	0x9d
  783 0112 00000000 		.4byte	.LFB3
@@ -1423,7 +1423,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  786 011b 9C       		.byte	0x9c
  787 011c 2E010000 		.4byte	0x12e
  788 0120 0A       		.uleb128 0xa
- 789 0121 6D010000 		.4byte	.LASF21
+ 789 0121 57010000 		.4byte	.LASF21
  790 0125 01       		.byte	0x1
  791 0126 9D       		.byte	0x9d
  792 0127 6B000000 		.4byte	0x6b
@@ -1431,19 +1431,19 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  794 012c 50       		.byte	0x50
  795 012d 00       		.byte	0
  796 012e 0B       		.uleb128 0xb
- 797 012f 38020000 		.4byte	.LASF24
+ 797 012f 22020000 		.4byte	.LASF24
  798 0133 01       		.byte	0x1
  799 0134 2901     		.2byte	0x129
  800 0136 77000000 		.4byte	0x77
  801 013a 00000000 		.4byte	.LFB5
  802 013e 0C000000 		.4byte	.LFE5-.LFB5
  803 0142 01       		.uleb128 0x1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 25
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 25
 
 
  804 0143 9C       		.byte	0x9c
  805 0144 0C       		.uleb128 0xc
- 806 0145 2B010000 		.4byte	.LASF20
+ 806 0145 15010000 		.4byte	.LASF20
  807 0149 01       		.byte	0x1
  808 014a 4C01     		.2byte	0x14c
  809 014c 00000000 		.4byte	.LFB6
@@ -1452,14 +1452,14 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  812 0155 9C       		.byte	0x9c
  813 0156 6B010000 		.4byte	0x16b
  814 015a 0D       		.uleb128 0xd
- 815 015b 9A010000 		.4byte	.LASF22
+ 815 015b 84010000 		.4byte	.LASF22
  816 015f 01       		.byte	0x1
  817 0160 4C01     		.2byte	0x14c
  818 0162 6B000000 		.4byte	0x6b
  819 0166 13000000 		.4byte	.LLST1
  820 016a 00       		.byte	0
  821 016b 0C       		.uleb128 0xc
- 822 016c C3000000 		.4byte	.LASF23
+ 822 016c 62000000 		.4byte	.LASF23
  823 0170 01       		.byte	0x1
  824 0171 6F01     		.2byte	0x16f
  825 0173 00000000 		.4byte	.LFB7
@@ -1468,14 +1468,14 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  828 017c 9C       		.byte	0x9c
  829 017d 92010000 		.4byte	0x192
  830 0181 0D       		.uleb128 0xd
- 831 0182 9A010000 		.4byte	.LASF22
+ 831 0182 84010000 		.4byte	.LASF22
  832 0186 01       		.byte	0x1
  833 0187 6F01     		.2byte	0x16f
  834 0189 6B000000 		.4byte	0x6b
  835 018d 34000000 		.4byte	.LLST2
  836 0191 00       		.byte	0
  837 0192 0B       		.uleb128 0xb
- 838 0193 97020000 		.4byte	.LASF25
+ 838 0193 81020000 		.4byte	.LASF25
  839 0197 01       		.byte	0x1
  840 0198 8401     		.2byte	0x184
  841 019a 6B000000 		.4byte	0x6b
@@ -1484,7 +1484,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  844 01a6 01       		.uleb128 0x1
  845 01a7 9C       		.byte	0x9c
  846 01a8 0B       		.uleb128 0xb
- 847 01a9 0D010000 		.4byte	.LASF26
+ 847 01a9 F7000000 		.4byte	.LASF26
  848 01ad 01       		.byte	0x1
  849 01ae D001     		.2byte	0x1d0
  850 01b0 6B000000 		.4byte	0x6b
@@ -1493,43 +1493,43 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  853 01bc 01       		.uleb128 0x1
  854 01bd 9C       		.byte	0x9c
  855 01be 07       		.uleb128 0x7
- 856 01bf F4010000 		.4byte	.LASF27
+ 856 01bf DE010000 		.4byte	.LASF27
  857 01c3 01       		.byte	0x1
  858 01c4 C1       		.byte	0xc1
  859 01c5 00000000 		.4byte	.LFB4
  860 01c9 D8000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 26
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 26
 
 
  861 01cd 01       		.uleb128 0x1
  862 01ce 9C       		.byte	0x9c
  863 01cf 2F020000 		.4byte	0x22f
  864 01d3 0E       		.uleb128 0xe
- 865 01d4 EE000000 		.4byte	.LASF28
+ 865 01d4 8D000000 		.4byte	.LASF28
  866 01d8 01       		.byte	0x1
  867 01d9 C1       		.byte	0xc1
  868 01da 77000000 		.4byte	0x77
  869 01de 55000000 		.4byte	.LLST3
  870 01e2 0E       		.uleb128 0xe
- 871 01e3 BB000000 		.4byte	.LASF29
+ 871 01e3 5A000000 		.4byte	.LASF29
  872 01e7 01       		.byte	0x1
  873 01e8 C1       		.byte	0xc1
  874 01e9 6B000000 		.4byte	0x6b
  875 01ed 76000000 		.4byte	.LLST4
  876 01f1 09       		.uleb128 0x9
- 877 01f2 B3020000 		.4byte	.LASF31
+ 877 01f2 9D020000 		.4byte	.LASF31
  878 01f6 01       		.byte	0x1
  879 01f7 C4       		.byte	0xc4
  880 01f8 6B000000 		.4byte	0x6b
  881 01fc 97000000 		.4byte	.LLST5
  882 0200 09       		.uleb128 0x9
- 883 0201 66020000 		.4byte	.LASF32
+ 883 0201 50020000 		.4byte	.LASF32
  884 0205 01       		.byte	0x1
  885 0206 C6       		.byte	0xc6
  886 0207 6B000000 		.4byte	0x6b
  887 020b E5000000 		.4byte	.LLST6
  888 020f 0F       		.uleb128 0xf
- 889 0210 6E020000 		.4byte	.LASF30
+ 889 0210 58020000 		.4byte	.LASF30
  890 0214 01       		.byte	0x1
  891 0215 C7       		.byte	0xc7
  892 0216 77000000 		.4byte	0x77
@@ -1543,7 +1543,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  900 022a 2E010000 		.4byte	0x12e
  901 022e 00       		.byte	0
  902 022f 0C       		.uleb128 0xc
- 903 0230 C9010000 		.4byte	.LASF33
+ 903 0230 B3010000 		.4byte	.LASF33
  904 0234 01       		.byte	0x1
  905 0235 A301     		.2byte	0x1a3
  906 0237 00000000 		.4byte	.LFB9
@@ -1552,13 +1552,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  909 0240 9C       		.byte	0x9c
  910 0241 86020000 		.4byte	0x286
  911 0245 0D       		.uleb128 0xd
- 912 0246 5C020000 		.4byte	.LASF34
+ 912 0246 46020000 		.4byte	.LASF34
  913 024a 01       		.byte	0x1
  914 024b A301     		.2byte	0x1a3
  915 024d 6B000000 		.4byte	0x6b
  916 0251 F8000000 		.4byte	.LLST7
  917 0255 11       		.uleb128 0x11
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 27
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 27
 
 
  918 0256 16000000 		.4byte	.LASF35
@@ -1567,7 +1567,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  921 025d 77000000 		.4byte	0x77
  922 0261 19010000 		.4byte	.LLST8
  923 0265 12       		.uleb128 0x12
- 924 0266 E1000000 		.4byte	.LASF36
+ 924 0266 80000000 		.4byte	.LASF36
  925 026a 01       		.byte	0x1
  926 026b A601     		.2byte	0x1a6
  927 026d 6B000000 		.4byte	0x6b
@@ -1581,7 +1581,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  935 0281 A8010000 		.4byte	0x1a8
  936 0285 00       		.byte	0
  937 0286 0C       		.uleb128 0xc
- 938 0287 63030000 		.4byte	.LASF37
+ 938 0287 4D030000 		.4byte	.LASF37
  939 028b 01       		.byte	0x1
  940 028c EC01     		.2byte	0x1ec
  941 028e 00000000 		.4byte	.LFB11
@@ -1590,14 +1590,14 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  944 0297 9C       		.byte	0x9c
  945 0298 AD020000 		.4byte	0x2ad
  946 029c 0D       		.uleb128 0xd
- 947 029d 5A030000 		.4byte	.LASF38
+ 947 029d 44030000 		.4byte	.LASF38
  948 02a1 01       		.byte	0x1
  949 02a2 EC01     		.2byte	0x1ec
  950 02a4 6B000000 		.4byte	0x6b
  951 02a8 2C010000 		.4byte	.LLST9
  952 02ac 00       		.byte	0
  953 02ad 0B       		.uleb128 0xb
- 954 02ae 50010000 		.4byte	.LASF39
+ 954 02ae 3A010000 		.4byte	.LASF39
  955 02b2 01       		.byte	0x1
  956 02b3 0102     		.2byte	0x201
  957 02b5 6B000000 		.4byte	0x6b
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  972 0007 03       		.uleb128 0x3
  973 0008 0E       		.uleb128 0xe
  974 0009 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 28
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 28
 
 
  975 000a 0E       		.uleb128 0xe
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1029 0040 3F       		.uleb128 0x3f
  1030 0041 19       		.uleb128 0x19
  1031 0042 03       		.uleb128 0x3
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 29
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 29
 
 
  1032 0043 0E       		.uleb128 0xe
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1086 007b 03       		.uleb128 0x3
  1087 007c 0E       		.uleb128 0xe
  1088 007d 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 30
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 30
 
 
  1089 007e 0B       		.uleb128 0xb
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1143 00b5 03       		.uleb128 0x3
  1144 00b6 0E       		.uleb128 0xe
  1145 00b7 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 31
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 31
 
 
  1146 00b8 0B       		.uleb128 0xb
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1200 00ef 3B       		.uleb128 0x3b
  1201 00f0 0B       		.uleb128 0xb
  1202 00f1 49       		.uleb128 0x49
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 32
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 32
 
 
  1203 00f2 13       		.uleb128 0x13
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1257              	.LLST1:
  1258 0013 00000000 		.4byte	.LVL3
  1259 0017 08000000 		.4byte	.LVL4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 33
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 33
 
 
  1260 001b 0100     		.2byte	0x1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1314 0097 1C000000 		.4byte	.LVL11
  1315 009b 2A000000 		.4byte	.LVL12
  1316 009f 0100     		.2byte	0x1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 34
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 34
 
 
  1317 00a1 52       		.byte	0x52
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1371 0128 00000000 		.4byte	0
  1372              	.LLST9:
  1373 012c 00000000 		.4byte	.LVL30
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 35
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 35
 
 
  1374 0130 04000000 		.4byte	.LVL31
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1428 0010 00000000 		.4byte	.LFB2
  1429 0014 6C000000 		.4byte	.LFE2
  1430 0018 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 36
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 36
 
 
  1431 001c 20000000 		.4byte	.LFE3
@@ -2151,210 +2151,209 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 1
  1464      645F536F 
  1464      75726365 
  1464      5C50536F 
- 1465              	.LASF42:
- 1466 0053 433A5C55 		.ascii	"C:\\Users\\Nicolas Zamora\\Documents\\Instrumentaci"
- 1466      73657273 
- 1466      5C4E6963 
- 1466      6F6C6173 
- 1466      205A616D 
- 1467 0082 6F6E2049 		.ascii	"on Industrial\\Laboratorio3\\Termometro\\RAMA1.cyds"
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 37
+ 1465              	.LASF10:
+ 1466 0053 75696E74 		.ascii	"uint16\000"
+ 1466      313600
+ 1467              	.LASF29:
+ 1468 005a 72657374 		.ascii	"restart\000"
+ 1468      61727400 
+ 1469              	.LASF23:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 37
 
 
- 1467      6E647573 
- 1467      74726961 
- 1467      6C5C4C61 
- 1467      626F7261 
- 1468 00b2 6E00     		.ascii	"n\000"
- 1469              	.LASF10:
- 1470 00b4 75696E74 		.ascii	"uint16\000"
- 1470      313600
- 1471              	.LASF29:
- 1472 00bb 72657374 		.ascii	"restart\000"
- 1472      61727400 
- 1473              	.LASF23:
- 1474 00c3 4144435F 		.ascii	"ADC_theACLK_ClearModeRegister\000"
- 1474      74686541 
- 1474      434C4B5F 
- 1474      436C6561 
- 1474      724D6F64 
- 1475              	.LASF36:
- 1476 00e1 6F6C6453 		.ascii	"oldSrc\000"
- 1476      726300
- 1477              	.LASF9:
- 1478 00e8 75696E74 		.ascii	"uint8\000"
- 1478      3800
- 1479              	.LASF28:
- 1480 00ee 636C6B44 		.ascii	"clkDivider\000"
- 1480      69766964 
- 1480      657200
- 1481              	.LASF11:
- 1482 00f9 666C6F61 		.ascii	"float\000"
- 1482      7400
- 1483              	.LASF6:
- 1484 00ff 6C6F6E67 		.ascii	"long long int\000"
- 1484      206C6F6E 
- 1484      6720696E 
- 1484      7400
- 1485              	.LASF26:
- 1486 010d 4144435F 		.ascii	"ADC_theACLK_GetSourceRegister\000"
- 1486      74686541 
- 1486      434C4B5F 
- 1486      47657453 
- 1486      6F757263 
- 1487              	.LASF20:
- 1488 012b 4144435F 		.ascii	"ADC_theACLK_SetModeRegister\000"
- 1488      74686541 
- 1488      434C4B5F 
- 1488      5365744D 
- 1488      6F646552 
- 1489              	.LASF4:
- 1490 0147 6C6F6E67 		.ascii	"long int\000"
- 1490      20696E74 
- 1490      00
- 1491              	.LASF39:
- 1492 0150 4144435F 		.ascii	"ADC_theACLK_GetPhaseRegister\000"
- 1492      74686541 
- 1492      434C4B5F 
- 1492      47657450 
- 1492      68617365 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 38
+ 1470 0062 4144435F 		.ascii	"ADC_theACLK_ClearModeRegister\000"
+ 1470      74686541 
+ 1470      434C4B5F 
+ 1470      436C6561 
+ 1470      724D6F64 
+ 1471              	.LASF36:
+ 1472 0080 6F6C6453 		.ascii	"oldSrc\000"
+ 1472      726300
+ 1473              	.LASF9:
+ 1474 0087 75696E74 		.ascii	"uint8\000"
+ 1474      3800
+ 1475              	.LASF28:
+ 1476 008d 636C6B44 		.ascii	"clkDivider\000"
+ 1476      69766964 
+ 1476      657200
+ 1477              	.LASF42:
+ 1478 0098 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\Octavo\\Termometro\\Se"
+ 1478      73657273 
+ 1478      5C6E696B 
+ 1478      6F645C44 
+ 1478      6F63756D 
+ 1479 00c5 6E736F72 		.ascii	"nsordeTemperatura\\RAMA1.cydsn\000"
+ 1479      64655465 
+ 1479      6D706572 
+ 1479      61747572 
+ 1479      615C5241 
+ 1480              	.LASF11:
+ 1481 00e3 666C6F61 		.ascii	"float\000"
+ 1481      7400
+ 1482              	.LASF6:
+ 1483 00e9 6C6F6E67 		.ascii	"long long int\000"
+ 1483      206C6F6E 
+ 1483      6720696E 
+ 1483      7400
+ 1484              	.LASF26:
+ 1485 00f7 4144435F 		.ascii	"ADC_theACLK_GetSourceRegister\000"
+ 1485      74686541 
+ 1485      434C4B5F 
+ 1485      47657453 
+ 1485      6F757263 
+ 1486              	.LASF20:
+ 1487 0115 4144435F 		.ascii	"ADC_theACLK_SetModeRegister\000"
+ 1487      74686541 
+ 1487      434C4B5F 
+ 1487      5365744D 
+ 1487      6F646552 
+ 1488              	.LASF4:
+ 1489 0131 6C6F6E67 		.ascii	"long int\000"
+ 1489      20696E74 
+ 1489      00
+ 1490              	.LASF39:
+ 1491 013a 4144435F 		.ascii	"ADC_theACLK_GetPhaseRegister\000"
+ 1491      74686541 
+ 1491      434C4B5F 
+ 1491      47657450 
+ 1491      68617365 
+ 1492              	.LASF21:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 38
 
 
- 1493              	.LASF21:
- 1494 016d 73746174 		.ascii	"state\000"
- 1494      6500
- 1495              	.LASF19:
- 1496 0173 4144435F 		.ascii	"ADC_theACLK_StandbyPower\000"
- 1496      74686541 
- 1496      434C4B5F 
- 1496      5374616E 
- 1496      64627950 
- 1497              	.LASF1:
- 1498 018c 756E7369 		.ascii	"unsigned char\000"
- 1498      676E6564 
- 1498      20636861 
- 1498      7200
- 1499              	.LASF22:
- 1500 019a 6D6F6465 		.ascii	"modeBitMask\000"
- 1500      4269744D 
- 1500      61736B00 
- 1501              	.LASF0:
- 1502 01a6 7369676E 		.ascii	"signed char\000"
- 1502      65642063 
- 1502      68617200 
- 1503              	.LASF7:
- 1504 01b2 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1504      206C6F6E 
- 1504      6720756E 
- 1504      7369676E 
- 1504      65642069 
- 1505              	.LASF33:
- 1506 01c9 4144435F 		.ascii	"ADC_theACLK_SetSourceRegister\000"
- 1506      74686541 
- 1506      434C4B5F 
- 1506      53657453 
- 1506      6F757263 
- 1507              	.LASF8:
- 1508 01e7 756E7369 		.ascii	"unsigned int\000"
- 1508      676E6564 
- 1508      20696E74 
- 1508      00
- 1509              	.LASF27:
- 1510 01f4 4144435F 		.ascii	"ADC_theACLK_SetDividerRegister\000"
- 1510      74686541 
- 1510      434C4B5F 
- 1510      53657444 
- 1510      69766964 
- 1511              	.LASF3:
- 1512 0213 73686F72 		.ascii	"short unsigned int\000"
- 1512      7420756E 
- 1512      7369676E 
- 1512      65642069 
- 1512      6E7400
- 1513              	.LASF16:
- 1514 0226 4144435F 		.ascii	"ADC_theACLK_Start\000"
- 1514      74686541 
- 1514      434C4B5F 
- 1514      53746172 
- 1514      7400
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 39
+ 1493 0157 73746174 		.ascii	"state\000"
+ 1493      6500
+ 1494              	.LASF19:
+ 1495 015d 4144435F 		.ascii	"ADC_theACLK_StandbyPower\000"
+ 1495      74686541 
+ 1495      434C4B5F 
+ 1495      5374616E 
+ 1495      64627950 
+ 1496              	.LASF1:
+ 1497 0176 756E7369 		.ascii	"unsigned char\000"
+ 1497      676E6564 
+ 1497      20636861 
+ 1497      7200
+ 1498              	.LASF22:
+ 1499 0184 6D6F6465 		.ascii	"modeBitMask\000"
+ 1499      4269744D 
+ 1499      61736B00 
+ 1500              	.LASF0:
+ 1501 0190 7369676E 		.ascii	"signed char\000"
+ 1501      65642063 
+ 1501      68617200 
+ 1502              	.LASF7:
+ 1503 019c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1503      206C6F6E 
+ 1503      6720756E 
+ 1503      7369676E 
+ 1503      65642069 
+ 1504              	.LASF33:
+ 1505 01b3 4144435F 		.ascii	"ADC_theACLK_SetSourceRegister\000"
+ 1505      74686541 
+ 1505      434C4B5F 
+ 1505      53657453 
+ 1505      6F757263 
+ 1506              	.LASF8:
+ 1507 01d1 756E7369 		.ascii	"unsigned int\000"
+ 1507      676E6564 
+ 1507      20696E74 
+ 1507      00
+ 1508              	.LASF27:
+ 1509 01de 4144435F 		.ascii	"ADC_theACLK_SetDividerRegister\000"
+ 1509      74686541 
+ 1509      434C4B5F 
+ 1509      53657444 
+ 1509      69766964 
+ 1510              	.LASF3:
+ 1511 01fd 73686F72 		.ascii	"short unsigned int\000"
+ 1511      7420756E 
+ 1511      7369676E 
+ 1511      65642069 
+ 1511      6E7400
+ 1512              	.LASF16:
+ 1513 0210 4144435F 		.ascii	"ADC_theACLK_Start\000"
+ 1513      74686541 
+ 1513      434C4B5F 
+ 1513      53746172 
+ 1513      7400
+ 1514              	.LASF24:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 39
 
 
- 1515              	.LASF24:
- 1516 0238 4144435F 		.ascii	"ADC_theACLK_GetDividerRegister\000"
- 1516      74686541 
- 1516      434C4B5F 
- 1516      47657444 
- 1516      69766964 
- 1517              	.LASF13:
- 1518 0257 63686172 		.ascii	"char\000"
- 1518      00
- 1519              	.LASF34:
- 1520 025c 636C6B53 		.ascii	"clkSource\000"
- 1520      6F757263 
- 1520      6500
- 1521              	.LASF32:
- 1522 0266 63757272 		.ascii	"currSrc\000"
- 1522      53726300 
- 1523              	.LASF30:
- 1524 026e 6F6C6444 		.ascii	"oldDivider\000"
- 1524      69766964 
- 1524      657200
- 1525              	.LASF14:
- 1526 0279 72656738 		.ascii	"reg8\000"
- 1526      00
- 1527              	.LASF5:
- 1528 027e 6C6F6E67 		.ascii	"long unsigned int\000"
- 1528      20756E73 
- 1528      69676E65 
- 1528      6420696E 
- 1528      7400
- 1529              	.LASF12:
- 1530 0290 646F7562 		.ascii	"double\000"
- 1530      6C6500
- 1531              	.LASF25:
- 1532 0297 4144435F 		.ascii	"ADC_theACLK_GetModeRegister\000"
- 1532      74686541 
- 1532      434C4B5F 
- 1532      4765744D 
- 1532      6F646552 
- 1533              	.LASF31:
- 1534 02b3 656E6162 		.ascii	"enabled\000"
- 1534      6C656400 
- 1535              	.LASF17:
- 1536 02bb 4144435F 		.ascii	"ADC_theACLK_Stop\000"
- 1536      74686541 
- 1536      434C4B5F 
- 1536      53746F70 
- 1536      00
- 1537              	.LASF40:
- 1538 02cc 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1538      43313120 
- 1538      352E342E 
- 1538      31203230 
- 1538      31363036 
- 1539 02ff 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1539      20726576 
- 1539      6973696F 
- 1539      6E203233 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\cc6tPZfp.s 			page 40
+ 1515 0222 4144435F 		.ascii	"ADC_theACLK_GetDividerRegister\000"
+ 1515      74686541 
+ 1515      434C4B5F 
+ 1515      47657444 
+ 1515      69766964 
+ 1516              	.LASF13:
+ 1517 0241 63686172 		.ascii	"char\000"
+ 1517      00
+ 1518              	.LASF34:
+ 1519 0246 636C6B53 		.ascii	"clkSource\000"
+ 1519      6F757263 
+ 1519      6500
+ 1520              	.LASF32:
+ 1521 0250 63757272 		.ascii	"currSrc\000"
+ 1521      53726300 
+ 1522              	.LASF30:
+ 1523 0258 6F6C6444 		.ascii	"oldDivider\000"
+ 1523      69766964 
+ 1523      657200
+ 1524              	.LASF14:
+ 1525 0263 72656738 		.ascii	"reg8\000"
+ 1525      00
+ 1526              	.LASF5:
+ 1527 0268 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1527      20756E73 
+ 1527      69676E65 
+ 1527      6420696E 
+ 1527      7400
+ 1528              	.LASF12:
+ 1529 027a 646F7562 		.ascii	"double\000"
+ 1529      6C6500
+ 1530              	.LASF25:
+ 1531 0281 4144435F 		.ascii	"ADC_theACLK_GetModeRegister\000"
+ 1531      74686541 
+ 1531      434C4B5F 
+ 1531      4765744D 
+ 1531      6F646552 
+ 1532              	.LASF31:
+ 1533 029d 656E6162 		.ascii	"enabled\000"
+ 1533      6C656400 
+ 1534              	.LASF17:
+ 1535 02a5 4144435F 		.ascii	"ADC_theACLK_Stop\000"
+ 1535      74686541 
+ 1535      434C4B5F 
+ 1535      53746F70 
+ 1535      00
+ 1536              	.LASF40:
+ 1537 02b6 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1537      43313120 
+ 1537      352E342E 
+ 1537      31203230 
+ 1537      31363036 
+ 1538 02e9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1538      20726576 
+ 1538      6973696F 
+ 1538      6E203233 
+ 1538      37373135 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\ccSht0CW.s 			page 40
 
 
- 1539      37373135 
- 1540 0332 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1540      66756E63 
- 1540      74696F6E 
- 1540      2D736563 
- 1540      74696F6E 
- 1541              	.LASF38:
- 1542 035a 636C6B50 		.ascii	"clkPhase\000"
- 1542      68617365 
- 1542      00
- 1543              	.LASF37:
- 1544 0363 4144435F 		.ascii	"ADC_theACLK_SetPhaseRegister\000"
- 1544      74686541 
- 1544      434C4B5F 
- 1544      53657450 
- 1544      68617365 
- 1545              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1539 031c 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1539      66756E63 
+ 1539      74696F6E 
+ 1539      2D736563 
+ 1539      74696F6E 
+ 1540              	.LASF38:
+ 1541 0344 636C6B50 		.ascii	"clkPhase\000"
+ 1541      68617365 
+ 1541      00
+ 1542              	.LASF37:
+ 1543 034d 4144435F 		.ascii	"ADC_theACLK_SetPhaseRegister\000"
+ 1543      74686541 
+ 1543      434C4B5F 
+ 1543      53657450 
+ 1543      68617365 
+ 1544              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
   29:Generated_Source\PSoC5/cyfitter_cfg.c **** 
   30:Generated_Source\PSoC5/cyfitter_cfg.c **** #if defined(__GNUC__) || defined(__ARMCC_VERSION)
   31:Generated_Source\PSoC5/cyfitter_cfg.c ****     #define CYPACKED 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 2
 
 
   32:Generated_Source\PSoC5/cyfitter_cfg.c ****     #define CYPACKED_ATTR __attribute__ ((packed))
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
   86:Generated_Source\PSoC5/cyfitter_cfg.c **** 	(void)memcpy(dest, src, n);
   87:Generated_Source\PSoC5/cyfitter_cfg.c **** }
   88:Generated_Source\PSoC5/cyfitter_cfg.c **** CY_CFG_UNUSED
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 3
 
 
   89:Generated_Source\PSoC5/cyfitter_cfg.c **** static void CYCONFIGCPYCODE(void *dest, const void *src, size_t n);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
   41              		.thumb
   42              		.thumb_func
   43              		.type	cfg_write_bytes32, %function
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 4
 
 
   44              	cfg_write_bytes32:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  181:Generated_Source\PSoC5/cyfitter_cfg.c **** *  This function is used for setting up the chip configuration areas that
  182:Generated_Source\PSoC5/cyfitter_cfg.c **** *  contain relatively sparse data.
  183:Generated_Source\PSoC5/cyfitter_cfg.c **** *
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 5
 
 
  184:Generated_Source\PSoC5/cyfitter_cfg.c **** * Parameters:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
   80              		.loc 1 203 0
   81 0014 01EB4205 		add	r5, r1, r2, lsl #1
   82 0018 11F81240 		ldrb	r4, [r1, r2, lsl #1]	@ zero_extendqisi2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 6
 
 
   83 001c 6D78     		ldrb	r5, [r5, #1]	@ zero_extendqisi2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  128              	.LVL12:
  129 0000 08B5     		push	{r3, lr}
  130              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 7
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 7
 
 
  131              		.cfi_offset 3, -8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  243:Generated_Source\PSoC5/cyfitter_cfg.c **** 
  244:Generated_Source\PSoC5/cyfitter_cfg.c **** 	/* Configure PLL based on settings from Clock DWR */
  245:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CY_SET_XTND_REG16((void CYFAR *)(CYREG_FASTCLK_PLL_P), 0x0008u);
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 8
 
 
  246:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CY_SET_XTND_REG16((void CYFAR *)(CYREG_FASTCLK_PLL_CFG0), 0x1251u);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  155              		.cfi_def_cfa_offset 24
  156              		.cfi_offset 3, -24
  157              		.cfi_offset 4, -20
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 9
 
 
  158              		.cfi_offset 5, -16
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  201 003c 0231     		adds	r1, r1, #2
  202 003e 0A70     		strb	r2, [r1]
  306:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CY_SET_XTND_REG8((void CYFAR *)CYREG_SAR0_SW0, 0x04u);
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 10
 
 
  203              		.loc 1 306 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  251              		.cfi_def_cfa_offset 8
  252              		.cfi_offset 3, -8
  253              		.cfi_offset 14, -4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 11
 
 
   86:Generated_Source\PSoC5/cyfitter_cfg.c **** }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  301 002a 0B70     		strb	r3, [r1]
  245:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CY_SET_XTND_REG16((void CYFAR *)(CYREG_FASTCLK_PLL_CFG0), 0x1251u);
  302              		.loc 1 245 0
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 12
 
 
  303 002c 224B     		ldr	r3, .L23+20
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  346              		.loc 1 261 0
  347 0066 164B     		ldr	r3, .L23+28
  348 0068 4FF48072 		mov	r2, #256
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 13
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 13
 
 
  349 006c 1A80     		strh	r2, [r3]	@ movhi
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  395 00c8 A1430040 		.word	1073759137
  396              		.cfi_endproc
  397              	.LFE5:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 14
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 14
 
 
  398              		.size	ClockSetup, .-ClockSetup
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  339:Generated_Source\PSoC5/cyfitter_cfg.c **** 	else
  340:Generated_Source\PSoC5/cyfitter_cfg.c **** 	{
  341:Generated_Source\PSoC5/cyfitter_cfg.c **** 		regValue &= (uint8)~0x22u;
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 15
 
 
  425              		.loc 1 341 0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  453              		.cfi_def_cfa_offset 16
  454              		.cfi_offset 3, -16
  455              		.cfi_offset 4, -12
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 16
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 16
 
 
  456              		.cfi_offset 5, -8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  400:Generated_Source\PSoC5/cyfitter_cfg.c **** 			const cfg_memset_t CYCODE * CYDATA ms = &cfg_memset_list[i];
  401:Generated_Source\PSoC5/cyfitter_cfg.c **** 			CYMEMZERO(ms->address, (size_t)(uint32)(ms->size));
  478              		.loc 1 401 0 discriminator 3
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 17
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 17
 
 
  479 0012 254D     		ldr	r5, .L34+4
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  519 0052 1948     		ldr	r0, .L34+20
  520 0054 FFF7FEFF 		bl	CYCONFIGCPY
  521              	.LVL42:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 18
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 18
 
 
  414:Generated_Source\PSoC5/cyfitter_cfg.c **** 	CYCONFIGCPY((void CYFAR *)(CYREG_PRT1_DM0), (const void CYFAR *)(BS_IOPINS0_1_VAL), 8u);
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  560              		.loc 1 429 0
  561 0094 FFF7FEFF 		bl	AnalogSetDefault
  562              	.LVL48:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 19
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 19
 
 
  430:Generated_Source\PSoC5/cyfitter_cfg.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  614 002e 2000     		.short	32
  615              		.text
  616              	.Letext0:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 20
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 20
 
 
  617              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
@@ -1151,10 +1151,10 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  624 0006 00000000 		.4byte	.Ldebug_abbrev0
  625 000a 04       		.byte	0x4
  626 000b 01       		.uleb128 0x1
- 627 000c 9F000000 		.4byte	.LASF49
+ 627 000c EA000000 		.4byte	.LASF49
  628 0010 0C       		.byte	0xc
- 629 0011 88020000 		.4byte	.LASF50
- 630 0015 4F010000 		.4byte	.LASF51
+ 629 0011 72020000 		.4byte	.LASF50
+ 630 0015 14000000 		.4byte	.LASF51
  631 0019 00000000 		.4byte	.Ldebug_ranges0+0
  632 001d 00000000 		.4byte	0
  633 0021 00000000 		.4byte	.Ldebug_line0
@@ -1163,88 +1163,88 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  636 0027 05       		.byte	0x5
  637 0028 696E7400 		.ascii	"int\000"
  638 002c 03       		.uleb128 0x3
- 639 002d 19000000 		.4byte	.LASF12
+ 639 002d 5F000000 		.4byte	.LASF12
  640 0031 02       		.byte	0x2
  641 0032 D8       		.byte	0xd8
  642 0033 37000000 		.4byte	0x37
  643 0037 04       		.uleb128 0x4
  644 0038 04       		.byte	0x4
  645 0039 07       		.byte	0x7
- 646 003a 2F020000 		.4byte	.LASF0
+ 646 003a 19020000 		.4byte	.LASF0
  647 003e 04       		.uleb128 0x4
  648 003f 08       		.byte	0x8
  649 0040 05       		.byte	0x5
- 650 0041 7A020000 		.4byte	.LASF1
+ 650 0041 64020000 		.4byte	.LASF1
  651 0045 04       		.uleb128 0x4
  652 0046 08       		.byte	0x8
  653 0047 04       		.byte	0x4
- 654 0048 F9020000 		.4byte	.LASF2
+ 654 0048 E3020000 		.4byte	.LASF2
  655 004c 04       		.uleb128 0x4
  656 004d 01       		.byte	0x1
  657 004e 06       		.byte	0x6
- 658 004f 17030000 		.4byte	.LASF3
+ 658 004f 01030000 		.4byte	.LASF3
  659 0053 04       		.uleb128 0x4
  660 0054 01       		.byte	0x1
  661 0055 08       		.byte	0x8
- 662 0056 C6010000 		.4byte	.LASF4
+ 662 0056 B0010000 		.4byte	.LASF4
  663 005a 04       		.uleb128 0x4
  664 005b 02       		.byte	0x2
  665 005c 05       		.byte	0x5
- 666 005d D9020000 		.4byte	.LASF5
+ 666 005d C3020000 		.4byte	.LASF5
  667 0061 04       		.uleb128 0x4
  668 0062 02       		.byte	0x2
  669 0063 07       		.byte	0x7
- 670 0064 50000000 		.4byte	.LASF6
+ 670 0064 9B000000 		.4byte	.LASF6
  671 0068 04       		.uleb128 0x4
  672 0069 04       		.byte	0x4
  673 006a 05       		.byte	0x5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 21
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 21
 
 
- 674 006b EB020000 		.4byte	.LASF7
+ 674 006b D5020000 		.4byte	.LASF7
  675 006f 04       		.uleb128 0x4
  676 0070 04       		.byte	0x4
  677 0071 07       		.byte	0x7
- 678 0072 2D010000 		.4byte	.LASF8
+ 678 0072 78010000 		.4byte	.LASF8
  679 0076 04       		.uleb128 0x4
  680 0077 08       		.byte	0x8
  681 0078 07       		.byte	0x7
- 682 0079 44020000 		.4byte	.LASF9
+ 682 0079 2E020000 		.4byte	.LASF9
  683 007d 04       		.uleb128 0x4
  684 007e 04       		.byte	0x4
  685 007f 07       		.byte	0x7
- 686 0080 71020000 		.4byte	.LASF10
+ 686 0080 5B020000 		.4byte	.LASF10
  687 0084 05       		.uleb128 0x5
  688 0085 04       		.byte	0x4
  689 0086 04       		.uleb128 0x4
  690 0087 01       		.byte	0x1
  691 0088 08       		.byte	0x8
- 692 0089 F4020000 		.4byte	.LASF11
+ 692 0089 DE020000 		.4byte	.LASF11
  693 008d 06       		.uleb128 0x6
- 694 008e 3F010000 		.4byte	.LASF13
+ 694 008e 8A010000 		.4byte	.LASF13
  695 0092 03       		.byte	0x3
  696 0093 E401     		.2byte	0x1e4
  697 0095 53000000 		.4byte	0x53
  698 0099 06       		.uleb128 0x6
- 699 009a 0C020000 		.4byte	.LASF14
+ 699 009a F6010000 		.4byte	.LASF14
  700 009e 03       		.byte	0x3
  701 009f E501     		.2byte	0x1e5
  702 00a1 61000000 		.4byte	0x61
  703 00a5 06       		.uleb128 0x6
- 704 00a6 28020000 		.4byte	.LASF15
+ 704 00a6 12020000 		.4byte	.LASF15
  705 00aa 03       		.byte	0x3
  706 00ab E601     		.2byte	0x1e6
  707 00ad 6F000000 		.4byte	0x6f
  708 00b1 04       		.uleb128 0x4
  709 00b2 04       		.byte	0x4
  710 00b3 04       		.byte	0x4
- 711 00b4 6B000000 		.4byte	.LASF16
+ 711 00b4 B6000000 		.4byte	.LASF16
  712 00b8 04       		.uleb128 0x4
  713 00b9 08       		.byte	0x8
  714 00ba 04       		.byte	0x4
- 715 00bb DB010000 		.4byte	.LASF17
+ 715 00bb C5010000 		.4byte	.LASF17
  716 00bf 06       		.uleb128 0x6
- 717 00c0 14000000 		.4byte	.LASF18
+ 717 00c0 77000000 		.4byte	.LASF18
  718 00c4 03       		.byte	0x3
  719 00c5 8E02     		.2byte	0x28e
  720 00c7 CB000000 		.4byte	0xcb
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  728 00dc 07       		.uleb128 0x7
  729 00dd 99000000 		.4byte	0x99
  730 00e1 08       		.uleb128 0x8
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 22
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 22
 
 
  731 00e2 02       		.byte	0x2
@@ -1266,25 +1266,25 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  733 00e4 98       		.byte	0x98
  734 00e5 02010000 		.4byte	0x102
  735 00e9 09       		.uleb128 0x9
- 736 00ea D2020000 		.4byte	.LASF20
+ 736 00ea BC020000 		.4byte	.LASF20
  737 00ee 01       		.byte	0x1
  738 00ef 9A       		.byte	0x9a
  739 00f0 8D000000 		.4byte	0x8d
  740 00f4 00       		.byte	0
  741 00f5 09       		.uleb128 0x9
- 742 00f6 39000000 		.4byte	.LASF21
+ 742 00f6 84000000 		.4byte	.LASF21
  743 00fa 01       		.byte	0x1
  744 00fb 9B       		.byte	0x9b
  745 00fc 8D000000 		.4byte	0x8d
  746 0100 01       		.byte	0x1
  747 0101 00       		.byte	0
  748 0102 03       		.uleb128 0x3
- 749 0103 BF020000 		.4byte	.LASF22
+ 749 0103 A9020000 		.4byte	.LASF22
  750 0107 01       		.byte	0x1
  751 0108 9C       		.byte	0x9c
  752 0109 E1000000 		.4byte	0xe1
  753 010d 0A       		.uleb128 0xa
- 754 010e 71000000 		.4byte	.LASF52
+ 754 010e BC000000 		.4byte	.LASF52
  755 0112 01       		.byte	0x1
  756 0113 7F       		.byte	0x7f
  757 0114 00000000 		.4byte	.LFB3
@@ -1293,7 +1293,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  760 011d 9C       		.byte	0x9c
  761 011e 30010000 		.4byte	0x130
  762 0122 0B       		.uleb128 0xb
- 763 0123 1E020000 		.4byte	.LASF23
+ 763 0123 08020000 		.4byte	.LASF23
  764 0127 01       		.byte	0x1
  765 0128 7F       		.byte	0x7f
  766 0129 8D000000 		.4byte	0x8d
@@ -1301,7 +1301,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  768 012e 50       		.byte	0x50
  769 012f 00       		.byte	0
  770 0130 0C       		.uleb128 0xc
- 771 0131 E2010000 		.4byte	.LASF28
+ 771 0131 CC010000 		.4byte	.LASF28
  772 0135 01       		.byte	0x1
  773 0136 C0       		.byte	0xc0
  774 0137 00000000 		.4byte	.LFB4
@@ -1310,15 +1310,15 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  777 0140 9C       		.byte	0x9c
  778 0141 A2010000 		.4byte	0x1a2
  779 0145 0B       		.uleb128 0xb
- 780 0146 01020000 		.4byte	.LASF24
+ 780 0146 EB010000 		.4byte	.LASF24
  781 014a 01       		.byte	0x1
  782 014b C0       		.byte	0xc0
  783 014c A2010000 		.4byte	0x1a2
  784 0150 01       		.uleb128 0x1
  785 0151 50       		.byte	0x50
  786 0152 0B       		.uleb128 0xb
- 787 0153 13020000 		.4byte	.LASF25
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 23
+ 787 0153 FD010000 		.4byte	.LASF25
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 23
 
 
  788 0157 01       		.byte	0x1
@@ -1342,13 +1342,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  806 017a 08000000 		.4byte	.LBB2
  807 017e 22000000 		.4byte	.LBE2-.LBB2
  808 0182 0F       		.uleb128 0xf
- 809 0183 68020000 		.4byte	.LASF26
+ 809 0183 52020000 		.4byte	.LASF26
  810 0187 01       		.byte	0x1
  811 0188 C6       		.byte	0xc6
  812 0189 A5000000 		.4byte	0xa5
  813 018d 3E000000 		.4byte	.LLST2
  814 0191 0F       		.uleb128 0xf
- 815 0192 3F000000 		.4byte	.LASF27
+ 815 0192 8A000000 		.4byte	.LASF27
  816 0196 01       		.byte	0x1
  817 0197 C7       		.byte	0xc7
  818 0198 8D000000 		.4byte	0x8d
@@ -1366,7 +1366,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  830 01b3 11       		.uleb128 0x11
  831 01b4 02010000 		.4byte	0x102
  832 01b8 0C       		.uleb128 0xc
- 833 01b9 45010000 		.4byte	.LASF29
+ 833 01b9 90010000 		.4byte	.LASF29
  834 01bd 01       		.byte	0x1
  835 01be 4D       		.byte	0x4d
  836 01bf 00000000 		.4byte	.LFB0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  842 01ce 7300     		.ascii	"s\000"
  843 01d0 01       		.byte	0x1
  844 01d1 4D       		.byte	0x4d
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 24
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 24
 
 
  845 01d2 84000000 		.4byte	0x84
@@ -1414,7 +1414,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  875 0203 00       		.byte	0
  876 0204 00       		.byte	0
  877 0205 15       		.uleb128 0x15
- 878 0206 20000000 		.4byte	.LASF30
+ 878 0206 66000000 		.4byte	.LASF30
  879 020a 01       		.byte	0x1
  880 020b 2501     		.2byte	0x125
  881 020d 00000000 		.4byte	.LFB6
@@ -1423,7 +1423,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  884 0216 9C       		.byte	0x9c
  885 0217 5B020000 		.4byte	0x25b
  886 021b 16       		.uleb128 0x16
- 887 021c 05030000 		.4byte	.LASF31
+ 887 021c EF020000 		.4byte	.LASF31
  888 0220 01       		.byte	0x1
  889 0221 2701     		.2byte	0x127
  890 0223 8D000000 		.4byte	0x8d
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  899 023c 63723500 		.ascii	"cr5\000"
  900 0240 01       		.byte	0x1
  901 0241 2901     		.2byte	0x129
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 25
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 25
 
 
  902 0243 8D000000 		.4byte	0x8d
@@ -1454,7 +1454,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  912 0259 00       		.byte	0
  913 025a 00       		.byte	0
  914 025b 0C       		.uleb128 0xc
- 915 025c 2C030000 		.4byte	.LASF32
+ 915 025c 16030000 		.4byte	.LASF32
  916 0260 01       		.byte	0x1
  917 0261 54       		.byte	0x54
  918 0262 00000000 		.4byte	.LFB1
@@ -1463,7 +1463,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  921 026b 9C       		.byte	0x9c
  922 026c BB020000 		.4byte	0x2bb
  923 0270 18       		.uleb128 0x18
- 924 0271 85000000 		.4byte	.LASF33
+ 924 0271 D0000000 		.4byte	.LASF33
  925 0275 01       		.byte	0x1
  926 0276 54       		.byte	0x54
  927 0277 84000000 		.4byte	0x84
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  956 02b0 01       		.uleb128 0x1
  957 02b1 51       		.byte	0x51
  958 02b2 14       		.uleb128 0x14
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 26
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 26
 
 
  959 02b3 01       		.uleb128 0x1
@@ -1514,7 +1514,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  969 02bd C1020000 		.4byte	0x2c1
  970 02c1 19       		.uleb128 0x19
  971 02c2 0C       		.uleb128 0xc
- 972 02c3 45000000 		.4byte	.LASF34
+ 972 02c3 90000000 		.4byte	.LASF34
  973 02c7 01       		.byte	0x1
  974 02c8 E3       		.byte	0xe3
  975 02c9 00000000 		.4byte	.LFB5
@@ -1523,13 +1523,13 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  978 02d2 9C       		.byte	0x9c
  979 02d3 3F030000 		.4byte	0x33f
  980 02d7 0F       		.uleb128 0xf
- 981 02d8 31000000 		.4byte	.LASF35
+ 981 02d8 7C000000 		.4byte	.LASF35
  982 02dc 01       		.byte	0x1
  983 02dd E5       		.byte	0xe5
  984 02de A5000000 		.4byte	0xa5
  985 02e2 58010000 		.4byte	.LLST12
  986 02e6 0F       		.uleb128 0xf
- 987 02e7 63000000 		.4byte	.LASF36
+ 987 02e7 AE000000 		.4byte	.LASF36
  988 02eb 01       		.byte	0x1
  989 02ec E6       		.byte	0xe6
  990 02ed 8D000000 		.4byte	0x8d
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1013 0319 00       		.byte	0
  1014 031a 1A       		.uleb128 0x1a
  1015 031b 56000000 		.4byte	.LVL28
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 27
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 27
 
 
  1016 031f 44050000 		.4byte	0x544
@@ -1581,7 +1581,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1033 033d 00       		.byte	0
  1034 033e 00       		.byte	0
  1035 033f 1B       		.uleb128 0x1b
- 1036 0340 B0010000 		.4byte	.LASF39
+ 1036 0340 9A010000 		.4byte	.LASF39
  1037 0344 01       		.byte	0x1
  1038 0345 4C01     		.2byte	0x14c
  1039 0347 00000000 		.4byte	.LFB7
@@ -1590,14 +1590,14 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1042 0350 9C       		.byte	0x9c
  1043 0351 72030000 		.4byte	0x372
  1044 0355 1C       		.uleb128 0x1c
- 1045 0356 E3020000 		.4byte	.LASF37
+ 1045 0356 CD020000 		.4byte	.LASF37
  1046 035a 01       		.byte	0x1
  1047 035b 4C01     		.2byte	0x14c
  1048 035d 8D000000 		.4byte	0x8d
  1049 0361 01       		.uleb128 0x1
  1050 0362 50       		.byte	0x50
  1051 0363 1D       		.uleb128 0x1d
- 1052 0364 23030000 		.4byte	.LASF38
+ 1052 0364 0D030000 		.4byte	.LASF38
  1053 0368 01       		.byte	0x1
  1054 0369 4E01     		.2byte	0x14e
  1055 036b 8D000000 		.4byte	0x8d
@@ -1605,7 +1605,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1057 0370 53       		.byte	0x53
  1058 0371 00       		.byte	0
  1059 0372 1B       		.uleb128 0x1b
- 1060 0373 F4010000 		.4byte	.LASF40
+ 1060 0373 DE010000 		.4byte	.LASF40
  1061 0377 01       		.byte	0x1
  1062 0378 6E01     		.2byte	0x16e
  1063 037a 00000000 		.4byte	.LFB8
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1070 038d 40000000 		.4byte	.LBE3-.LBB3
  1071 0391 5F040000 		.4byte	0x45f
  1072 0395 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 28
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 28
 
 
  1073 0396 06       		.byte	0x6
@@ -1626,20 +1626,20 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1075 0398 7A01     		.2byte	0x17a
  1076 039a B9030000 		.4byte	0x3b9
  1077 039e 20       		.uleb128 0x20
- 1078 039f 3C020000 		.4byte	.LASF41
+ 1078 039f 26020000 		.4byte	.LASF41
  1079 03a3 01       		.byte	0x1
  1080 03a4 7B01     		.2byte	0x17b
  1081 03a6 84000000 		.4byte	0x84
  1082 03aa 00       		.byte	0
  1083 03ab 20       		.uleb128 0x20
- 1084 03ac 9A000000 		.4byte	.LASF42
+ 1084 03ac E5000000 		.4byte	.LASF42
  1085 03b0 01       		.byte	0x1
  1086 03b1 7C01     		.2byte	0x17c
  1087 03b3 99000000 		.4byte	0x99
  1088 03b7 04       		.byte	0x4
  1089 03b8 00       		.byte	0
  1090 03b9 06       		.uleb128 0x6
- 1091 03ba 5B020000 		.4byte	.LASF43
+ 1091 03ba 45020000 		.4byte	.LASF43
  1092 03be 01       		.byte	0x1
  1093 03bf 7D01     		.2byte	0x17d
  1094 03c1 95030000 		.4byte	0x395
@@ -1653,7 +1653,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1102 03d5 11       		.uleb128 0x11
  1103 03d6 B9030000 		.4byte	0x3b9
  1104 03da 1D       		.uleb128 0x1d
- 1105 03db 8A000000 		.4byte	.LASF44
+ 1105 03db D5000000 		.4byte	.LASF44
  1106 03df 01       		.byte	0x1
  1107 03e0 7F01     		.2byte	0x17f
  1108 03e2 EC030000 		.4byte	0x3ec
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1127 0411 9001     		.2byte	0x190
  1128 0413 1B040000 		.4byte	0x41b
  1129 0417 CB010000 		.4byte	.LLST15
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 29
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 29
 
 
  1130 041b 10       		.uleb128 0x10
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1184 046d 01       		.uleb128 0x1
  1185 046e 50       		.byte	0x50
  1186 046f 05       		.uleb128 0x5
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 30
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 30
 
 
  1187 0470 0C       		.byte	0xc
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1241 04ca 52       		.byte	0x52
  1242 04cb 01       		.uleb128 0x1
  1243 04cc 38       		.byte	0x38
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 31
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 31
 
 
  1244 04cd 00       		.byte	0
@@ -1853,19 +1853,19 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1293 0525 00       		.byte	0
  1294 0526 00       		.byte	0
  1295 0527 24       		.uleb128 0x24
- 1296 0528 D4010000 		.4byte	.LASF45
- 1297 052c D4010000 		.4byte	.LASF45
+ 1296 0528 BE010000 		.4byte	.LASF45
+ 1297 052c BE010000 		.4byte	.LASF45
  1298 0530 25       		.uleb128 0x25
- 1299 0531 AE020000 		.4byte	.LASF47
- 1300 0535 AE020000 		.4byte	.LASF47
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 32
+ 1299 0531 98020000 		.4byte	.LASF47
+ 1300 0535 98020000 		.4byte	.LASF47
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 32
 
 
  1301 0539 04       		.byte	0x4
  1302 053a 77       		.byte	0x77
  1303 053b 24       		.uleb128 0x24
- 1304 053c B8020000 		.4byte	.LASF46
- 1305 0540 B8020000 		.4byte	.LASF46
+ 1304 053c A2020000 		.4byte	.LASF46
+ 1305 0540 A2020000 		.4byte	.LASF46
  1306 0544 25       		.uleb128 0x25
  1307 0545 06000000 		.4byte	.LASF48
  1308 0549 06000000 		.4byte	.LASF48
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1355 0029 00       		.byte	0
  1356 002a 00       		.byte	0
  1357 002b 04       		.uleb128 0x4
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 33
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 33
 
 
  1358 002c 24       		.uleb128 0x24
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1412 0062 0E       		.uleb128 0xe
  1413 0063 3A       		.uleb128 0x3a
  1414 0064 0B       		.uleb128 0xb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 34
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 34
 
 
  1415 0065 3B       		.uleb128 0x3b
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1469 009d 0B       		.uleb128 0xb
  1470 009e 3B       		.uleb128 0x3b
  1471 009f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 35
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 35
 
 
  1472 00a0 27       		.uleb128 0x27
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1526 00d7 0F       		.uleb128 0xf
  1527 00d8 00       		.byte	0
  1528 00d9 0B       		.uleb128 0xb
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 36
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 36
 
 
  1529 00da 0B       		.uleb128 0xb
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1583 0115 27       		.uleb128 0x27
  1584 0116 19       		.uleb128 0x19
  1585 0117 11       		.uleb128 0x11
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 37
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 37
 
 
  1586 0118 01       		.uleb128 0x1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1640 014f 00       		.byte	0
  1641 0150 00       		.byte	0
  1642 0151 19       		.uleb128 0x19
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 38
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 38
 
 
  1643 0152 26       		.uleb128 0x26
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1697 018b 00       		.byte	0
  1698 018c 1D       		.uleb128 0x1d
  1699 018d 34       		.uleb128 0x34
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 39
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 39
 
 
  1700 018e 00       		.byte	0
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1754 01c4 01       		.byte	0x1
  1755 01c5 49       		.uleb128 0x49
  1756 01c6 13       		.uleb128 0x13
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 40
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 40
 
 
  1757 01c7 01       		.uleb128 0x1
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1811              	.Ldebug_loc0:
  1812              	.LLST0:
  1813 0000 02000000 		.4byte	.LVL2
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 41
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 41
 
 
  1814 0004 08000000 		.4byte	.LVL3
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1868              	.LLST5:
  1869 0090 00000000 		.4byte	.LVL12
  1870 0094 06000000 		.4byte	.LVL13
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 42
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 42
 
 
  1871 0098 0100     		.2byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1925 0120 51       		.byte	0x51
  1926 0121 05000000 		.4byte	.LVL22-1
  1927 0125 08000000 		.4byte	.LFE1
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 43
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 43
 
 
  1928 0129 0400     		.2byte	0x4
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  1982 01ac 9F       		.byte	0x9f
  1983 01ad 12000000 		.4byte	.LVL37
  1984 01b1 2A000000 		.4byte	.LVL39
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 44
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 44
 
 
  1985 01b5 0100     		.2byte	0x1
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  2039 0044 1C000000 		.4byte	.LFE7-.LFB7
  2040 0048 00000000 		.4byte	.LFB8
  2041 004c E8000000 		.4byte	.LFE8-.LFB8
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 45
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 45
 
 
  2042 0050 00000000 		.4byte	0
@@ -2678,247 +2678,246 @@ ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 1
  2070      6C617943 
  2070      79636C65 
  2070      7300
- 2071              	.LASF18:
- 2072 0014 72656738 		.ascii	"reg8\000"
- 2072      00
- 2073              	.LASF12:
- 2074 0019 73697A65 		.ascii	"size_t\000"
- 2074      5F7400
- 2075              	.LASF30:
- 2076 0020 416E616C 		.ascii	"AnalogSetDefault\000"
- 2076      6F675365 
- 2076      74446566 
- 2076      61756C74 
- 2076      00
- 2077              	.LASF35:
- 2078 0031 74696D65 		.ascii	"timeout\000"
- 2078      6F757400 
- 2079              	.LASF21:
- 2080 0039 76616C75 		.ascii	"value\000"
- 2080      6500
- 2081              	.LASF27:
- 2082 003f 636F756E 		.ascii	"count\000"
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 46
+ 2071              	.LASF51:
+ 2072 0014 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\Octavo\\Termometro\\Se"
+ 2072      73657273 
+ 2072      5C6E696B 
+ 2072      6F645C44 
+ 2072      6F63756D 
+ 2073 0041 6E736F72 		.ascii	"nsordeTemperatura\\RAMA1.cydsn\000"
+ 2073      64655465 
+ 2073      6D706572 
+ 2073      61747572 
+ 2073      615C5241 
+ 2074              	.LASF12:
+ 2075 005f 73697A65 		.ascii	"size_t\000"
+ 2075      5F7400
+ 2076              	.LASF30:
+ 2077 0066 416E616C 		.ascii	"AnalogSetDefault\000"
+ 2077      6F675365 
+ 2077      74446566 
+ 2077      61756C74 
+ 2077      00
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 46
 
 
- 2082      7400
- 2083              	.LASF34:
- 2084 0045 436C6F63 		.ascii	"ClockSetup\000"
- 2084      6B536574 
- 2084      757000
- 2085              	.LASF6:
- 2086 0050 73686F72 		.ascii	"short unsigned int\000"
- 2086      7420756E 
- 2086      7369676E 
- 2086      65642069 
- 2086      6E7400
- 2087              	.LASF36:
- 2088 0063 706C6C4C 		.ascii	"pllLock\000"
- 2088      6F636B00 
- 2089              	.LASF16:
- 2090 006b 666C6F61 		.ascii	"float\000"
- 2090      7400
- 2091              	.LASF52:
- 2092 0071 4379436C 		.ascii	"CyClockStartupError\000"
- 2092      6F636B53 
- 2092      74617274 
- 2092      75704572 
- 2092      726F7200 
- 2093              	.LASF33:
- 2094 0085 64657374 		.ascii	"dest\000"
- 2094      00
- 2095              	.LASF44:
- 2096 008a 6366675F 		.ascii	"cfg_memset_list\000"
- 2096      6D656D73 
- 2096      65745F6C 
- 2096      69737400 
- 2097              	.LASF42:
- 2098 009a 73697A65 		.ascii	"size\000"
- 2098      00
- 2099              	.LASF49:
- 2100 009f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 2100      43313120 
- 2100      352E342E 
- 2100      31203230 
- 2100      31363036 
- 2101 00d2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 2101      20726576 
- 2101      6973696F 
- 2101      6E203233 
- 2101      37373135 
- 2102 0105 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 2102      66756E63 
- 2102      74696F6E 
- 2102      2D736563 
- 2102      74696F6E 
- 2103              	.LASF8:
- 2104 012d 6C6F6E67 		.ascii	"long unsigned int\000"
- 2104      20756E73 
- 2104      69676E65 
- 2104      6420696E 
- 2104      7400
- 2105              	.LASF13:
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 47
+ 2078              	.LASF18:
+ 2079 0077 72656738 		.ascii	"reg8\000"
+ 2079      00
+ 2080              	.LASF35:
+ 2081 007c 74696D65 		.ascii	"timeout\000"
+ 2081      6F757400 
+ 2082              	.LASF21:
+ 2083 0084 76616C75 		.ascii	"value\000"
+ 2083      6500
+ 2084              	.LASF27:
+ 2085 008a 636F756E 		.ascii	"count\000"
+ 2085      7400
+ 2086              	.LASF34:
+ 2087 0090 436C6F63 		.ascii	"ClockSetup\000"
+ 2087      6B536574 
+ 2087      757000
+ 2088              	.LASF6:
+ 2089 009b 73686F72 		.ascii	"short unsigned int\000"
+ 2089      7420756E 
+ 2089      7369676E 
+ 2089      65642069 
+ 2089      6E7400
+ 2090              	.LASF36:
+ 2091 00ae 706C6C4C 		.ascii	"pllLock\000"
+ 2091      6F636B00 
+ 2092              	.LASF16:
+ 2093 00b6 666C6F61 		.ascii	"float\000"
+ 2093      7400
+ 2094              	.LASF52:
+ 2095 00bc 4379436C 		.ascii	"CyClockStartupError\000"
+ 2095      6F636B53 
+ 2095      74617274 
+ 2095      75704572 
+ 2095      726F7200 
+ 2096              	.LASF33:
+ 2097 00d0 64657374 		.ascii	"dest\000"
+ 2097      00
+ 2098              	.LASF44:
+ 2099 00d5 6366675F 		.ascii	"cfg_memset_list\000"
+ 2099      6D656D73 
+ 2099      65745F6C 
+ 2099      69737400 
+ 2100              	.LASF42:
+ 2101 00e5 73697A65 		.ascii	"size\000"
+ 2101      00
+ 2102              	.LASF49:
+ 2103 00ea 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2103      43313120 
+ 2103      352E342E 
+ 2103      31203230 
+ 2103      31363036 
+ 2104 011d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2104      20726576 
+ 2104      6973696F 
+ 2104      6E203233 
+ 2104      37373135 
+ 2105 0150 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 47
 
 
- 2106 013f 75696E74 		.ascii	"uint8\000"
- 2106      3800
- 2107              	.LASF29:
- 2108 0145 43594D45 		.ascii	"CYMEMZERO\000"
- 2108      4D5A4552 
- 2108      4F00
- 2109              	.LASF51:
- 2110 014f 433A5C55 		.ascii	"C:\\Users\\Nicolas Zamora\\Documents\\Instrumentaci"
- 2110      73657273 
- 2110      5C4E6963 
- 2110      6F6C6173 
- 2110      205A616D 
- 2111 017e 6F6E2049 		.ascii	"on Industrial\\Laboratorio3\\Termometro\\RAMA1.cyds"
- 2111      6E647573 
- 2111      74726961 
- 2111      6C5C4C61 
- 2111      626F7261 
- 2112 01ae 6E00     		.ascii	"n\000"
- 2113              	.LASF39:
- 2114 01b0 53657441 		.ascii	"SetAnalogRoutingPumps\000"
- 2114      6E616C6F 
- 2114      67526F75 
- 2114      74696E67 
- 2114      50756D70 
- 2115              	.LASF4:
- 2116 01c6 756E7369 		.ascii	"unsigned char\000"
- 2116      676E6564 
- 2116      20636861 
- 2116      7200
- 2117              	.LASF45:
- 2118 01d4 6D656D73 		.ascii	"memset\000"
- 2118      657400
- 2119              	.LASF17:
- 2120 01db 646F7562 		.ascii	"double\000"
- 2120      6C6500
- 2121              	.LASF28:
- 2122 01e2 6366675F 		.ascii	"cfg_write_bytes32\000"
- 2122      77726974 
- 2122      655F6279 
- 2122      74657333 
- 2122      3200
- 2123              	.LASF40:
- 2124 01f4 63796669 		.ascii	"cyfitter_cfg\000"
- 2124      74746572 
- 2124      5F636667 
- 2124      00
- 2125              	.LASF24:
- 2126 0201 61646472 		.ascii	"addr_table\000"
- 2126      5F746162 
- 2126      6C6500
- 2127              	.LASF14:
- 2128 020c 75696E74 		.ascii	"uint16\000"
- 2128      313600
- 2129              	.LASF25:
- 2130 0213 64617461 		.ascii	"data_table\000"
- 2130      5F746162 
- 2130      6C6500
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 48
+ 2105      66756E63 
+ 2105      74696F6E 
+ 2105      2D736563 
+ 2105      74696F6E 
+ 2106              	.LASF8:
+ 2107 0178 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2107      20756E73 
+ 2107      69676E65 
+ 2107      6420696E 
+ 2107      7400
+ 2108              	.LASF13:
+ 2109 018a 75696E74 		.ascii	"uint8\000"
+ 2109      3800
+ 2110              	.LASF29:
+ 2111 0190 43594D45 		.ascii	"CYMEMZERO\000"
+ 2111      4D5A4552 
+ 2111      4F00
+ 2112              	.LASF39:
+ 2113 019a 53657441 		.ascii	"SetAnalogRoutingPumps\000"
+ 2113      6E616C6F 
+ 2113      67526F75 
+ 2113      74696E67 
+ 2113      50756D70 
+ 2114              	.LASF4:
+ 2115 01b0 756E7369 		.ascii	"unsigned char\000"
+ 2115      676E6564 
+ 2115      20636861 
+ 2115      7200
+ 2116              	.LASF45:
+ 2117 01be 6D656D73 		.ascii	"memset\000"
+ 2117      657400
+ 2118              	.LASF17:
+ 2119 01c5 646F7562 		.ascii	"double\000"
+ 2119      6C6500
+ 2120              	.LASF28:
+ 2121 01cc 6366675F 		.ascii	"cfg_write_bytes32\000"
+ 2121      77726974 
+ 2121      655F6279 
+ 2121      74657333 
+ 2121      3200
+ 2122              	.LASF40:
+ 2123 01de 63796669 		.ascii	"cyfitter_cfg\000"
+ 2123      74746572 
+ 2123      5F636667 
+ 2123      00
+ 2124              	.LASF24:
+ 2125 01eb 61646472 		.ascii	"addr_table\000"
+ 2125      5F746162 
+ 2125      6C6500
+ 2126              	.LASF14:
+ 2127 01f6 75696E74 		.ascii	"uint16\000"
+ 2127      313600
+ 2128              	.LASF25:
+ 2129 01fd 64617461 		.ascii	"data_table\000"
+ 2129      5F746162 
+ 2129      6C6500
+ 2130              	.LASF23:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 48
 
 
- 2131              	.LASF23:
- 2132 021e 6572726F 		.ascii	"errorCode\000"
- 2132      72436F64 
- 2132      6500
- 2133              	.LASF15:
- 2134 0228 75696E74 		.ascii	"uint32\000"
- 2134      333200
- 2135              	.LASF0:
- 2136 022f 756E7369 		.ascii	"unsigned int\000"
- 2136      676E6564 
- 2136      20696E74 
- 2136      00
- 2137              	.LASF41:
- 2138 023c 61646472 		.ascii	"address\000"
- 2138      65737300 
- 2139              	.LASF9:
- 2140 0244 6C6F6E67 		.ascii	"long long unsigned int\000"
- 2140      206C6F6E 
- 2140      6720756E 
- 2140      7369676E 
- 2140      65642069 
- 2141              	.LASF43:
- 2142 025b 6366675F 		.ascii	"cfg_memset_t\000"
- 2142      6D656D73 
- 2142      65745F74 
- 2142      00
- 2143              	.LASF26:
- 2144 0268 62617365 		.ascii	"baseAddr\000"
- 2144      41646472 
- 2144      00
- 2145              	.LASF10:
- 2146 0271 73697A65 		.ascii	"sizetype\000"
- 2146      74797065 
- 2146      00
- 2147              	.LASF1:
- 2148 027a 6C6F6E67 		.ascii	"long long int\000"
- 2148      206C6F6E 
- 2148      6720696E 
- 2148      7400
- 2149              	.LASF50:
- 2150 0288 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyfitter_cfg.c\000"
- 2150      72617465 
- 2150      645F536F 
- 2150      75726365 
- 2150      5C50536F 
- 2151              	.LASF47:
- 2152 02ae 43794465 		.ascii	"CyDelayUs\000"
- 2152      6C617955 
- 2152      7300
- 2153              	.LASF46:
- 2154 02b8 6D656D63 		.ascii	"memcpy\000"
- 2154      707900
- 2155              	.LASF22:
- 2156 02bf 63795F63 		.ascii	"cy_cfg_addrvalue_t\000"
- 2156      66675F61 
- 2156      64647276 
- 2156      616C7565 
-ARM GAS  C:\Users\NICOLA~1\AppData\Local\Temp\ccJZao58.s 			page 49
+ 2131 0208 6572726F 		.ascii	"errorCode\000"
+ 2131      72436F64 
+ 2131      6500
+ 2132              	.LASF15:
+ 2133 0212 75696E74 		.ascii	"uint32\000"
+ 2133      333200
+ 2134              	.LASF0:
+ 2135 0219 756E7369 		.ascii	"unsigned int\000"
+ 2135      676E6564 
+ 2135      20696E74 
+ 2135      00
+ 2136              	.LASF41:
+ 2137 0226 61646472 		.ascii	"address\000"
+ 2137      65737300 
+ 2138              	.LASF9:
+ 2139 022e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2139      206C6F6E 
+ 2139      6720756E 
+ 2139      7369676E 
+ 2139      65642069 
+ 2140              	.LASF43:
+ 2141 0245 6366675F 		.ascii	"cfg_memset_t\000"
+ 2141      6D656D73 
+ 2141      65745F74 
+ 2141      00
+ 2142              	.LASF26:
+ 2143 0252 62617365 		.ascii	"baseAddr\000"
+ 2143      41646472 
+ 2143      00
+ 2144              	.LASF10:
+ 2145 025b 73697A65 		.ascii	"sizetype\000"
+ 2145      74797065 
+ 2145      00
+ 2146              	.LASF1:
+ 2147 0264 6C6F6E67 		.ascii	"long long int\000"
+ 2147      206C6F6E 
+ 2147      6720696E 
+ 2147      7400
+ 2148              	.LASF50:
+ 2149 0272 47656E65 		.ascii	"Generated_Source\\PSoC5\\cyfitter_cfg.c\000"
+ 2149      72617465 
+ 2149      645F536F 
+ 2149      75726365 
+ 2149      5C50536F 
+ 2150              	.LASF47:
+ 2151 0298 43794465 		.ascii	"CyDelayUs\000"
+ 2151      6C617955 
+ 2151      7300
+ 2152              	.LASF46:
+ 2153 02a2 6D656D63 		.ascii	"memcpy\000"
+ 2153      707900
+ 2154              	.LASF22:
+ 2155 02a9 63795F63 		.ascii	"cy_cfg_addrvalue_t\000"
+ 2155      66675F61 
+ 2155      64647276 
+ 2155      616C7565 
+ 2155      5F7400
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cckvko5x.s 			page 49
 
 
- 2156      5F7400
- 2157              	.LASF20:
- 2158 02d2 6F666673 		.ascii	"offset\000"
- 2158      657400
- 2159              	.LASF5:
- 2160 02d9 73686F72 		.ascii	"short int\000"
- 2160      7420696E 
- 2160      7400
- 2161              	.LASF37:
- 2162 02e3 656E6162 		.ascii	"enabled\000"
- 2162      6C656400 
- 2163              	.LASF7:
- 2164 02eb 6C6F6E67 		.ascii	"long int\000"
- 2164      20696E74 
- 2164      00
- 2165              	.LASF11:
- 2166 02f4 63686172 		.ascii	"char\000"
- 2166      00
- 2167              	.LASF2:
- 2168 02f9 6C6F6E67 		.ascii	"long double\000"
- 2168      20646F75 
- 2168      626C6500 
- 2169              	.LASF31:
- 2170 0305 62675F78 		.ascii	"bg_xover_inl_trim\000"
- 2170      6F766572 
- 2170      5F696E6C 
- 2170      5F747269 
- 2170      6D00
- 2171              	.LASF3:
- 2172 0317 7369676E 		.ascii	"signed char\000"
- 2172      65642063 
- 2172      68617200 
- 2173              	.LASF38:
- 2174 0323 72656756 		.ascii	"regValue\000"
- 2174      616C7565 
- 2174      00
- 2175              	.LASF32:
- 2176 032c 4359434F 		.ascii	"CYCONFIGCPY\000"
- 2176      4E464947 
- 2176      43505900 
- 2177              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 2156              	.LASF20:
+ 2157 02bc 6F666673 		.ascii	"offset\000"
+ 2157      657400
+ 2158              	.LASF5:
+ 2159 02c3 73686F72 		.ascii	"short int\000"
+ 2159      7420696E 
+ 2159      7400
+ 2160              	.LASF37:
+ 2161 02cd 656E6162 		.ascii	"enabled\000"
+ 2161      6C656400 
+ 2162              	.LASF7:
+ 2163 02d5 6C6F6E67 		.ascii	"long int\000"
+ 2163      20696E74 
+ 2163      00
+ 2164              	.LASF11:
+ 2165 02de 63686172 		.ascii	"char\000"
+ 2165      00
+ 2166              	.LASF2:
+ 2167 02e3 6C6F6E67 		.ascii	"long double\000"
+ 2167      20646F75 
+ 2167      626C6500 
+ 2168              	.LASF31:
+ 2169 02ef 62675F78 		.ascii	"bg_xover_inl_trim\000"
+ 2169      6F766572 
+ 2169      5F696E6C 
+ 2169      5F747269 
+ 2169      6D00
+ 2170              	.LASF3:
+ 2171 0301 7369676E 		.ascii	"signed char\000"
+ 2171      65642063 
+ 2171      68617200 
+ 2172              	.LASF38:
+ 2173 030d 72656756 		.ascii	"regValue\000"
+ 2173      616C7565 
+ 2173      00
+ 2174              	.LASF32:
+ 2175 0316 4359434F 		.ascii	"CYCONFIGCPY\000"
+ 2175      4E464947 
+ 2175      43505900 
+ 2176              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

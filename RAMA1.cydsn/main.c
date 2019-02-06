@@ -87,7 +87,7 @@ int main(void)
         //temp=ADC_CountsTo_mVolts(temp);
         if(de==0){
             //Condicion para Grados Centigrados
-            u=(uint16)(temp*39+39);
+            u=(uint16)(temp*38-119);
             visualc(u);     
         }else if(de==1){
             //Condicion para Grados Farenhi

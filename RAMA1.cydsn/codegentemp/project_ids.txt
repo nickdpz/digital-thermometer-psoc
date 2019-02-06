@@ -1,6 +1,6 @@
-C:\Users\Nicolas Zamora\Documents\Instrumentacion Industrial\Laboratorio3\Termometro\RAMA1.cydsn\RAMA1.cyprj|798844ab-2988-4968-82cc-d3af6978eb3e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|402d3df7-c60f-470a-885b-097d62c7a4ec
-C:\Users\Nicolas Zamora\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a7467a5c-ef1e-4b8f-891c-5ebeced2eb2e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6a8d21e1-673d-45eb-8e0e-44b46f185247
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|47c2788b-a837-4715-b1dd-608add181dbb
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ba72fa6e-8ce0-4160-a13f-6dc9b655c6ef
+C:\Users\nikod\Documents\Octavo\Termometro\SensordeTemperatura\RAMA1.cydsn\RAMA1.cyprj|1cac4579-db1c-46f8-8db2-a79a42e9612a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|07e2502f-9c36-4548-aced-ab3579fafa94
+C:\Users\nikod\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|cebbfa31-cb2e-4783-bbab-9a6bab15f3a7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|35ccde33-21cc-414c-97d7-1ac89fc4f3b0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5bc28d82-89cd-4dc6-8eb9-24b3f49aaa53
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|31580700-00f0-43a2-b810-03eddda1c7a3
